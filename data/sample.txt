@@ -1,0 +1,8 @@
+Another line to prepend
+Second Line to prepend
+Third Line to prepend
+Forth Line to prepend
+Dummy Line A
+Dummy Line B
+Dummy Line C
+This is the end of file

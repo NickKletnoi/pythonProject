@@ -1,0 +1,152 @@
+{
+    "facets": [
+        {
+            "name": [
+                "ev6v-prode-nscxp",
+                "eks-nsacxp3-ev6v-prge",
+                "cxp-catalog-domain-8669b77b66-vqtsv"
+            ],
+            "total": {
+                "results": [
+                    {
+                        "max": 18.291207
+                    }
+                ],
+                "beginTimeSeconds": 1638536239,
+                "endTimeSeconds": 1638536539,
+                "inspectedCount": 18
+            },
+            "timeSeries": [
+                {
+                    "results": [
+                        {
+                            "max": 8.94576765
+                        }
+                    ],
+                    "beginTimeSeconds": 1638536239,
+                    "endTimeSeconds": 1638536249,
+                    "inspectedCount": 1
+                },
+                {
+                    "results": [
+                        {
+                            "max": 3.65198625
+                        }
+                    ],
+                    "beginTimeSeconds": 1638536249,
+                    "endTimeSeconds": 1638536259,
+                    "inspectedCount": 1
+                },
+                {
+                    "results": [
+                        {
+                            "max": null
+                        }
+                    ],
+                    "beginTimeSeconds": 1638536259,
+                    "endTimeSeconds": 1638536269,
+                    "inspectedCount": 0
+                },
+                {
+                    "results": [
+                        {
+                            "max": 11.358876725
+                        }
+                    ],
+                    "beginTimeSeconds": 1638536269,
+                    "endTimeSeconds": 1638536279,
+                    "inspectedCount": 1
+                },
+                {
+                    "results": [
+                        {
+                            "max": null
+                        }
+                    ],
+                    "beginTimeSeconds": 1638536279,
+                    "endTimeSeconds": 1638536289,
+                    "inspectedCount": 0
+                },
+                {
+                    "results": [
+                        {
+                            "max": 4.4751975999999996
+                        }
+                    ],
+                    "beginTimeSeconds": 1638536289,
+                    "endTimeSeconds": 1638536299,
+                    "inspectedCount": 1
+                },
+                {
+                    "results": [
+                        {
+                            "max": 13.6542064
+                        }
+                    ],
+                    "beginTimeSeconds": 1638536299,
+                    "endTimeSeconds": 1638536309,
+                    "inspectedCount": 1
+                },
+                {
+                    "results": [
+                        {
+                            "max": null
+                        }
+                    ],
+                    "beginTimeSeconds": 1638536309,
+                    "endTimeSeconds": 1638536319,
+                    "inspectedCount": 0
+                }
+   ]
+    },
+    "performanceStats": {
+        "inspectedCount": 2669585,
+        "omittedCount": 0,
+        "matchCount": 16539,
+        "wallClockTime": 698,
+        "matchedFromFileRead": 16539,
+        "matchedViaCache": 0
+    },
+    "metadata": {
+        "accounts": [
+            1135888
+        ],
+        "eventTypes": [
+            "K8sContainerSample"
+        ],
+        "eventType": "K8sContainerSample",
+        "openEnded": true,
+        "beginTime": "2021-12-03T12:57:19Z",
+        "endTime": "2021-12-03T13:02:19Z",
+        "beginTimeMillis": 1638536239760,
+        "endTimeMillis": 1638536539760,
+        "rawSince": "6 MINUTES AGO",
+        "rawUntil": "1 MINUTES AGO",
+        "rawCompareWith": "",
+        "bucketSizeMillis": 10000,
+        "facetExpression": "`tuple`(`namespace`, `clusterName`, `podName`)",
+        "guid": "9c6f9181-72d1-1b1c-e4b6-a61561c071e5",
+        "routerGuid": "9c6f9181-72d1-1b1c-e4b6-a61561c071e5",
+        "messages": [],
+        "facet": [
+            "namespace",
+            "clusterName",
+            "podName"
+        ],
+        "offset": 0,
+        "limit": 2000,
+        "contents": {
+            "messages": [],
+            "timeSeries": {
+                "messages": [],
+                "contents": [
+                    {
+                        "function": "max",
+                        "attribute": "cpuCoresUtilization",
+                        "simple": true
+                    }
+                ]
+            }
+        }
+    }
+}

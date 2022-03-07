@@ -1,0 +1,52 @@
+{
+  "IngestionId": "a1e63bf4-6887-49e1-a07d-ff0921f75dec",
+  "UserId": "kevinEngAdminDev@ey.com",
+  "ClientId": 3,
+  "Entities": [
+    {
+      "Id": "3000073",
+      "Display": "test-10006"
+    },
+    {
+      "Id": "3000191",
+      "Display": "Test Entity 111220190052"
+    }
+  ],
+  "Service": {
+    "Id": "29",
+    "Display": "Other Periodic Financial Reporting"
+  },
+  "Engagement": {
+    "Id": "49f557bc-593a-4970-a001-ecdedda85b71",
+    "Display": "Test Service"
+  },
+  "Jurisdiction": null,
+  "DataSet": {
+    "Id": null,
+    "Display": null
+  },
+  "DataSource": {
+    "Id": null,
+    "Display": null
+  },
+  "InfoRequestDetails": {
+    "Id": "2215",
+    "Name": "!!!!jjacobtest4",
+    "FileName": "GCRefCodCATFile2-DEVCATMultiFile01.csv",
+    "TaxYear": "2017",
+    "TaxPeriod": "February",
+    "CountryName": "Andorra",
+    "Source": 0
+  },
+  "FeatureFlags": [
+    {
+      "FeatureKey": "IngestionEnableEngagements",
+      "FeatureValue": "on"
+    },
+    {
+      "FeatureKey": "DiamondNewIngestionEngine",
+      "FeatureValue": "on"
+    }
+  ],
+  "FileBlobUrl": "https://euwdgtp005dls01.blob.core.windows.net/0c79ff85-91e7-4255-adce-5fe72db77aa6/GCRefCodCATFile2-DEVCATMultiFile01.csv"
+}
