@@ -1,10 +1,12 @@
 import os
 import config1 as cnfg
 
-HOME = os.environ['HOME']
+#HOME = os.environ['HOME']
 ########### OPTION I ##########################
 #############################################
 gen2DevPath = cnfg.basePaths["adlsGen2BasePath"]
+gen3DevVal = cnfg.workspaceEnvironmentDict["edwDataLakeKeyVaultScope"]["firstscope"]
+
 TBL1_TGT1 = cnfg.tbl1['source1']
 TBL1_TGT2 = cnfg.tbl1['source2']
 TBL2_SC1 = cnfg.tbl2['exceptions']['special_case1']
@@ -13,7 +15,7 @@ TBL2_TGT3 = cnfg.tbl2['source3']
 TBL2_TGT4 = cnfg.tbl2['source4']
 TBL2_TGT5 = cnfg.tbl2['pv']
 #################################################
-print(HOME)
+
 print(TBL1_TGT1)
 print(TBL1_TGT2)
 print(TBL2_SC1)
@@ -22,6 +24,7 @@ print(TBL2_TGT3)
 print(TBL2_TGT4)
 print(TBL2_TGT5)
 print(gen2DevPath)
+print("new value is: ",gen3DevVal)
 ################################################
 for f in cnfg.tbl1:
     print(cnfg.tbl1['source1'])

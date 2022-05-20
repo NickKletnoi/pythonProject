@@ -14,12 +14,15 @@ tbl2 = dict(
     pv=2
 )
 
+
 workspaceEnvironmentDict = {
   "lifecycle": "Development",
   "adlsGen1": "comcastdevtest",
   "adlsGen2StorageAccount": "cutdpbxdtlk01",
   "adlsGen2Container": "comcastdev",
-  "edwDataLakeKeyVaultScope": "cuttkyvtdtlkedw01"
+  "edwDataLakeKeyVaultScope": {"firstscope":"cuttkyvtdtlkedw01",
+                                "secondscope":"cuttkyvtdtlkedw02"
+                                }
 }
 
 basePaths = {"adlsGen1BasePath": "/mnt/gen1/" + workspaceEnvironmentDict["adlsGen1"],
