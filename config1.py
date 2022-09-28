@@ -1,3 +1,20 @@
+import pyodbc
+
+DATABASE_CONFIG = {
+        'server': 'tcp:myserver.database.windows.net',
+        'user': 'dbuser',
+        'password': 'password',
+        'dbname': 'dbname',
+        'conn_str': 'DSN=DEV2;autocommit=True'
+
+    }
+
+class Connection:
+    def __init__(self):
+        self.db=pyodbc.connect(DATABASE_CONFIG['conn_str'])
+        self.cur = self.db.cursor()
+
+
 
 tbl1 = dict(
     source1='target1',

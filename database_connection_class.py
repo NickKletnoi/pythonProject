@@ -1,4 +1,4 @@
-from config import Config
+from config1 import Config
 import MySQLdb
 
 class Connection:
@@ -12,8 +12,6 @@ class Connection:
         self.db.autocommit(True)
         self.db.set_character_set('utf8mb4')
         self.cur=self.db.cursor()
-
-
 
 
 sqlI = Connection()
