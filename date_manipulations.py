@@ -1,5 +1,11 @@
 import datetime
 import pytz
+import os
+from dotenv import load_dotenv
+load_dotenv()
+user = os.getenv('USER')
+key = os.getenv('KEY')
+
 est_now = datetime.datetime.now().astimezone(pytz.timezone('US/Eastern'))
 now = datetime.datetime.now()
 next_day = est_now + datetime.timedelta(days = 1)
@@ -11,3 +17,8 @@ previous_day_str = previous_day.strftime("%Y%m%d")
 #https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 print("tomorrow is: " + next_day_str)
 print("yesterday was: " + previous_day_str)
+print(user + '-' + key)
+
+
+
+
