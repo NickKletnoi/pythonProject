@@ -234,7 +234,7 @@
                 },
                 {
                     "Name": "Engraved",
-                    "Value": "myValNew"
+                    "Value": "No"
                 },
                 {
                     "Name": "LuxuryDrawstring",
@@ -299,7 +299,7 @@
                 },
                 {
                     "Name": "Engraved",
-                    "Value": "myValNew",
+                    "Value": "No",
                     "Section": "Reporting"
                 },
                 {

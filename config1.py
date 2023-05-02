@@ -1,20 +1,34 @@
 import pyodbc
+import urllib
+from sqlalchemy import create_engine
 
 DATABASE_CONFIG = {
         'server': 'tcp:myserver.database.windows.net',
         'user': 'dbuser',
         'password': 'password',
         'dbname': 'dbname',
-        'conn_str': 'DSN=DEV2;autocommit=True'
+        'conn_str': 'DSN=DEV2;autocommit=True',
+        'conn_str2': 'DRIVER={ODBC Driver 17 for SQL Server};SERVER=interlake-bi.database.windows.net;DATABASE=ISS_DW;UID=BIAdmin;PWD=sb98D&B(*#$@'
 
     }
 
-class Connection:
+#https://www.alirookie.com/post/azure-functions-with-python-first-steps-towards-clean-code
+class con:
+    CN = DATABASE_CONFIG['conn_str2']
     def __init__(self):
-        self.db=pyodbc.connect(DATABASE_CONFIG['conn_str'])
-        self.cur = self.db.cursor()
+        self._cn = urllib.parse.quote_plus(self.CN)
+        self._engine = create_engine("mssql+pyodbc:///?odbc_connect=%s" % self.cn)
+    @property
+    def cn(self): return self._cn
+    @cn.setter
+    def cn(self, value): self._cn = value
+    @cn.deleter
+    def cn(self): self._cn = None
 
 
+# engine.cn = 10
+# print(engine.cn)
+# del engine.cn
 
 tbl1 = dict(
     source1='target1',

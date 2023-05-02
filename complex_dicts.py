@@ -1,9 +1,12 @@
 import os
 import config1 as cfg
 
-#HOME = os.environ['HOME']
+os.environ['HOME'] = 'middle_bluff'
+
+
 ########### OPTION I ##########################
 #############################################
+gen1DevPath = cfg.basePaths["adlsGen1BasePath"]
 gen2DevPath = cfg.basePaths["adlsGen2BasePath"]
 gen3DevVal = cfg.workspaceEnvironmentDict["edwDataLakeKeyVaultScope"]["firstscope"]
 
