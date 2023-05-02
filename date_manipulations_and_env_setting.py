@@ -19,6 +19,16 @@ print("tomorrow is: " + next_day_str)
 print("yesterday was: " + previous_day_str)
 print(user + '-' + key)
 
+#-------------------- contents of run.sh below -  -----
+#!/usr/bin/env bash
+
+# set -a
+# source config.env
+# set +a
+#
+# python3 test.py
+
+
 
 
 
