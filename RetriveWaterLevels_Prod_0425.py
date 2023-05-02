@@ -24,7 +24,7 @@ engine = create_engine("mssql+pyodbc:///?odbc_connect=%s" % con_str)
 
 stations_lst=[9063090, 9044020, 9044030, 9044036, 9044049, 9034052, 9014070, 9014090, 9014098, 9075099, 9076024,
                 9076027, 9076033, 9076060, 9076070, 9099004, 9075080, 9087031, 9087044, 9087072, 9087057, 9099064,
-                9099018, 9063079, 9063053, 9063085, 9063063]
+                9099018, 9063079, 9063053, 9063085, 9063063,9014080,9063038,9099090,9075035,9075065,9087077,9087096,9087023]
 
 times_df = pd.DataFrame({"Time": [
     pd.Timestamp("01:00:00.000"),
@@ -53,7 +53,7 @@ times_df = pd.DataFrame({"Time": [
     pd.Timestamp("00:00:00.000")
 ]})
 
-base_url_part1 = 'https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?start_date=' + previous_day_str + '&end_date=' + next_day_str + '&station='
+base_url_part1 = 'https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=' + previous_day_str + '&end_date=' + next_day_str + '&station='
 base_url_part2 = '&interval=h&product=water_level&datum=LWD&time_zone=lst_ldt&application=Interlake&units=english&format=json'
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
