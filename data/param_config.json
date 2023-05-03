@@ -1,0 +1,15 @@
+ {
+"workspaceEnvironmentDict" : {
+  "lifecycle": "Development",
+  "adlsGen1": "comcastdevtest",                                                                        ccount": "cutdpbxdtlk01",
+  "adlsGen2Container": "comcastdev",
+  "edwDataLakeKeyVaultScope": {"firstscope":"cuttkyvtdtlkedw01",
+                                "secondscope":"cuttkyvtdtlkedw02"
+                                }
+}
+,
+"basePaths" : {"adlsGen1BasePath": "/mnt/gen1/comcastdevtest",
+             "adlsGen2BasePath": "/mnt/gen2/cutdpbxdtlk01"
+            }
+
+}

@@ -1,0 +1,5289 @@
+{
+  "programs": [
+    {
+      "season": "1842-43",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1842-12-07T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "3853",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 5 IN C MINOR, OP.67",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "52446*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "OBERON",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Timm, Henry C.",
+          "ID": "8834*4",
+          "soloists": [
+            {
+              "soloistName": "Otto, Antoinette",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            }
+          ],
+          "movement": "\"Ozean, du Ungeheuer\" (Ocean, thou mighty monster), Reiza (Scene and Aria), Act II"
+        },
+        {
+          "workTitle": "QUINTET, PIANO, D MINOR, OP. 74",
+          "ID": "3642*",
+          "soloists": [
+            {
+              "soloistName": "Scharfenberg, William",
+              "soloistRoles": "A",
+              "soloistInstrument": "Piano"
+            },
+            {
+              "soloistName": "Hill, Ureli Corelli",
+              "soloistRoles": "A",
+              "soloistInstrument": "Violin"
+            },
+            {
+              "soloistName": "Derwort, G. H.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Viola"
+            },
+            {
+              "soloistName": "Boucher, Alfred",
+              "soloistRoles": "A",
+              "soloistInstrument": "Cello"
+            },
+            {
+              "soloistName": "Rosier, F. W.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Contrabass"
+            }
+          ],
+          "composerName": "Hummel,  Johann"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "OBERON",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Etienne, Denis G.",
+          "ID": "8834*3",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "ARMIDA",
+          "composerName": "Rossini,  Gioachino",
+          "conductorName": "Timm, Henry C.",
+          "ID": "8835*1",
+          "soloists": [
+            {
+              "soloistName": "Otto, Antoinette",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            },
+            {
+              "soloistName": "Horn, Charles Edward",
+              "soloistRoles": "S",
+              "soloistInstrument": "Tenor"
+            }
+          ],
+          "movement": "Duet"
+        },
+        {
+          "workTitle": "FIDELIO, OP. 72",
+          "composerName": "Beethoven,  Ludwig  van",
+          "conductorName": "Timm, Henry C.",
+          "ID": "8837*6",
+          "soloists": [
+            {
+              "soloistName": "Horn, Charles Edward",
+              "soloistRoles": "S",
+              "soloistInstrument": "Tenor"
+            }
+          ],
+          "movement": "\"In Des Lebens Fruhlingstagen...O spur ich nicht linde,\" Florestan (aria)"
+        },
+        {
+          "workTitle": "ABDUCTION FROM THE SERAGLIO,THE, K.384",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Timm, Henry C.",
+          "ID": "8336*4",
+          "soloists": [
+            {
+              "soloistName": "Otto, Antoinette",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            }
+          ],
+          "movement": "\"Ach Ich liebte,\" Konstanze (aria)"
+        },
+        {
+          "workTitle": "OVERTURE NO. 1, D MINOR, OP. 38",
+          "conductorName": "Timm, Henry C.",
+          "ID": "5543*",
+          "soloists": [],
+          "composerName": "Kalliwoda,  Johann  W."
+        }
+      ],
+      "id": "38e072a7-8fc9-4f9a-8eac-3957905c0002"
+    },
+    {
+      "season": "1842-43",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1843-02-18T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "5178",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 3 IN E FLAT MAJOR, OP. 55 (EROICA)",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "52437*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "I PURITANI",
+          "composerName": "Bellini,  Vincenzo",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "8838*2",
+          "soloists": [
+            {
+              "soloistName": "Otto, Antoinette",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            }
+          ],
+          "movement": "Elvira (aria): \"Qui la voce...Vien, diletto\""
+        },
+        {
+          "workTitle": "CELEBRATED ELEGIE",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "3659*",
+          "soloists": [
+            {
+              "soloistName": "Boucher, Alfred",
+              "soloistRoles": "S",
+              "soloistInstrument": "Cello"
+            }
+          ],
+          "composerName": "Romberg,  Bernhard"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "WILLIAM TELL",
+          "composerName": "Rossini,  Gioachino",
+          "conductorName": "Alpers, William",
+          "ID": "8839*2",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "STABAT MATER",
+          "composerName": "Rossini,  Gioachino",
+          "conductorName": "Alpers, William",
+          "ID": "53076*2",
+          "soloists": [
+            {
+              "soloistName": "Otto, Antoinette",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            }
+          ],
+          "movement": "Inflammatus et Accensus (Aria with Chorus)"
+        },
+        {
+          "workTitle": "CONCERTO, PIANO, A-FLAT MAJOR, OP. 113",
+          "composerName": "Hummel,  Johann",
+          "conductorName": "Alpers, William",
+          "ID": "51568*2",
+          "soloists": [
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "movement": "Romanza: Larghetto con moto"
+        },
+        {
+          "workTitle": "CONCERTO, PIANO, A-FLAT MAJOR, OP. 113",
+          "composerName": "Hummel,  Johann",
+          "conductorName": "Alpers, William",
+          "ID": "51568*3",
+          "soloists": [
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "movement": "Rondo alla spagniola: Allegro moderato"
+        },
+        {
+          "workTitle": "FREISCHUTZ, DER",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Alpers, William",
+          "ID": "6709*16",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "c7b2b95c-5e0b-431c-a340-5b37fc860b34"
+    },
+    {
+      "season": "1842-43",
+      "orchestra": "Musicians from the New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1843-04-07T05:00:00Z",
+          "eventType": "Special",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "10785",
+      "works": [
+        {
+          "workTitle": "EGMONT, OP.84",
+          "composerName": "Beethoven,  Ludwig  van",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "52364*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "OBERON",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Not conducted",
+          "ID": "8834*4",
+          "soloists": [
+            {
+              "soloistName": "Otto, Antoinette",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            },
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "movement": "\"Ozean, du Ungeheuer\" (Ocean, thou mighty monster), Reiza (Scene and Aria), Act II"
+        },
+        {
+          "workTitle": "CONCERTO, PIANO, A MINOR, OP. 85",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "4567*",
+          "soloists": [
+            {
+              "soloistName": "Scharfenberg, William",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Hummel,  Johann"
+        },
+        {
+          "workTitle": "O HAPPY HAPPY HOUR",
+          "conductorName": "Not conducted",
+          "ID": "5150*",
+          "soloists": [
+            {
+              "soloistName": "Otto, Antoinette",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            },
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Pacini,  Giovanni"
+        },
+        {
+          "workTitle": "FANTASIA ON SWEEDISH AIRS",
+          "conductorName": "Not conducted",
+          "ID": "5161*",
+          "soloists": [
+            {
+              "soloistName": "Boucher, Alfred",
+              "soloistRoles": "S",
+              "soloistInstrument": "Cello"
+            }
+          ],
+          "composerName": "Romberg,  Bernhard"
+        },
+        {
+          "workTitle": "SEXTET IN E FLAT MAJOR, OP. 30",
+          "composerName": "Onslow,  George",
+          "conductorName": "Not conducted",
+          "ID": "5162*2",
+          "soloists": [
+            {
+              "soloistName": "Scharfenberg, William",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            },
+            {
+              "soloistName": "Lehman",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Groneveldt, Theodore W.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Clarinet"
+            },
+            {
+              "soloistName": "Hegelund, H. W.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Bassoon"
+            },
+            {
+              "soloistName": "Woehning, F. C.",
+              "soloistRoles": "A",
+              "soloistInstrument": "French Horn"
+            },
+            {
+              "soloistName": "Rosier, F. W.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Contrabass"
+            }
+          ],
+          "movement": "Andante con variazioni"
+        },
+        {
+          "workTitle": "SEXTET IN E FLAT MAJOR, OP. 30",
+          "composerName": "Onslow,  George",
+          "conductorName": "Not conducted",
+          "ID": "5162*3",
+          "soloists": [
+            {
+              "soloistName": "",
+              "soloistRoles": "",
+              "soloistInstrument": ""
+            },
+            {
+              "soloistName": "Scharfenberg, William",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            },
+            {
+              "soloistName": "Lehman",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Groneveldt, Theodore W.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Clarinet"
+            },
+            {
+              "soloistName": "Hegelund, H. W.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Bassoon"
+            },
+            {
+              "soloistName": "Woehning, F. C.",
+              "soloistRoles": "A",
+              "soloistInstrument": "French Horn"
+            },
+            {
+              "soloistName": "Rosier, F. W.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Contrabass"
+            }
+          ],
+          "movement": "Minuetto"
+        },
+        {
+          "workTitle": "WILLIAM TELL",
+          "composerName": "Rossini,  Gioachino",
+          "conductorName": "Alpers, William",
+          "ID": "8839*2",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "FANTASIA AND VARIATIONS ON THEMES FROM NORMA, OP. 12 (FOUR HANDS)",
+          "conductorName": "Not conducted",
+          "ID": "5166*",
+          "soloists": [
+            {
+              "soloistName": "",
+              "soloistRoles": "",
+              "soloistInstrument": ""
+            },
+            {
+              "soloistName": "Rakeman, Frederick",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            },
+            {
+              "soloistName": "Scharfenberg, William",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Thalberg,  Sigismond"
+        },
+        {
+          "workTitle": "MAGIC FLUTE, THE, K.620",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Not conducted",
+          "ID": "8955*13",
+          "soloists": [
+            {
+              "soloistName": "",
+              "soloistRoles": "",
+              "soloistInstrument": ""
+            },
+            {
+              "soloistName": "Otto, Antoinette",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            },
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "movement": "Aria (unspecified)"
+        },
+        {
+          "workTitle": "INTRODUCTION AND VARIATIONS ON THE ROMANCE OF JOSEPH, OP. 20",
+          "conductorName": "Alpers, William",
+          "ID": "5172*",
+          "soloists": [
+            {
+              "soloistName": "",
+              "soloistRoles": "",
+              "soloistInstrument": ""
+            },
+            {
+              "soloistName": "Scharfenberg, William",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Herz,  Henri"
+        },
+        {
+          "workTitle": "QUINTET FOR WINDS AND ORCHESTRA",
+          "conductorName": "Not conducted",
+          "ID": "5174*",
+          "soloists": [
+            {
+              "soloistName": "Lehman",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Wiese, Frederick",
+              "soloistRoles": "A",
+              "soloistInstrument": "Oboe"
+            },
+            {
+              "soloistName": "Groneveldt, Theodore W.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Clarinet"
+            },
+            {
+              "soloistName": "Hegelund, H. W.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Bassoon"
+            },
+            {
+              "soloistName": "Woehning, F. C.",
+              "soloistRoles": "A",
+              "soloistInstrument": "French Horn"
+            }
+          ],
+          "composerName": "Lindpaintner,  Peter  Von"
+        }
+      ],
+      "id": "894e1a52-1ae5-4fa7-aec0-b99997555a37"
+    },
+    {
+      "season": "1842-43",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1843-04-22T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "5887",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 2 IN D MAJOR, OP.36",
+          "conductorName": "Boucher, Alfred",
+          "ID": "52434*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "SYMPATHY, HXXVIA:33 (VOICE AND ORCH) (ARR. Loder)",
+          "conductorName": "Loder, George",
+          "ID": "3666*",
+          "soloists": [
+            {
+              "soloistName": "Loder, Edward",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "composerName": "Haydn,  Franz  Joseph"
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Loder, George",
+          "ID": "5801*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "SEPTET, E-FLAT MAJOR, OP.20",
+          "ID": "52425*",
+          "soloists": [
+            {
+              "soloistName": "Gröneveldt, W. Theodore",
+              "soloistRoles": "A",
+              "soloistInstrument": "Clarinet"
+            },
+            {
+              "soloistName": "Reiff, Anton, Sr.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Bassoon"
+            },
+            {
+              "soloistName": "Trojsi, Gaetano",
+              "soloistRoles": "A",
+              "soloistInstrument": "French Horn"
+            },
+            {
+              "soloistName": "Hill, Ureli Corelli",
+              "soloistRoles": "A",
+              "soloistInstrument": "Violin"
+            },
+            {
+              "soloistName": "Wiegers, Louis",
+              "soloistRoles": "A",
+              "soloistInstrument": "Viola"
+            },
+            {
+              "soloistName": "Boucher, Alfred",
+              "soloistRoles": "A",
+              "soloistInstrument": "Cello"
+            },
+            {
+              "soloistName": "Rosier, F. W.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Contrabass"
+            }
+          ],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "E MI LASCI COSÌ? ... TU M'ABBANDONI, INGRATO, OP. 71",
+          "conductorName": "Loder, George",
+          "ID": "3674*",
+          "soloists": [
+            {
+              "soloistName": "Loder, Edward",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "composerName": "Spohr,  Louis"
+        },
+        {
+          "workTitle": "JUBEL OVERTURE, OP. 59",
+          "conductorName": "Loder, George",
+          "ID": "50729*",
+          "soloists": [],
+          "composerName": "Weber,  Carl  Maria Von"
+        }
+      ],
+      "id": "34ec2c2b-3297-4716-9831-b538310462b7"
+    },
+    {
+      "season": "1843-44",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1843-11-18T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "None"
+        }
+      ],
+      "programID": "305",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 7 IN A MAJOR, OP.92",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "52453*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "IDA DELLA TORRE",
+          "composerName": "Nini,  Alessandro",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "3677*1",
+          "soloists": [
+            {
+              "soloistName": "Castellan, Jeanne Anais",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            }
+          ],
+          "movement": "Cavatina: \"Quando quell 'oum quell 'unico\""
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "MAGIC FLUTE, THE, K.620",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "8955*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "LUCIA DI LAMMERMOOR",
+          "composerName": "Donizetti,  Gaetano",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "5190*3",
+          "soloists": [
+            {
+              "soloistName": "Castellan, Jeanne Anais",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            }
+          ],
+          "movement": "\"Regnava nel silenzio,\" Lucia (aria), Act I, scene ii"
+        },
+        {
+          "workTitle": "JUBEL OVERTURE, OP. 59",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "50729*",
+          "soloists": [],
+          "composerName": "Weber,  Carl  Maria Von"
+        }
+      ],
+      "id": "610a4acc-94e4-4cd6-bdc1-8ad020edc7e9"
+    },
+    {
+      "season": "1843-44",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1844-01-13T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "3368",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 41, C MAJOR, K.551, \"JUPITER\"",
+          "conductorName": "Etienne, Denis G.",
+          "ID": "51668*",
+          "soloists": [],
+          "composerName": "Mozart,  Wolfgang  Amadeus"
+        },
+        {
+          "workTitle": "LUCIA DI LAMMERMOOR",
+          "composerName": "Donizetti,  Gaetano",
+          "conductorName": "Etienne, Denis G.",
+          "ID": "5190*2",
+          "soloists": [
+            {
+              "soloistName": "Castellan, Jeanne Anais",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            }
+          ],
+          "movement": "\"Il dolce suono\" (Mad Scene), Lucia (aria), Act III, scene i"
+        },
+        {
+          "workTitle": "SEPTET, D MINOR, OP. 74",
+          "movement": "Allegro con spirito",
+          "ID": "3999*1",
+          "soloists": [
+            {
+              "soloistName": "Scharfenberg, William",
+              "soloistRoles": "A",
+              "soloistInstrument": "Piano"
+            },
+            {
+              "soloistName": "Kyle, John A.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Woehning, F. C.",
+              "soloistRoles": "A",
+              "soloistInstrument": "French Horn"
+            },
+            {
+              "soloistName": "Boucher, Alfred",
+              "soloistRoles": "A",
+              "soloistInstrument": "Cello"
+            },
+            {
+              "soloistName": "Wiese, Frederick",
+              "soloistRoles": "A",
+              "soloistInstrument": "Oboe"
+            },
+            {
+              "soloistName": "Johnson",
+              "soloistRoles": "A",
+              "soloistInstrument": "Tenor"
+            },
+            {
+              "soloistName": "Rosier, F. W.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Contrabass"
+            }
+          ],
+          "composerName": "Hummel,  Johann"
+        },
+        {
+          "workTitle": "SEPTET, D MINOR, OP. 74",
+          "movement": "Menuetto o Scherzo - Allegro",
+          "ID": "3999*2",
+          "soloists": [
+            {
+              "soloistName": "Scharfenberg, William",
+              "soloistRoles": "A",
+              "soloistInstrument": "Piano"
+            },
+            {
+              "soloistName": "Kyle, John A.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Woehning, F. C.",
+              "soloistRoles": "A",
+              "soloistInstrument": "French Horn"
+            },
+            {
+              "soloistName": "Boucher, Alfred",
+              "soloistRoles": "A",
+              "soloistInstrument": "Cello"
+            },
+            {
+              "soloistName": "Wiese, Frederick",
+              "soloistRoles": "A",
+              "soloistInstrument": "Oboe"
+            },
+            {
+              "soloistName": "Johnson",
+              "soloistRoles": "A",
+              "soloistInstrument": "Tenor"
+            },
+            {
+              "soloistName": "Rosier, F. W.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Contrabass"
+            }
+          ],
+          "composerName": "Hummel,  Johann"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "OVERTURE, F MAJOR",
+          "conductorName": "Etienne, Denis G.",
+          "ID": "3696*",
+          "soloists": [],
+          "composerName": "Kalliwoda,  Johann  W."
+        },
+        {
+          "workTitle": "LA SONNAMBULA",
+          "composerName": "Bellini,  Vincenzo",
+          "conductorName": "Etienne, Denis G.",
+          "ID": "3700*1",
+          "soloists": [
+            {
+              "soloistName": "Castellan, Jeanne Anais",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            }
+          ],
+          "movement": "\"Ah! non credea mirarti... Ah non giunge,\" Amina (aria)"
+        },
+        {
+          "workTitle": "QUINTET",
+          "movement": "Adagio",
+          "ID": "3704*1",
+          "soloists": [
+            {
+              "soloistName": "Kyle, John A.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Wiese, Frederick",
+              "soloistRoles": "A",
+              "soloistInstrument": "Oboe"
+            },
+            {
+              "soloistName": "Gröneveldt, W. Theodore",
+              "soloistRoles": "A",
+              "soloistInstrument": "Clarinet"
+            },
+            {
+              "soloistName": "Woehning, F. C.",
+              "soloistRoles": "A",
+              "soloistInstrument": "French Horn"
+            },
+            {
+              "soloistName": "Reiff, Anton, Sr.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Bassoon"
+            }
+          ],
+          "composerName": "Reicha,  Antoine(-Joseph)"
+        },
+        {
+          "workTitle": "QUINTET",
+          "movement": "Finale",
+          "ID": "3704*2",
+          "soloists": [
+            {
+              "soloistName": "Kyle, John A.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Wiese, Frederick",
+              "soloistRoles": "A",
+              "soloistInstrument": "Oboe"
+            },
+            {
+              "soloistName": "Gröneveldt, W. Theodore",
+              "soloistRoles": "A",
+              "soloistInstrument": "Clarinet"
+            },
+            {
+              "soloistName": "Woehning, F. C.",
+              "soloistRoles": "A",
+              "soloistInstrument": "French Horn"
+            },
+            {
+              "soloistName": "Reiff, Anton, Sr.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Bassoon"
+            }
+          ],
+          "composerName": "Reicha,  Antoine(-Joseph)"
+        },
+        {
+          "workTitle": "ZAMPA",
+          "composerName": "Herold,  Louis  Joseph Ferdinand [Hérold]",
+          "conductorName": "Etienne, Denis G.",
+          "ID": "50093*1",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "47b6e9e8-3b18-49ea-ae2a-b9b0ca18902c"
+    },
+    {
+      "season": "1843-44",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1844-03-16T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "None"
+        }
+      ],
+      "programID": "4226",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 2, D MINOR, OP. 49",
+          "conductorName": "Loder, George",
+          "ID": "3707*",
+          "soloists": [],
+          "composerName": "Spohr,  Louis"
+        },
+        {
+          "workTitle": "DIALOGO BRILLIANTE",
+          "ID": "3712*",
+          "soloists": [
+            {
+              "soloistName": "Kyle, John A.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Gröneveldt, W. Theodore",
+              "soloistRoles": "A",
+              "soloistInstrument": "Clarinet"
+            }
+          ],
+          "composerName": "Bochsa,  Robert  N. C."
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "SEMIRAMIDE",
+          "composerName": "Rossini,  Gioachino",
+          "conductorName": "Loder, George",
+          "ID": "51710*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "CONCERTO, PIANO, B MINOR",
+          "composerName": "Hummel,  Johann",
+          "conductorName": "Loder, George",
+          "ID": "7773*1",
+          "soloists": [
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "movement": "Allegro moderato"
+        },
+        {
+          "workTitle": "EURYANTHE, OP. 81, J. 291",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Loder, George",
+          "ID": "9187*1",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "5e533e4f-d4ac-4aaa-b8d2-e189f6806655"
+    },
+    {
+      "season": "1843-44",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1844-05-18T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "None"
+        }
+      ],
+      "programID": "5087",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 5 IN C MINOR, OP.67",
+          "conductorName": "Alpers, William",
+          "ID": "52446*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "FANTASIA POUR LE VIOLON SUR LA QUATRIEME CORDE",
+          "conductorName": "Alpers, William",
+          "ID": "3719*",
+          "soloists": [
+            {
+              "soloistName": "Vieuxtemps, Henri",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            }
+          ],
+          "composerName": "Vieuxtemps,  Henri"
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Alpers, William",
+          "ID": "5801*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "ARIA [UNSPECIFIED]",
+          "conductorName": "Alpers, William",
+          "ID": "3722*",
+          "soloists": [
+            {
+              "soloistName": "Valtellina",
+              "soloistRoles": "S",
+              "soloistInstrument": "Tenor"
+            }
+          ],
+          "composerName": "Donizetti,  Gaetano"
+        },
+        {
+          "workTitle": "RULER OF THE SPIRITS: OVERTURE, OP. 27",
+          "conductorName": "Alpers, William",
+          "ID": "50743*",
+          "soloists": [],
+          "composerName": "Weber,  Carl  Maria Von"
+        }
+      ],
+      "id": "7550f75e-5c0c-4519-9196-05a6c4e2612c"
+    },
+    {
+      "season": "1844-45",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1844-11-16T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "6310",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 8 IN F MAJOR, OP.93",
+          "conductorName": "Loder, George",
+          "ID": "52456*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "L'ELISIR D'AMORE",
+          "composerName": "Donizetti,  Gaetano",
+          "conductorName": "Loder, George",
+          "ID": "3208*2",
+          "soloists": [
+            {
+              "soloistName": "Ricci, Amalia",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            },
+            {
+              "soloistName": "Sanquirico",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Quanto Amore,\" Adina/Dulcamara (duet)"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "HEBRIDES (FINGAL'S CAVE) OVERTURE, OP.26",
+          "conductorName": "Loder, George",
+          "ID": "52512*",
+          "soloists": [],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "HEBRIDES (FINGAL'S CAVE) OVERTURE, OP.26",
+          "conductorName": "Loder, George",
+          "ID": "52512*",
+          "soloists": [],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "CONVENIENSI TEATRALI",
+          "conductorName": "Loder, George",
+          "ID": "3730*",
+          "soloists": [
+            {
+              "soloistName": "Sanquirico",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "composerName": "Donizetti,  Gaetano"
+        },
+        {
+          "workTitle": "BELISARIO",
+          "composerName": "Donizetti,  Gaetano",
+          "conductorName": "Loder, George",
+          "ID": "3734*1",
+          "soloists": [
+            {
+              "soloistName": "Ricci, Amalia",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "Cavatina [unspecified]"
+        },
+        {
+          "workTitle": "WAR JUBILEE",
+          "conductorName": "Loder, George",
+          "ID": "3737*",
+          "soloists": [],
+          "composerName": "Lindpaintner,  Peter  Von"
+        }
+      ],
+      "id": "91f716fc-090d-4c3b-85da-41122eb3fe96"
+    },
+    {
+      "season": "1844-45",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1845-01-11T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "1979",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO.   3, G MAJOR",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "51727*",
+          "soloists": [],
+          "composerName": "Haydn,  Franz  Joseph"
+        },
+        {
+          "workTitle": "FREISCHUTZ, DER",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "6709*13",
+          "soloists": [
+            {
+              "soloistName": "Loder, Edward",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Wie nahte mir der Schlummer...Leise, leise, fromme Weise,\" Agathe (Scene and Aria), Act II"
+        },
+        {
+          "workTitle": "CONCERTINO, CLARINET,  E FLAT MAJOR, OP. 26",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "50710*",
+          "soloists": [
+            {
+              "soloistName": "Gröneveldt, W. Theodore",
+              "soloistRoles": "S",
+              "soloistInstrument": "Clarinet"
+            }
+          ],
+          "composerName": "Weber,  Carl  Maria Von"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "JESSONDA",
+          "composerName": "Spohr,  Louis",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "3745*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "CLEMENZA DI TITO, LA, K.621",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "8863*4",
+          "soloists": [
+            {
+              "soloistName": "Loder, Edward",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Deh, per questo istante solo\""
+        },
+        {
+          "workTitle": "FIDELIO, OP. 72",
+          "composerName": "Beethoven,  Ludwig  van",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "8837*14",
+          "soloists": [
+            {
+              "soloistName": "Loder, Edward",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            },
+            {
+              "soloistName": "De Luce",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            },
+            {
+              "soloistName": "Munson",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            },
+            {
+              "soloistName": "Massett, J. Schwartz",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Mir ist so wunderbar,\" Quartet"
+        },
+        {
+          "workTitle": "VAMPYR, LE, OP. 42",
+          "composerName": "Marschner,  Heinrich  August",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "3757*1",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "253d22e1-9d44-410c-ae06-61abe434e5ec"
+    },
+    {
+      "season": "1844-45",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1845-03-01T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "2821",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 3 IN E FLAT MAJOR, OP. 55 (EROICA)",
+          "conductorName": "Wiegers, Louis",
+          "ID": "52437*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "RONDO-FINALE, \"CHE D'ALLA GIOJA\"",
+          "conductorName": "Wiegers, Louis",
+          "ID": "3761*",
+          "soloists": [
+            {
+              "soloistName": "Arnoult",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "composerName": "Donizetti,  Gaetano"
+        },
+        {
+          "workTitle": "SINFONIA CONCERTANTE NO. 2",
+          "ID": "3764*",
+          "soloists": [
+            {
+              "soloistName": "Kyle, John A.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Wiese, Frederick",
+              "soloistRoles": "A",
+              "soloistInstrument": "Oboe"
+            },
+            {
+              "soloistName": "Gröneveldt, W. Theodore",
+              "soloistRoles": "A",
+              "soloistInstrument": "Clarinet"
+            },
+            {
+              "soloistName": "Reiff, Anton, Sr.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Bassoon"
+            },
+            {
+              "soloistName": "Trojsi, Gaetano",
+              "soloistRoles": "A",
+              "soloistInstrument": "French Horn"
+            }
+          ],
+          "composerName": "Lindpaintner,  Peter  Von"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "DIE NAJADEN, OP.15",
+          "conductorName": "Wiegers, Louis",
+          "ID": "3768*",
+          "soloists": [],
+          "composerName": "Bennett,  William  Sterndale"
+        },
+        {
+          "workTitle": "ROBERT LE DIABLE",
+          "composerName": "Meyerbeer,  Giacomo",
+          "conductorName": "Wiegers, Louis",
+          "ID": "3867*1",
+          "soloists": [
+            {
+              "soloistName": "Arnoult",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Grace, Seigneur,\" Isabelle (aria)"
+        },
+        {
+          "workTitle": "DIALOGO BRILLIANTE",
+          "ID": "3712*",
+          "soloists": [
+            {
+              "soloistName": "Kyle, John A.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Gröneveldt, W. Theodore",
+              "soloistRoles": "S",
+              "soloistInstrument": "Clarinet"
+            }
+          ],
+          "composerName": "Bochsa,  Robert  N. C."
+        },
+        {
+          "workTitle": "GROSSE FEST-OVERTURE UND SIEGESMARSCH",
+          "conductorName": "Wiegers, Louis",
+          "ID": "3776*",
+          "soloists": [],
+          "composerName": "Ries,  Ferdinand"
+        }
+      ],
+      "id": "6285c981-8e21-4ef1-afb2-634844dd7edb"
+    },
+    {
+      "season": "1844-45",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1845-04-19T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "3259",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 7 IN A MAJOR, OP.92",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "52453*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "MELUSINE: OVERTURE",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "4945*",
+          "soloists": [],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "NACHTLAGER IN GRANADA, DAS",
+          "composerName": "Kreutzer,  Conradin",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "3781*1",
+          "soloists": [
+            {
+              "soloistName": "Otto, Antoinette",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            }
+          ],
+          "movement": "\"Seine fromme Liebes-Gabe,\" Gabriele (aria)"
+        },
+        {
+          "workTitle": "GRAND PIANO FANTASIA (OBERON'S ZAUBERHORN)",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "3784*",
+          "soloists": [
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Hummel,  Johann"
+        },
+        {
+          "workTitle": "CROCIATO IN EGITTO, IL",
+          "composerName": "Meyerbeer,  Giacomo",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "3789*1",
+          "soloists": [
+            {
+              "soloistName": "Otto, Antoinette",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            }
+          ],
+          "movement": "\"Eccomi, giunto omai,\" Armando (Scena e Cavatina)"
+        },
+        {
+          "workTitle": "OBERON",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "8834*3",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "bd29d7be-ee14-4362-ae93-4d9c8a535804"
+    },
+    {
+      "season": "1845-46",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1845-11-22T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "4919",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 3, A MINOR, OP.56 (SCOTTISH)",
+          "conductorName": "Loder, George",
+          "ID": "52575*",
+          "soloists": [],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "ANACRÉON, OU L'AMOUR FUGITIF",
+          "composerName": "Cherubini,  Luigi",
+          "conductorName": "Loder, George",
+          "ID": "1965*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "NITOCRI",
+          "composerName": "Mercadante,  Giuseppe  Saverio",
+          "conductorName": "Loder, George",
+          "ID": "3791*1",
+          "soloists": [
+            {
+              "soloistName": "Mott",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Se m'abbandoni,\" (cavatina)"
+        },
+        {
+          "workTitle": "SOLO, HARP",
+          "conductorName": "Loder, George",
+          "ID": "3795*",
+          "soloists": [
+            {
+              "soloistName": "Lazare, Jenny",
+              "soloistRoles": "S",
+              "soloistInstrument": "Harp"
+            }
+          ],
+          "composerName": "Traditional,"
+        },
+        {
+          "workTitle": "STABAT MATER",
+          "composerName": "Rossini,  Gioachino",
+          "conductorName": "Loder, George",
+          "ID": "53076*1",
+          "soloists": [
+            {
+              "soloistName": "Mott",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "Fac ut Portem Christi mortem (Cavatina)"
+        },
+        {
+          "workTitle": "FANTASIA ON THEMES FROM OPERA, CHARLES VI",
+          "conductorName": "Loder, George",
+          "ID": "3808*",
+          "soloists": [
+            {
+              "soloistName": "Wollenhauft, Hermann",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Heller,  Stephen [István]"
+        },
+        {
+          "workTitle": "DE LA CHASSE DU JEUNE HENRI",
+          "composerName": "Mehul [Méhul],  Etienne  Nicolas",
+          "conductorName": "Loder, George",
+          "ID": "3810*1",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "4b37d068-0d4b-4ba8-8885-5abefa261e91"
+    },
+    {
+      "season": "1845-46",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1846-01-17T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "562",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 5 IN C MINOR, OP.67",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "52446*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "MARMION",
+          "conductorName": "Loder, George",
+          "ID": "3813*",
+          "soloists": [],
+          "composerName": "Loder,  George, Jr."
+        },
+        {
+          "workTitle": "CONCERTO, PIANO, NO. 1, G MINOR, OP.25",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "52492*",
+          "soloists": [
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "SINFONIA CONCERTANTE NO. 2",
+          "ID": "3764*",
+          "soloists": [
+            {
+              "soloistName": "Kyle, John A.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Starck, F.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Clarinet"
+            },
+            {
+              "soloistName": "Wiese, Frederick",
+              "soloistRoles": "A",
+              "soloistInstrument": "Oboe"
+            },
+            {
+              "soloistName": "Trojsi, Gaetano",
+              "soloistRoles": "A",
+              "soloistInstrument": "French Horn"
+            },
+            {
+              "soloistName": "Reiff, Anton, Sr.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Bassoon"
+            }
+          ],
+          "composerName": "Lindpaintner,  Peter  Von"
+        },
+        {
+          "workTitle": "CONCERTO, VIOLIN, NO. 4, OP. 46",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "3818*",
+          "soloists": [
+            {
+              "soloistName": "Burke, Joseph",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            }
+          ],
+          "composerName": "Beriot,  Charles-Auguste  de"
+        },
+        {
+          "workTitle": "CONCERT OVERTURE, OP. 128",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "3823*",
+          "soloists": [],
+          "composerName": "Reissiger,  Karl  Gottlieb"
+        }
+      ],
+      "id": "119e0eaf-077f-49f2-b396-6f7b179fe2d8"
+    },
+    {
+      "season": "1845-46",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1846-03-07T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "1408",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 1",
+          "conductorName": "Boucher, Alfred",
+          "ID": "3826*",
+          "soloists": [],
+          "composerName": "Kalliwoda,  Johann  W."
+        },
+        {
+          "workTitle": "AVE MARIA",
+          "conductorName": "Boucher, Alfred",
+          "ID": "3839*",
+          "soloists": [
+            {
+              "soloistName": "Northall, Julia",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "composerName": "Cherubini,  Luigi"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "EURYANTHE, OP. 81, J. 291",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Boucher, Alfred",
+          "ID": "9187*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "TANCREDI",
+          "composerName": "Rossini,  Gioachino",
+          "conductorName": "Boucher, Alfred",
+          "ID": "53080*3",
+          "soloists": [
+            {
+              "soloistName": "Northall, Julia",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "Cavatina [unspecified]"
+        },
+        {
+          "workTitle": "SYMPHONY NO. 41, C MAJOR, K.551, \"JUPITER\"",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Boucher, Alfred",
+          "ID": "51668*2",
+          "soloists": [],
+          "movement": "Andante cantabile"
+        },
+        {
+          "workTitle": "CONCERTO, FLUTE, NO. 5, OP.52",
+          "conductorName": "Boucher, Alfred",
+          "ID": "3842*",
+          "soloists": [
+            {
+              "soloistName": "Kyle, John A.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Flute"
+            }
+          ],
+          "composerName": "Furstenau,  Anton  Bernhard"
+        },
+        {
+          "workTitle": "FRANCS-JUGES, LES: OVERTURE",
+          "conductorName": "Boucher, Alfred",
+          "ID": "2273*",
+          "soloists": [],
+          "composerName": "Berlioz,  Hector"
+        }
+      ],
+      "id": "676bc63e-0f45-49cd-af5a-f36c31e986a1"
+    },
+    {
+      "season": "1845-46",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1846-04-25T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "1851",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 40, G MINOR, K.550",
+          "conductorName": "Timm, Henry C.",
+          "ID": "51664*",
+          "soloists": [],
+          "composerName": "Mozart,  Wolfgang  Amadeus"
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Timm, Henry C.",
+          "ID": "5801*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "SYMPHONY NO. 6 IN F MAJOR, OP.68 (PASTORAL)",
+          "conductorName": "Timm, Henry C.",
+          "ID": "52449*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "DUETTO, TWO CORNETS",
+          "conductorName": "Timm, Henry C.",
+          "ID": "3849*",
+          "soloists": [
+            {
+              "soloistName": "Dodworth, Allen",
+              "soloistRoles": "S",
+              "soloistInstrument": "Cornet"
+            },
+            {
+              "soloistName": "Dodworth, Harvey B.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Cornet"
+            }
+          ],
+          "composerName": "Traditional,"
+        },
+        {
+          "workTitle": "GAZZA LADRA, LA",
+          "composerName": "Rossini,  Gioachino",
+          "conductorName": "Timm, Henry C.",
+          "ID": "3453*1",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "fb00e4fb-d935-4b13-aa85-06a4d8d89a16"
+    },
+    {
+      "season": "1845-46",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1846-05-20T05:00:00Z",
+          "eventType": "Special",
+          "Venue": "Castle Garden",
+          "Location": "Manhattan, NY",
+          "Time": "None"
+        }
+      ],
+      "programID": "2321",
+      "works": [
+        {
+          "workTitle": "FREISCHUTZ, DER",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "6709*16",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "ANNA BOLENA",
+          "composerName": "Donizetti,  Gaetano",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "3512*2",
+          "soloists": [
+            {
+              "soloistName": "Northall, Julia",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Per questa fiamma indomita,\" Giovanna (aria)"
+        },
+        {
+          "workTitle": "MAGIC FLUTE, THE, K.620",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "8955*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "FALIERO",
+          "composerName": "Donizetti,  Gaetano",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "3857*1",
+          "soloists": [
+            {
+              "soloistName": "Otto, Antoinette",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            }
+          ],
+          "movement": "''Tutto or morte,'' Elena (aria)"
+        },
+        {
+          "workTitle": "CONCERTO, PIANO, NO. 1, G MINOR, OP.25",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "52492*",
+          "soloists": [
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "LOMBARDI, I",
+          "composerName": "Verdi,  Giuseppe",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "3860*2",
+          "soloists": [
+            {
+              "soloistName": "Pico",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            },
+            {
+              "soloistName": "Beames",
+              "soloistRoles": "A",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "movement": "\"Non fu sogno,\" Giselda (aria), Part IV"
+        },
+        {
+          "workTitle": "JUBEL OVERTURE, OP. 59",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "50729*",
+          "soloists": [],
+          "composerName": "Weber,  Carl  Maria Von"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "SYMPHONY NO. 9 IN D MINOR, OP.125",
+          "conductorName": "Loder, George",
+          "ID": "52461*",
+          "soloists": [
+            {
+              "soloistName": "Otto, Antoinette",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            },
+            {
+              "soloistName": "Boulard",
+              "soloistRoles": "S",
+              "soloistInstrument": "Alto"
+            },
+            {
+              "soloistName": "Munson",
+              "soloistRoles": "S",
+              "soloistInstrument": "Tenor"
+            },
+            {
+              "soloistName": "Mayer",
+              "soloistRoles": "S",
+              "soloistInstrument": "Bass"
+            }
+          ],
+          "composerName": "Beethoven,  Ludwig  van"
+        }
+      ],
+      "id": "7f9997cb-c3a4-4fc5-b241-2348944ef999"
+    },
+    {
+      "season": "1846-47",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1846-11-21T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "3540",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 4, OP. 86 (DIE WEIHE DER TONE)",
+          "conductorName": "Loder, George",
+          "ID": "3864*",
+          "soloists": [],
+          "composerName": "Spohr,  Louis"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "CONCERT OVERTURE, OP. 128",
+          "conductorName": "Loder, George",
+          "ID": "3823*",
+          "soloists": [],
+          "composerName": "Reissiger,  Karl  Gottlieb"
+        },
+        {
+          "workTitle": "CONCERTO, PIANO, NO. 1, E MINOR, OP. 11",
+          "conductorName": "Loder, George",
+          "ID": "1587*",
+          "soloists": [
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Chopin,  Frédéric"
+        },
+        {
+          "workTitle": "KING LEAR OVERTURE, OP. 4",
+          "conductorName": "Loder, George",
+          "ID": "2345*",
+          "soloists": [],
+          "composerName": "Berlioz,  Hector"
+        }
+      ],
+      "id": "a7ac4233-c065-41e7-9a36-9a5e3f5daa7b"
+    },
+    {
+      "season": "1846-47",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1847-01-09T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "6573",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 39, E-FLAT MAJOR, K.543",
+          "conductorName": "Timm, Henry C.",
+          "ID": "51658*",
+          "soloists": [],
+          "composerName": "Mozart,  Wolfgang  Amadeus"
+        },
+        {
+          "workTitle": "ROBERT LE DIABLE",
+          "composerName": "Meyerbeer,  Giacomo",
+          "conductorName": "Timm, Henry C.",
+          "ID": "3867*5",
+          "soloists": [
+            {
+              "soloistName": "Ablamowicz",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Robert, toi que j'aime,\" Isabelle (cavatina), Act IV"
+        },
+        {
+          "workTitle": "CONCERT OVERTURE, OP.3",
+          "conductorName": "Timm, Henry C.",
+          "ID": "3871*",
+          "soloists": [],
+          "composerName": "Bristow,  George  Frederick"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "SYMPHONY NO. 6 IN F MAJOR, OP.68 (PASTORAL)",
+          "conductorName": "Timm, Henry C.",
+          "ID": "52449*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "LA SONNAMBULA",
+          "composerName": "Bellini,  Vincenzo",
+          "conductorName": "Timm, Henry C.",
+          "ID": "3700*2",
+          "soloists": [
+            {
+              "soloistName": "Ablamowicz",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Care Compagne... Come per me serena,\" Amina (recitative and cavatina)"
+        },
+        {
+          "workTitle": "CONCERTO, VIOLIN, NO. 12, A MAJOR, OP. 79 (CONCERTINO NO. 1)",
+          "conductorName": "Timm, Henry C.",
+          "ID": "8319*",
+          "soloists": [
+            {
+              "soloistName": "Heuckeroth, Charles",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            }
+          ],
+          "composerName": "Spohr,  Louis"
+        },
+        {
+          "workTitle": "FREISCHUTZ, DER",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Timm, Henry C.",
+          "ID": "6709*16",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "f93b6dcc-2657-44f6-a69d-0d1a5f9dd396"
+    },
+    {
+      "season": "1846-47",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1847-03-06T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "47",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 7 IN A MAJOR, OP.92",
+          "conductorName": "Boucher, Alfred",
+          "ID": "52453*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "JESSONDA",
+          "composerName": "Spohr,  Louis",
+          "conductorName": "Boucher, Alfred",
+          "ID": "3745*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "DON GIOVANNI, K.527",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Boucher, Alfred",
+          "ID": "8849*5",
+          "soloists": [
+            {
+              "soloistName": "Loder, Edward",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Batti, batti,\" Zerlina, Act I, scene xvi"
+        },
+        {
+          "workTitle": "DUETTO, GRAND, FLUTE, PIANO",
+          "ID": "3894*",
+          "soloists": [
+            {
+              "soloistName": "Kyle, John A.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Traditional,"
+        },
+        {
+          "workTitle": "SHE NEVER TOLD HER LOVE, H.XXVIA.34",
+          "ID": "3468*",
+          "soloists": [
+            {
+              "soloistName": "Loder, Edward",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "composerName": "Haydn,  Franz  Joseph"
+        },
+        {
+          "workTitle": "CONCERT OVERTURE",
+          "conductorName": "Boucher, Alfred",
+          "ID": "3891*",
+          "soloists": [],
+          "composerName": "Hiller,  Ferdinand"
+        }
+      ],
+      "id": "b0704cd5-728d-4886-8445-2b0edb1abeb6"
+    },
+    {
+      "season": "1846-47",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1847-04-17T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "450",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 3 IN E FLAT MAJOR, OP. 55 (EROICA)",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "52437*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "WILLIAM TELL",
+          "composerName": "Rossini,  Gioachino",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "8839*2",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "ARIA FOR OBOE",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "3899*",
+          "soloists": [
+            {
+              "soloistName": "De Ribas",
+              "soloistRoles": "S",
+              "soloistInstrument": "Oboe"
+            }
+          ],
+          "composerName": "Beriot,  Charles-Auguste  de"
+        },
+        {
+          "workTitle": "JÄGER ABSCHIED, DER",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "3901*",
+          "soloists": [
+            {
+              "soloistName": "Liederkranz of the City of New York",
+              "soloistRoles": "S",
+              "soloistInstrument": "Mens Chorus"
+            }
+          ],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "CONCERTO, GRAND, VIOLIN",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "3907*",
+          "soloists": [
+            {
+              "soloistName": "Rapetti, M.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            }
+          ],
+          "composerName": "Traditional,"
+        },
+        {
+          "workTitle": "WALTZ",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "3910*",
+          "soloists": [
+            {
+              "soloistName": "Liederkranz of the City of New York",
+              "soloistRoles": "S",
+              "soloistInstrument": "Mens Chorus"
+            }
+          ],
+          "composerName": "Eisenhofer,  Franz  Xaver"
+        },
+        {
+          "workTitle": "OBERON",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Hill, Ureli Corelli",
+          "ID": "8834*3",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "343cfe16-cb4f-4557-9ed1-9a14e0725d71"
+    },
+    {
+      "season": "1847-48",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1847-11-27T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "2178",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 4, OP. 86 (DIE WEIHE DER TONE)",
+          "conductorName": "Loder, George",
+          "ID": "3864*",
+          "soloists": [],
+          "composerName": "Spohr,  Louis"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Loder, George",
+          "ID": "5801*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "MARRIAGE OF FIGARO, THE, K.492",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Loder, George",
+          "ID": "8957*17",
+          "soloists": [
+            {
+              "soloistName": "Horn, C.E.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "Unspecified Recitative and Aria"
+        },
+        {
+          "workTitle": "CONCERTO, PIANO, NO. 1, G MINOR, OP.25",
+          "conductorName": "Loder, George",
+          "ID": "52492*",
+          "soloists": [
+            {
+              "soloistName": "Hoffman, Richard",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "ERNANI",
+          "composerName": "Verdi,  Giuseppe",
+          "conductorName": "Loder, George",
+          "ID": "1810*4",
+          "soloists": [
+            {
+              "soloistName": "Horn, C.E.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "Scene and Aria (unspecified)"
+        },
+        {
+          "workTitle": "EGMONT, OP.84",
+          "composerName": "Beethoven,  Ludwig  van",
+          "conductorName": "Loder, George",
+          "ID": "52364*1",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "2634f6cb-16ee-4e4b-bd16-827db923e294"
+    },
+    {
+      "season": "1847-48",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1848-01-15T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "None"
+        }
+      ],
+      "programID": "5195",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 3, A MINOR, OP.56 (SCOTTISH)",
+          "conductorName": "Loder, George",
+          "ID": "52575*",
+          "soloists": [],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "EURYANTHE, OP. 81, J. 291",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Loder, George",
+          "ID": "9187*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "CONCERTO, TWO PIANOS",
+          "conductorName": "Loder, George",
+          "ID": "3923*",
+          "soloists": [
+            {
+              "soloistName": "Scharfenberg, William",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            },
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Dussek,  Jan  Ladislav"
+        },
+        {
+          "workTitle": "VAMPYR, DER",
+          "composerName": "Lindpaintner,  Peter  Von",
+          "conductorName": "Loder, George",
+          "ID": "3926*1",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "5c46b292-230b-48ba-b4bd-36488059102d"
+    },
+    {
+      "season": "1847-48",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1848-02-05T05:00:00Z",
+          "eventType": "Special",
+          "Venue": "Castle Garden",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "10581",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 3 IN E FLAT MAJOR, OP. 55 (EROICA)",
+          "composerName": "Beethoven,  Ludwig  van",
+          "conductorName": "Macfarren, George Alexander;  Loder, George",
+          "ID": "52437*2",
+          "soloists": [],
+          "movement": "Marcia funebre: Adagio assai"
+        },
+        {
+          "workTitle": "ST. PAUL, OP. 36",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Macfarren, George Alexander;  Loder, George",
+          "ID": "52552*11",
+          "soloists": [],
+          "movement": "10. Happy and blest are they who have endured, Chorus"
+        },
+        {
+          "workTitle": "ELIJAH, OP.70",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Macfarren, George Alexander;  Loder, George",
+          "ID": "52506*5",
+          "soloists": [],
+          "movement": "Aria (Elijah): It is enough!"
+        },
+        {
+          "workTitle": "ELIJAH, OP.70",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Macfarren, George Alexander;  Loder, George",
+          "ID": "52506*34",
+          "soloists": [],
+          "movement": "Recitative (Tenor): See now, he sleepeth beneath a juniper tree"
+        },
+        {
+          "workTitle": "ELIJAH, OP.70",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Macfarren, George Alexander;  Loder, George",
+          "ID": "52506*6",
+          "soloists": [],
+          "movement": "Trio (Angels) Lift thine eyes"
+        },
+        {
+          "workTitle": "REQUIEM, K.626 (ARR. Sussmayr)",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Macfarren, George Alexander;  Loder, George",
+          "ID": "50610*6",
+          "soloists": [],
+          "movement": "Recordare"
+        },
+        {
+          "workTitle": "ST. PAUL, OP. 36",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Macfarren, George Alexander;  Loder, George",
+          "ID": "52552*49",
+          "soloists": [],
+          "movement": "To Thee, O Lord, I yield my Spirit, Chorale"
+        },
+        {
+          "workTitle": "SYMPHONY NO. 2, B-FLAT MAJOR, OP. 52, \"LOBEGESANG\"",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Macfarren, George Alexander;  Loder, George",
+          "ID": "51857*3",
+          "soloists": [],
+          "movement": "III. Adagio religioso"
+        },
+        {
+          "workTitle": "ELIJAH, OP.70",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Macfarren, George Alexander;  Loder, George",
+          "ID": "52506*46",
+          "soloists": [],
+          "movement": "Chorus: But the Lord from the north hath raised one"
+        },
+        {
+          "workTitle": "ST. PAUL, OP. 36",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Macfarren, George Alexander;  Loder, George",
+          "ID": "52552*16",
+          "soloists": [],
+          "movement": "15. Sleepers, wake! A voice is calling, Chorale"
+        }
+      ],
+      "id": "992ef3ad-b771-4f28-9f10-d917cb614a1d"
+    },
+    {
+      "season": "1847-48",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1848-03-04T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "None"
+        }
+      ],
+      "programID": "6064",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 5 IN C MINOR, OP.67",
+          "conductorName": "Loder, George",
+          "ID": "52446*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "MELUSINE: OVERTURE",
+          "conductorName": "Loder, George",
+          "ID": "4945*",
+          "soloists": [],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "MAGIC FLUTE, THE, K.620",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Loder, George",
+          "ID": "8955*5",
+          "soloists": [
+            {
+              "soloistName": "Arthurson",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Dies Bildnis ist bezaubernd,\" Tamino, Act I, scene i"
+        },
+        {
+          "workTitle": "SINFONIA CONCERTANTE NO. 1",
+          "conductorName": "Loder, George",
+          "ID": "3933*",
+          "soloists": [
+            {
+              "soloistName": "Kyle, John A.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Starck, F.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Clarinet"
+            },
+            {
+              "soloistName": "Wiese, Frederick",
+              "soloistRoles": "A",
+              "soloistInstrument": "Oboe"
+            },
+            {
+              "soloistName": "Woehning, F. C.",
+              "soloistRoles": "A",
+              "soloistInstrument": "French Horn"
+            },
+            {
+              "soloistName": "Reiff, Anton, Sr.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Bassoon"
+            }
+          ],
+          "composerName": "Lindpaintner,  Peter  Von"
+        },
+        {
+          "workTitle": "DON GIOVANNI, K.527",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Loder, George",
+          "ID": "8849*10",
+          "soloists": [
+            {
+              "soloistName": "Arthurson",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Il mio tesoro intanto,\" Don ottavio, Act II, scene x"
+        },
+        {
+          "workTitle": "JUBEL OVERTURE, OP. 59",
+          "conductorName": "Loder, George",
+          "ID": "50729*",
+          "soloists": [],
+          "composerName": "Weber,  Carl  Maria Von"
+        }
+      ],
+      "id": "eb21a5b0-ea39-46f5-ba6b-d9dc2d06a457"
+    },
+    {
+      "season": "1847-48",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1848-04-29T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "None"
+        }
+      ],
+      "programID": "6493",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 1, E FLAT MAJOR, OP. 20",
+          "conductorName": "Timm, Henry C.",
+          "ID": "3936*",
+          "soloists": [],
+          "composerName": "Spohr,  Louis"
+        },
+        {
+          "workTitle": "MAGIC FLUTE, THE, K.620",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Timm, Henry C.",
+          "ID": "8955*5",
+          "soloists": [
+            {
+              "soloistName": "Arthurson",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Dies Bildnis ist bezaubernd,\" Tamino, Act I, scene i"
+        },
+        {
+          "workTitle": "CONCERTO, PIANO, NO. 3, G MINOR, OP. 58",
+          "conductorName": "Timm, Henry C.",
+          "ID": "3940*",
+          "soloists": [
+            {
+              "soloistName": "Scharfenberg, William",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Moscheles,  Ignaz"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "HEBRIDES (FINGAL'S CAVE) OVERTURE, OP.26",
+          "conductorName": "Timm, Henry C.",
+          "ID": "52512*",
+          "soloists": [],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "WEEP NOT FOR SORROW",
+          "conductorName": "Timm, Henry C.",
+          "ID": "3945*",
+          "soloists": [
+            {
+              "soloistName": "Leach, S. L.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            },
+            {
+              "soloistName": "Boucher, Alfred",
+              "soloistRoles": "A",
+              "soloistInstrument": "Cello"
+            }
+          ],
+          "composerName": "Lachner,  Franz"
+        },
+        {
+          "workTitle": "JESSONDA",
+          "composerName": "Spohr,  Louis",
+          "conductorName": "Timm, Henry C.",
+          "ID": "3745*3",
+          "soloists": [
+            {
+              "soloistName": "Leach, S. L.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            },
+            {
+              "soloistName": "Arthurson",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"From out this temple's walls so holy,\" Dandau and Nadori (Duet)"
+        },
+        {
+          "workTitle": "OVERTURE, NO. 11, OP. 143",
+          "conductorName": "Timm, Henry C.",
+          "ID": "3953*",
+          "soloists": [],
+          "composerName": "Kalliwoda,  Johann  W."
+        }
+      ],
+      "id": "ab75ad47-55de-4119-b0b6-2b1bca15270e"
+    },
+    {
+      "season": "1848-49",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1848-12-02T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Assembly Rooms, Chinese Buildings",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "1171",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 1, C MINOR, OP. 5",
+          "conductorName": "Loder, George",
+          "ID": "923*",
+          "soloists": [],
+          "composerName": "Gade,  Niels"
+        },
+        {
+          "workTitle": "LAST CONCERTO: ADAGIO AND RONDO",
+          "conductorName": "Loder, George",
+          "ID": "3956*",
+          "soloists": [
+            {
+              "soloistName": "Elena, Luigi",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            }
+          ],
+          "composerName": "Vieuxtemps,  Henri"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "OVERTURE, WOOD NYMPH, F MAJOR, OP.20",
+          "conductorName": "Loder, George",
+          "ID": "3960*",
+          "soloists": [],
+          "composerName": "Bennett,  William  Sterndale"
+        },
+        {
+          "workTitle": "KONZERTSTUCK IN F MINOR FOR PIANO, OP.79",
+          "conductorName": "Loder, George",
+          "ID": "50731*",
+          "soloists": [
+            {
+              "soloistName": "Hoffman, Richard",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Weber,  Carl  Maria Von"
+        },
+        {
+          "workTitle": "TRIOMPHALE OVERTURE",
+          "conductorName": "Loder, George",
+          "ID": "3963*",
+          "soloists": [],
+          "composerName": "Ries,  Ferdinand"
+        }
+      ],
+      "id": "0228e89c-95a8-468e-90d8-de5ec1e80969"
+    },
+    {
+      "season": "1848-49",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1849-01-27T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Assembly Rooms, Chinese Buildings",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "2607",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 7, OP. 121 FOR TWO ORCHESTRAS",
+          "conductorName": "Loder, George",
+          "ID": "3967*",
+          "soloists": [],
+          "composerName": "Spohr,  Louis"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "OBERON",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Loder, George",
+          "ID": "8834*3",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "VARIATIONS FOR THE BASSOON",
+          "conductorName": "Loder, George",
+          "ID": "3972*",
+          "soloists": [
+            {
+              "soloistName": "Eltz, Paul",
+              "soloistRoles": "S",
+              "soloistInstrument": "Bassoon"
+            }
+          ],
+          "composerName": "Jacobi,  Frederick"
+        },
+        {
+          "workTitle": "BRILLIANT VARIATIONS FOR THE TRUMPET",
+          "conductorName": "Loder, George",
+          "ID": "3976*",
+          "soloists": [
+            {
+              "soloistName": "Haase, Carl F.W.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Trumpet"
+            }
+          ],
+          "composerName": "Granz,  Norman"
+        },
+        {
+          "workTitle": "WAR JUBILEE",
+          "conductorName": "Loder, George",
+          "ID": "3737*",
+          "soloists": [],
+          "composerName": "Lindpaintner,  Peter  Von"
+        }
+      ],
+      "id": "f5995882-6ab3-4476-8589-d7f528aa2835"
+    },
+    {
+      "season": "1848-49",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1849-03-17T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Saloon",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "3931",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 3 IN E FLAT MAJOR, OP. 55 (EROICA)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52437*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "MELUSINE: OVERTURE",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4945*",
+          "soloists": [],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "SOLO (WITH ECHO), FRENCH HORN",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3983*",
+          "soloists": [
+            {
+              "soloistName": "Schmitz, Henry",
+              "soloistRoles": "S",
+              "soloistInstrument": "French Horn"
+            }
+          ],
+          "composerName": "Schmitz,  Henry"
+        },
+        {
+          "workTitle": "ANDANTE AND VARIATIONS, B FLAT MAJOR, OP. 46",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3478*",
+          "soloists": [
+            {
+              "soloistName": "Scharfenberg, William",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            },
+            {
+              "soloistName": "Dresel, Otto",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Schumann,  Robert"
+        },
+        {
+          "workTitle": "VAMPYR, LE, OP. 42",
+          "composerName": "Marschner,  Heinrich  August",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3757*1",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "37c8e3b1-78f7-43ad-ac76-5a6aec6950b7"
+    },
+    {
+      "season": "1848-49",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1849-05-12T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "5300",
+      "works": [
+        {
+          "workTitle": "SINFONIA PASSIONATA (PRIZE SYMPHONY)",
+          "conductorName": "Maretzek, Max",
+          "ID": "3987*",
+          "soloists": [],
+          "composerName": "Lachner,  Franz"
+        },
+        {
+          "workTitle": "LUCIA DI LAMMERMOOR, \"SOFFRIVA NEL PIANTO\"  (FOR SAXHORN QUARTET) (ARR. Unspecified)",
+          "ID": "3991*",
+          "soloists": [
+            {
+              "soloistName": "Distin, and His Sons",
+              "soloistRoles": "S",
+              "soloistInstrument": "Saxhorn"
+            },
+            {
+              "soloistName": "Willy, J.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Donizetti,  Gaetano"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Maretzek, Max",
+          "ID": "5801*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "TERZETTO A CANONE, VANNE A COLEI",
+          "conductorName": "Maretzek, Max",
+          "ID": "3996*",
+          "soloists": [
+            {
+              "soloistName": "Distin, and His Sons",
+              "soloistRoles": "S",
+              "soloistInstrument": "Saxhorn"
+            },
+            {
+              "soloistName": "Willy, J.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Costa,  Sir  Michael"
+        },
+        {
+          "workTitle": "SEPTET, D MINOR, OP. 74",
+          "ID": "3999*",
+          "soloists": [
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Piano"
+            },
+            {
+              "soloistName": "Kyle, John A.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Wiese, Frederick",
+              "soloistRoles": "A",
+              "soloistInstrument": "Oboe"
+            },
+            {
+              "soloistName": "Schmitz, Henry",
+              "soloistRoles": "A",
+              "soloistInstrument": "French Horn"
+            },
+            {
+              "soloistName": "Poppenberg",
+              "soloistRoles": "A",
+              "soloistInstrument": "Tenor"
+            },
+            {
+              "soloistName": "Boucher, Alfred",
+              "soloistRoles": "A",
+              "soloistInstrument": "Cello"
+            },
+            {
+              "soloistName": "Jacoby, Charles W.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Contrabass"
+            }
+          ],
+          "composerName": "Hummel,  Johann"
+        },
+        {
+          "workTitle": "FREISCHUTZ, DER",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Maretzek, Max",
+          "ID": "6709*16",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "a7c94524-c8d5-4b06-97df-bdb2d6c20fd3"
+    },
+    {
+      "season": "1849-50",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1849-11-24T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "7278",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 4 IN B FLAT MAJOR, OP.60",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52440*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "JESSONDA",
+          "composerName": "Spohr,  Louis",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3745*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "SOLO FOR FLUTE WITH ORCHESTRA",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4002*",
+          "soloists": [
+            {
+              "soloistName": "Kyle, John A.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Flute"
+            }
+          ],
+          "composerName": "Nicholson,  Charles"
+        },
+        {
+          "workTitle": "CONCERTO, VIOLIN, E MINOR, OP.64",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52502*",
+          "soloists": [
+            {
+              "soloistName": "Burke, Joseph",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            }
+          ],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "WILLIAM TELL",
+          "composerName": "Rossini,  Gioachino",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "8839*2",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "af79d260-a728-41e3-ad8c-bb6120d613b7"
+    },
+    {
+      "season": "1849-50",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1850-01-12T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "571",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 4, OP. 86 (DIE WEIHE DER TONE)",
+          "conductorName": "Loder, George",
+          "ID": "3864*",
+          "soloists": [],
+          "composerName": "Spohr,  Louis"
+        },
+        {
+          "workTitle": "CAPRICCIO BRILLANTE IN B MINOR, OP.22",
+          "conductorName": "Loder, George",
+          "ID": "52487*",
+          "soloists": [
+            {
+              "soloistName": "Scharfenberg, William",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "CALM SEA AND PROSPEROUS VOYAGE",
+          "conductorName": "Loder, George",
+          "ID": "52482*",
+          "soloists": [],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "SINFONIA CONCERTANTE NO. 2",
+          "ID": "3764*",
+          "soloists": [
+            {
+              "soloistName": "Reitzel, F.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Wiese, Frederick",
+              "soloistRoles": "A",
+              "soloistInstrument": "Oboe"
+            },
+            {
+              "soloistName": "Starck, F.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Clarinet"
+            },
+            {
+              "soloistName": "Eltz, Paul",
+              "soloistRoles": "A",
+              "soloistInstrument": "Bassoon"
+            },
+            {
+              "soloistName": "Schmitz, Henry",
+              "soloistRoles": "A",
+              "soloistInstrument": "French Horn"
+            }
+          ],
+          "composerName": "Lindpaintner,  Peter  Von"
+        },
+        {
+          "workTitle": "HUGUENOTS, LES",
+          "composerName": "Meyerbeer,  Giacomo",
+          "conductorName": "Loder, George",
+          "ID": "53159*1",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "ea6c3d86-3c3b-466f-88f3-a1dd3e7ad516"
+    },
+    {
+      "season": "1849-50",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1850-03-02T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "1907",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 7 IN A MAJOR, OP.92",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52453*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "5801*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "5801*2",
+          "soloists": [],
+          "movement": "1. Scherzo: Allegro vivace"
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "5801*4",
+          "soloists": [
+            {
+              "soloistName": "Chorus",
+              "soloistRoles": "S",
+              "soloistInstrument": "Womens Chorus"
+            },
+            {
+              "soloistName": "De Luce",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            },
+            {
+              "soloistName": "Jones, L. A.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": {
+            "em": "Come, now a roundel, and a fairy song,",
+            "_": "No. 3: Song with Chorus"
+          }
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "5801*6",
+          "soloists": [],
+          "movement": "5. Intermezzo (Entr'acte): Allegro appassionato"
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "5801*8",
+          "soloists": [],
+          "movement": "7. Nocturne: Andante tranquillo"
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "5801*10",
+          "soloists": [],
+          "movement": "9. Wedding March: Allegro vivace"
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "5801*12",
+          "soloists": [],
+          "movement": "11. A Dance of Clowns"
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "5801*13",
+          "soloists": [],
+          "movement": "12. Melodrama: Allegro vivace"
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "5801*14",
+          "soloists": [
+            {
+              "soloistName": "Chorus",
+              "soloistRoles": "S",
+              "soloistInstrument": "Womens Chorus"
+            }
+          ],
+          "movement": {
+            "em": "Through this house give glimmering light,",
+            "_": "No. 13: Finale"
+          }
+        }
+      ],
+      "id": "15aadffc-bfa6-4dbc-9120-a47effb75481"
+    },
+    {
+      "season": "1849-50",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1850-04-20T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "6269",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 3, A MINOR, OP.56 (SCOTTISH)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52575*",
+          "soloists": [],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "EURYANTHE, OP. 81, J. 291",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "9187*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "GRAND PIANO FANTASIA (OBERON'S ZAUBERHORN)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3784*",
+          "soloists": [
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Hummel,  Johann"
+        },
+        {
+          "workTitle": "CONCERTANTE FOR FOUR VIOLINS",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4026*",
+          "soloists": [
+            {
+              "soloistName": "Noll, Joseph",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            },
+            {
+              "soloistName": "Bristow, George Frederick",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            },
+            {
+              "soloistName": "Reyer, H.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            },
+            {
+              "soloistName": "Perkins, James W.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            }
+          ],
+          "composerName": "Maurer,  Ludwig  Wilhelm"
+        },
+        {
+          "workTitle": "GAZZA LADRA, LA",
+          "composerName": "Rossini,  Gioachino",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3453*1",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "00894e03-f660-42df-a3a9-4b8ca60df7f2"
+    },
+    {
+      "season": "1850-51",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1850-11-23T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "792",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 1, C MINOR, OP. 5",
+          "conductorName": "Loder, George",
+          "ID": "923*",
+          "soloists": [],
+          "composerName": "Gade,  Niels"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "MARMION",
+          "conductorName": "Loder, George",
+          "ID": "3813*",
+          "soloists": [],
+          "composerName": "Loder,  George, Jr."
+        },
+        {
+          "workTitle": "CONCERTINO, OP.29",
+          "conductorName": "Loder, George",
+          "ID": "4031*",
+          "soloists": [
+            {
+              "soloistName": "Benedict, Jules",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            },
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Benedict,  Jules"
+        },
+        {
+          "workTitle": "CONCERTINO FOR HORN AND ORCHESTRA",
+          "conductorName": "Loder, George",
+          "ID": "4036*",
+          "soloists": [
+            {
+              "soloistName": "Schmitz, Henry",
+              "soloistRoles": "S",
+              "soloistInstrument": "French Horn"
+            }
+          ],
+          "composerName": "Fuchs,  H."
+        },
+        {
+          "workTitle": "VAMPYR, DER",
+          "composerName": "Lindpaintner,  Peter  Von",
+          "conductorName": "Loder, George",
+          "ID": "3926*1",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "9f9f87a1-c71a-42ba-ae76-85b348ce60d4"
+    },
+    {
+      "season": "1850-51",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1851-01-11T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "1443",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 9, C MAJOR, D.944 (GREAT)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3969*",
+          "soloists": [],
+          "composerName": "Schubert,  Franz"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "LES DEUX JOURNEES",
+          "composerName": "Cherubini,  Luigi",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52374*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "CONCERTO, VIOLIN, NO. 2, D MAJOR, OP.14",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4040*",
+          "soloists": [
+            {
+              "soloistName": "Noll, Joseph",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            }
+          ],
+          "composerName": "David,  Ferdinand"
+        },
+        {
+          "workTitle": "CALM SEA AND PROSPEROUS VOYAGE",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52482*",
+          "soloists": [
+            {
+              "soloistName": "Liederkranz of the City of New York",
+              "soloistRoles": "S",
+              "soloistInstrument": "Mens Chorus"
+            }
+          ],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "VESTALE, LA",
+          "composerName": "Spontini,  Gasparo",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4044*1",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "25180640-72fd-4781-b630-285daae1aa73"
+    },
+    {
+      "season": "1850-51",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1851-03-01T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "2806",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 2 IN D MAJOR, OP.36",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52434*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "GRAND CONCERTO, PIANO",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4048*",
+          "soloists": [
+            {
+              "soloistName": "Bristow, George Frederick",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Hummel,  Johann"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "SYMPHONY IN B FLAT MAJOR (UNSPECIFIED)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4052*",
+          "soloists": [],
+          "composerName": "Haydn,  Franz  Joseph"
+        },
+        {
+          "workTitle": "SYMPHONY NO. 40, G MINOR, K.550",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "51664*3",
+          "soloists": [],
+          "movement": "Menuetto"
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "5801*2",
+          "soloists": [],
+          "movement": "1. Scherzo: Allegro vivace"
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "5801*8",
+          "soloists": [],
+          "movement": "7. Nocturne: Andante tranquillo"
+        },
+        {
+          "workTitle": "MIDSUMMER NIGHT'S DREAM, OP. 61",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "5801*10",
+          "soloists": [],
+          "movement": "9. Wedding March: Allegro vivace"
+        }
+      ],
+      "id": "e6ec1d38-ff03-4274-8b64-e40c7a6539c9"
+    },
+    {
+      "season": "1850-51",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1851-04-26T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Apollo Rooms",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "7161",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 5 IN C MINOR, OP.67",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52446*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "CAPRICCIO BRILLANTE IN B MINOR, OP.22",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52487*",
+          "soloists": [
+            {
+              "soloistName": "Scharfenberg, William",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "FANTASIE AND VARIATIONS FOR FLUTE",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4055*",
+          "soloists": [
+            {
+              "soloistName": "Reitzel, F.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Flute"
+            }
+          ],
+          "composerName": "Heinemeyer,  Ernst  Wilhelm"
+        },
+        {
+          "workTitle": "DON GIOVANNI, K.527",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "8849*14",
+          "soloists": [
+            {
+              "soloistName": "Bouchelle, Wallace",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"In quali eccessi, o numi...Mi tradi,\" Donna Elvira, Act II, scene xi"
+        },
+        {
+          "workTitle": "DUO CONCERTANTE, TWO VIOLINS",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4064*",
+          "soloists": [
+            {
+              "soloistName": "Noll, Joseph",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            },
+            {
+              "soloistName": "Reyer, H.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            }
+          ],
+          "composerName": "Dancla,  Jean  Charles"
+        },
+        {
+          "workTitle": "ROMANCE: GO! THOU RESTLESS WIND!",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4068*",
+          "soloists": [
+            {
+              "soloistName": "Bouchelle, Wallace",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "composerName": "Wallace,  William  Vincent"
+        },
+        {
+          "workTitle": "ROBESPIERRE, OP. 55",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "51181*",
+          "soloists": [],
+          "composerName": "Litolff,  Henry  Charles"
+        }
+      ],
+      "id": "b619ac44-4294-40d8-9ff9-f7a0258e0ecb"
+    },
+    {
+      "season": "1851-52",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1851-11-22T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Niblo's Concert Room",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "1666",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 4, A MAJOR, OP. 90 (ITALIAN)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52577*",
+          "soloists": [],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "JOSEPH",
+          "composerName": "Mehul [Méhul],  Etienne  Nicolas",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4072*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "CONCERTO, VIOLIN, NO. 6, OP. 70",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4075*",
+          "soloists": [
+            {
+              "soloistName": "Appy, Henri",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            }
+          ],
+          "composerName": "Beriot,  Charles-Auguste  de"
+        },
+        {
+          "workTitle": "ELIJAH, OP.70",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52506*5",
+          "soloists": [
+            {
+              "soloistName": "Mayer, Philip",
+              "soloistRoles": "S",
+              "soloistInstrument": "Baritone"
+            }
+          ],
+          "movement": "Aria (Elijah): It is enough!"
+        },
+        {
+          "workTitle": "CONCERTINO, CLARINET,  E FLAT MAJOR, OP. 26",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "50710*",
+          "soloists": [
+            {
+              "soloistName": "Drescher, J. E.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Clarinet"
+            }
+          ],
+          "composerName": "Weber,  Carl  Maria Von"
+        },
+        {
+          "workTitle": "FAUST",
+          "composerName": "Lindpaintner,  Peter  Von",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4081*1",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "0ad70f6e-81e5-42ea-a21e-67e09fc1bd6c"
+    },
+    {
+      "season": "1851-52",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1852-01-10T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Niblo's Concert Room",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "2377",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 3 IN E FLAT MAJOR, OP. 55 (EROICA)",
+          "conductorName": "Loder, George",
+          "ID": "52437*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "OVERTURE, WOOD NYMPH, F MAJOR, OP.20",
+          "conductorName": "Loder, George",
+          "ID": "3960*",
+          "soloists": [],
+          "composerName": "Bennett,  William  Sterndale"
+        },
+        {
+          "workTitle": "CONCERTO, PIANO, NO. 1, G MINOR, OP.25",
+          "conductorName": "Loder, George",
+          "ID": "52492*",
+          "soloists": [
+            {
+              "soloistName": "Goldschmidt, Otto",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "QUINTET NO. 2",
+          "movement": "Andante",
+          "ID": "4085*1",
+          "soloists": [
+            {
+              "soloistName": "Reitzel, F.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Ohlemann, L.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Oboe"
+            },
+            {
+              "soloistName": "Drescher, J. E.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Clarinet"
+            },
+            {
+              "soloistName": "Schmitz, Henry",
+              "soloistRoles": "A",
+              "soloistInstrument": "French Horn"
+            },
+            {
+              "soloistName": "Eltz, Paul",
+              "soloistRoles": "A",
+              "soloistInstrument": "Bassoon"
+            }
+          ],
+          "composerName": "Reicha,  Antoine(-Joseph)"
+        },
+        {
+          "workTitle": "QUINTET NO. 2",
+          "movement": "Finale",
+          "ID": "4085*2",
+          "soloists": [
+            {
+              "soloistName": "Reitzel, F.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Ohlemann, L.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Oboe"
+            },
+            {
+              "soloistName": "Drescher, J. E.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Clarinet"
+            },
+            {
+              "soloistName": "Schmitz, Henry",
+              "soloistRoles": "A",
+              "soloistInstrument": "French Horn"
+            },
+            {
+              "soloistName": "Eltz, Paul",
+              "soloistRoles": "A",
+              "soloistInstrument": "Bassoon"
+            }
+          ],
+          "composerName": "Reicha,  Antoine(-Joseph)"
+        },
+        {
+          "workTitle": "OBERON",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Loder, George",
+          "ID": "8834*3",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "c639d3d5-b22f-4b28-9c54-c57557f5a367"
+    },
+    {
+      "season": "1851-52",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1852-02-28T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Niblo's Concert Room",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "6717",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 6 IN F MAJOR, OP.68 (PASTORAL)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52449*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "OBERON",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "8834*4",
+          "soloists": [
+            {
+              "soloistName": "Bouchelle, Wallace",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Ozean, du Ungeheuer\" (Ocean, thou mighty monster), Reiza (Scene and Aria), Act II"
+        },
+        {
+          "workTitle": "CONCERTO, VIOLIN, E MINOR, OP.64",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52502*",
+          "soloists": [
+            {
+              "soloistName": "Burke, Joseph",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            }
+          ],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "MAGIC FLUTE, THE, K.620",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "8955*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "FREISCHUTZ, DER",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "6709*4",
+          "soloists": [
+            {
+              "soloistName": "Klein",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Nein, länger trag' ich nicht die Qualen...Durch die Wälder, durch die Auen,\" Max (Scene and Aria), Act I"
+        },
+        {
+          "workTitle": "GRAND RONDEAU: LE GAGE D'AMITIE",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4094*",
+          "soloists": [
+            {
+              "soloistName": "Saar, William",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Kalkbrenner,  Friedrich [Frédéric]"
+        },
+        {
+          "workTitle": "THINE IS MY HEART",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4098*",
+          "soloists": [
+            {
+              "soloistName": "Bouchelle, Wallace",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "composerName": "Schubert,  Franz"
+        },
+        {
+          "workTitle": "WINTERREISE, D.911",
+          "composerName": "Schubert,  Franz",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3475*13",
+          "soloists": [
+            {
+              "soloistName": "Klein",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "Die Post"
+        },
+        {
+          "workTitle": "JUBEL OVERTURE, OP. 59",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "50729*",
+          "soloists": [],
+          "composerName": "Weber,  Carl  Maria Von"
+        }
+      ],
+      "id": "3168906d-60c9-40ca-b02b-f3b72488b4e7"
+    },
+    {
+      "season": "1851-52",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1852-04-17T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Niblo's Concert Room",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "682",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 4, OP. 86 (DIE WEIHE DER TONE)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3864*",
+          "soloists": [],
+          "composerName": "Spohr,  Louis"
+        },
+        {
+          "workTitle": "I PURITANI",
+          "composerName": "Bellini,  Vincenzo",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "8838*2",
+          "soloists": [
+            {
+              "soloistName": "Bostwick, Emma Gillingham",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "Elvira (aria): \"Qui la voce...Vien, diletto\""
+        },
+        {
+          "workTitle": "CONCERTO, PIANO, NO. 2, D MINOR , OP.40",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52495*",
+          "soloists": [
+            {
+              "soloistName": "Scharfenberg, William",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "DIE NAJADEN, OP.15",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3768*",
+          "soloists": [],
+          "composerName": "Bennett,  William  Sterndale"
+        },
+        {
+          "workTitle": "THE HAPPY BIRDLING",
+          "ID": "4106*",
+          "soloists": [
+            {
+              "soloistName": "Bostwick, Emma Gillingham",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            },
+            {
+              "soloistName": "Eben, Felix J.",
+              "soloistRoles": "A",
+              "soloistInstrument": "Flute"
+            }
+          ],
+          "composerName": "Wallace,  William  Vincent"
+        },
+        {
+          "workTitle": "CARNIVAL OF VENICE",
+          "ID": "4110*",
+          "soloists": [
+            {
+              "soloistName": "Haase, Carl F.W.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Trumpet"
+            }
+          ],
+          "composerName": "Haase,  Carl  F.W."
+        },
+        {
+          "workTitle": "PRECIOSA: GRAND DUO ON BOHEMIAN MARCH (ARR. Moscheles)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4113*",
+          "soloists": [
+            {
+              "soloistName": "Scharfenberg, William",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            },
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "FESTIVAL OVERTURE AND MARCHE TRIOMPHALE, OP. 172",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4116*",
+          "soloists": [],
+          "composerName": "Ries,  Ferdinand"
+        }
+      ],
+      "id": "ea2e47d7-a14e-4534-8bf2-2293010a9ea2"
+    },
+    {
+      "season": "1852-53",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1852-11-13T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Niblo's Concert Saloon",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "2574",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 8 IN F MAJOR, OP.93",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52456*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "WASSERFAHRT",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4119*",
+          "soloists": [
+            {
+              "soloistName": "Tourny, Mina",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            },
+            {
+              "soloistName": "Tourny, Louisa",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "MAYBELLS AND THE FLOWERS, OP. 63, NO. 6",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4123*",
+          "soloists": [
+            {
+              "soloistName": "Tourny, Mina",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            },
+            {
+              "soloistName": "Tourny, Louisa",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "CONCERTO, PIANO, B MINOR",
+          "composerName": "Hummel,  Johann",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "7773*1",
+          "soloists": [
+            {
+              "soloistName": "Timm, Henry C.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "movement": "Allegro moderato"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "ECHOES FROM OSSIAN, OP. 1",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "2399*",
+          "soloists": [],
+          "composerName": "Gade,  Niels"
+        },
+        {
+          "workTitle": "POLISH MOTHER'S CRADLE SONG, THE",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4126*",
+          "soloists": [
+            {
+              "soloistName": "Tourny, Mina",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "composerName": "Abt,  Franz"
+        },
+        {
+          "workTitle": "VARIATIONS ON A THEME FROM MEHUL'S JOSEPH",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4130*",
+          "soloists": [
+            {
+              "soloistName": "Noll, Joseph",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            },
+            {
+              "soloistName": "Reyer, H.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            },
+            {
+              "soloistName": "Eichhorn, Louis",
+              "soloistRoles": "S",
+              "soloistInstrument": "Cello"
+            }
+          ],
+          "composerName": "Maurer,  Ludwig  Wilhelm"
+        },
+        {
+          "workTitle": "LINDA DI CHAMOUNIX",
+          "composerName": "Donizetti,  Gaetano",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4133*1",
+          "soloists": [
+            {
+              "soloistName": "Tourny, Mina",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"O luce di quest'anima,\" Linda (aria)"
+        },
+        {
+          "workTitle": "ROBESPIERRE, OP. 55",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "51181*",
+          "soloists": [],
+          "composerName": "Litolff,  Henry  Charles"
+        }
+      ],
+      "id": "a9b31227-e23a-4946-bdb9-08e079aeb3d5"
+    },
+    {
+      "season": "1852-53",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1853-01-15T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Niblo's Concert Saloon",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "3266",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 9, C MAJOR, D.944 (GREAT)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3969*",
+          "soloists": [],
+          "composerName": "Schubert,  Franz"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "HEBRIDES (FINGAL'S CAVE) OVERTURE, OP.26",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52512*",
+          "soloists": [],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "SPIELMANN'S LIED (MINSTREL'S LOVE SONG)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4135*",
+          "soloists": [
+            {
+              "soloistName": "Siedenburg",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "composerName": "Gumbert,  Friedrich  Adolf"
+        },
+        {
+          "workTitle": "STREGHE, LE (DANSE DES SORCIERES), OP. 8",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4140*",
+          "soloists": [
+            {
+              "soloistName": "Julien, Paul",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            }
+          ],
+          "composerName": "Paganini,  Nicolò"
+        },
+        {
+          "workTitle": "REMEMBER ME",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4143*",
+          "soloists": [
+            {
+              "soloistName": "Siedenburg",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "composerName": "Fesca,  Alexander  (Ernst)"
+        },
+        {
+          "workTitle": "CHARMES DU VOYAGE, LES, B FLAT MAJOR, OP. 26",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4147*",
+          "soloists": [],
+          "composerName": "Lobe,  Johann  Christian"
+        }
+      ],
+      "id": "062c5158-7614-4e69-93b7-7068f36dcc01"
+    },
+    {
+      "season": "1852-53",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1853-03-05T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Niblo's Concert Saloon",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "4607",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 5 IN C MINOR, OP.67",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52446*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "JESSONDA",
+          "composerName": "Spohr,  Louis",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3745*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "CONCERTO, VIOLIN, NO. 3, OP. 44",
+          "composerName": "Beriot,  Charles-Auguste  de",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4152*1",
+          "soloists": [
+            {
+              "soloistName": "Burke, Joseph",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            }
+          ],
+          "movement": "Moderato"
+        },
+        {
+          "workTitle": "JÄGERLIED  (QUARTET)",
+          "ID": "4155*",
+          "soloists": [
+            {
+              "soloistName": "Root's Quartette Party",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "DIALOGO BRILLIANTE",
+          "ID": "3712*",
+          "soloists": [
+            {
+              "soloistName": "Kyle, John A.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Flute"
+            },
+            {
+              "soloistName": "Gröneveldt, W. Theodore",
+              "soloistRoles": "S",
+              "soloistInstrument": "Clarinet"
+            }
+          ],
+          "composerName": "Bochsa,  Robert  N. C."
+        },
+        {
+          "workTitle": "SERENADE",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4158*",
+          "soloists": [
+            {
+              "soloistName": "Root's Quartette Party",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "composerName": "Mason,  William"
+        },
+        {
+          "workTitle": "IN THE HIGHLANDS, D MAJOR, OP. 7",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4161*",
+          "soloists": [],
+          "composerName": "Gade,  Niels"
+        }
+      ],
+      "id": "8a7c6b4f-70e5-4eb8-a263-30977944879f"
+    },
+    {
+      "season": "1852-53",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1853-04-23T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Niblo's Concert Saloon",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "1583",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 1 IN B FLAT MAJOR, OP.38 (SPRING)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "53068*",
+          "soloists": [],
+          "composerName": "Schumann,  Robert"
+        },
+        {
+          "workTitle": "MARRIAGE OF FIGARO, THE, K.492",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "8957*18",
+          "soloists": [
+            {
+              "soloistName": "Jaques, Rosa",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            },
+            {
+              "soloistName": "Mayer, Philip",
+              "soloistRoles": "S",
+              "soloistInstrument": "Baritone"
+            }
+          ],
+          "movement": "Unspecified Duet"
+        },
+        {
+          "workTitle": "KONZERTSTUCK IN F MINOR FOR PIANO, OP.79",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "50731*",
+          "soloists": [
+            {
+              "soloistName": "Gockel, August",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Weber,  Carl  Maria Von"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "LEONORE OVERTURE NO. 2, OP. 72A",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "1228*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "JESSONDA",
+          "composerName": "Spohr,  Louis",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3745*2",
+          "soloists": [
+            {
+              "soloistName": "Mayer, Philip",
+              "soloistRoles": "S",
+              "soloistInstrument": "Baritone"
+            }
+          ],
+          "movement": "\"Der Krieges Lust ergeben,\" (aria)"
+        },
+        {
+          "workTitle": "POLICHINELL, CAPRICE BURLESQUE",
+          "ID": "4173*",
+          "soloists": [
+            {
+              "soloistName": "Gockel, August",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Gockel,  August"
+        },
+        {
+          "workTitle": "JEANNE D'ARC A ROUEN",
+          "composerName": "Bordese,  Luigi",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4170*1",
+          "soloists": [
+            {
+              "soloistName": "Jaques, Rosa",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "Aria [unspecified]"
+        },
+        {
+          "workTitle": "EURYANTHE, OP. 81, J. 291",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "9187*1",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "448b67aa-7f67-454a-8562-b26fd6a68b6c"
+    },
+    {
+      "season": "1853-54",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1853-11-26T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Metropolitan Hall",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "513",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 9, D MAJOR, OP. 143 (THE SEASONS)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4176*",
+          "soloists": [],
+          "composerName": "Spohr,  Louis"
+        },
+        {
+          "workTitle": "GRAND FANTASIA ON OPERA THEMES",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4179*",
+          "soloists": [
+            {
+              "soloistName": "Aptommas, Thomas",
+              "soloistRoles": "S",
+              "soloistInstrument": "Harp"
+            }
+          ],
+          "composerName": "Parish-Alvars,  Elias"
+        },
+        {
+          "workTitle": "DON GIOVANNI, K.527",
+          "composerName": "Mozart,  Wolfgang  Amadeus",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "8849*4",
+          "soloists": [
+            {
+              "soloistName": "Bostwick, Emma Gillingham",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Crudele! Ah! mio bene...Non mi dir,\" Donna Anna, Act II, scene xiii"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "KING LEAR OVERTURE, OP. 4",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "2345*",
+          "soloists": [],
+          "composerName": "Berlioz,  Hector"
+        },
+        {
+          "workTitle": "FANTASIE-CAPRICE, A MAJOR, OP.11",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4182*",
+          "soloists": [
+            {
+              "soloistName": "Hahn, C.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            }
+          ],
+          "composerName": "Vieuxtemps,  Henri"
+        },
+        {
+          "workTitle": "WANDERER, THE",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4187*",
+          "soloists": [
+            {
+              "soloistName": "Bostwick, Emma Gillingham",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "composerName": "Fesca,  Alexander  (Ernst)"
+        },
+        {
+          "workTitle": "LUCIA DI LAMMERMOOR: FANTASIA ON THEMES FROM (HARP + ORCH.) (ARR. Aptommas)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4189*",
+          "soloists": [
+            {
+              "soloistName": "Aptommas, Thomas",
+              "soloistRoles": "S",
+              "soloistInstrument": "Harp"
+            }
+          ],
+          "composerName": "Donizetti,  Gaetano"
+        },
+        {
+          "workTitle": "VAMPYR, LE, OP. 42",
+          "composerName": "Marschner,  Heinrich  August",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3757*1",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "b7e89b3a-b7bf-4848-8911-1ee57808eb2e"
+    },
+    {
+      "season": "1853-54",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1854-01-14T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Broadway Tabernacle",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "1191",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 2, C MAJOR, OP. 61",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "53071*",
+          "soloists": [],
+          "composerName": "Schumann,  Robert"
+        },
+        {
+          "workTitle": "ELLENSGESANG I-III, D.837-839 (ARR. Unspecified)",
+          "composerName": "Schubert,  Franz",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "150*3",
+          "soloists": [
+            {
+              "soloistName": "Brainerd, Maria S.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            }
+          ],
+          "movement": "Ave Maria"
+        },
+        {
+          "workTitle": "ADAGIO AND RONDO, BASSON, F MAJOR",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4196*",
+          "soloists": [
+            {
+              "soloistName": "Eltz, Paul",
+              "soloistRoles": "S",
+              "soloistInstrument": "Bassoon"
+            }
+          ],
+          "composerName": "Weber,  Carl  Maria Von"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "SYMPHONY NO. 2 IN D MAJOR, OP.36",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52434*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "MESSIAH",
+          "composerName": "Handel,  George  Frideric",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "53976*20",
+          "soloists": [
+            {
+              "soloistName": "Brainerd, Maria S.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            }
+          ],
+          "movement": "Air (Soprano): Rejoice greatly, O daughter of Zion"
+        },
+        {
+          "workTitle": "CALM SEA AND PROSPEROUS VOYAGE",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52482*",
+          "soloists": [],
+          "composerName": "Mendelssohn,  Felix"
+        }
+      ],
+      "id": "362c1cc8-ddb6-4302-9f02-e217603b0a11"
+    },
+    {
+      "season": "1853-54",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1854-03-04T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Broadway Tabernacle",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "2561",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 4, B FLAT MAJOR, OP. 20",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4198*",
+          "soloists": [],
+          "composerName": "Gade,  Niels"
+        },
+        {
+          "workTitle": "ZAR UND ZIMMERMANN",
+          "composerName": "Lortzing,  Albert",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4202*2",
+          "soloists": [
+            {
+              "soloistName": "Schumann, Julius",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "\"Sonst Spielt'ich Mit Zepter\" (or \"Song of the Tsar\"), Tsar (aria)"
+        },
+        {
+          "workTitle": "CONCERTO, VIOLIN, NO. 14, OP. 110 (CONCERTINO NO. 3)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4206*",
+          "soloists": [
+            {
+              "soloistName": "Burke, Joseph",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            }
+          ],
+          "composerName": "Spohr,  Louis"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "FAUST",
+          "composerName": "Spohr,  Louis",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4211*1",
+          "soloists": [],
+          "movement": "Overture"
+        },
+        {
+          "workTitle": "CONCERTO, PIANO, NO. 1, E MINOR, OP. 11",
+          "composerName": "Chopin,  Frédéric",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "1587*2",
+          "soloists": [
+            {
+              "soloistName": "Hoffman, Richard",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "movement": "Romance: Larghetto"
+        },
+        {
+          "workTitle": "CONCERTO, PIANO, NO. 1, E MINOR, OP. 11",
+          "composerName": "Chopin,  Frédéric",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "1587*3",
+          "soloists": [
+            {
+              "soloistName": "Hoffman, Richard",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "movement": "Rondo: Vivace"
+        },
+        {
+          "workTitle": "ST. PAUL, OP. 36",
+          "composerName": "Mendelssohn,  Felix",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52552*48",
+          "soloists": [
+            {
+              "soloistName": "Schumann, Julius",
+              "soloistRoles": "S",
+              "soloistInstrument": "Vocalist"
+            }
+          ],
+          "movement": "Aria (Unspecified)"
+        },
+        {
+          "workTitle": "SYMPHONY NO. 1 IN C MAJOR, OP.21",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52429*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        }
+      ],
+      "id": "3c9fb7f8-6b5a-4f97-8d82-fe18d36199bb"
+    },
+    {
+      "season": "1853-54",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1854-04-22T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Broadway Tabernacle",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "6902",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 20, B MAJOR",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4223*",
+          "soloists": [],
+          "composerName": "Schneider,  Johann  C. Friedrich"
+        },
+        {
+          "workTitle": "JESSONDA",
+          "composerName": "Spohr,  Louis",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3745*2",
+          "soloists": [
+            {
+              "soloistName": "Mayer, Philip",
+              "soloistRoles": "S",
+              "soloistInstrument": "Baritone"
+            }
+          ],
+          "movement": "\"Der Krieges Lust ergeben,\" (aria)"
+        },
+        {
+          "workTitle": "DUO CONCERTANTE ON THE AIR, ARABY'S DAUGHTER",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4225*",
+          "soloists": [
+            {
+              "soloistName": "Schmitz, Henry",
+              "soloistRoles": "S",
+              "soloistInstrument": "French Horn"
+            },
+            {
+              "soloistName": "Knaebel, Simon",
+              "soloistRoles": "S",
+              "soloistInstrument": "French Horn"
+            }
+          ],
+          "composerName": "Baumann,  F."
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "SYMPHONY NO. 4, OP. 86 (DIE WEIHE DER TONE)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3864*",
+          "soloists": [],
+          "composerName": "Spohr,  Louis"
+        },
+        {
+          "workTitle": "DUO CONCERTANTE ON A THEME OF HALEVY",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4228*",
+          "soloists": [
+            {
+              "soloistName": "Wallace, William Vincent",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            },
+            {
+              "soloistName": "Wallace, W.V.",
+              "soloistRoles": "S",
+              "soloistInstrument": "Piano"
+            }
+          ],
+          "composerName": "Wallace,  William  Vincent"
+        },
+        {
+          "workTitle": "MOINE, LE",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4233*",
+          "soloists": [
+            {
+              "soloistName": "Mayer, Philip",
+              "soloistRoles": "S",
+              "soloistInstrument": "Baritone"
+            }
+          ],
+          "composerName": "Meyerbeer,  Giacomo"
+        },
+        {
+          "workTitle": "EGMONT, OP.84",
+          "composerName": "Beethoven,  Ludwig  van",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52364*1",
+          "soloists": [],
+          "movement": "Overture"
+        }
+      ],
+      "id": "bdec9303-3367-41e2-abd3-9eb9f9a4e145"
+    },
+    {
+      "season": "1854-55",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1854-12-02T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Niblo's Garden",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "5792",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 3 IN E FLAT MAJOR, OP. 55 (EROICA)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52437*",
+          "soloists": [],
+          "composerName": "Beethoven,  Ludwig  van"
+        },
+        {
+          "workTitle": "FREISCHUTZ, DER",
+          "composerName": "Weber,  Carl  Maria Von",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "6709*13",
+          "soloists": [
+            {
+              "soloistName": "Lehmann, Caroline",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            }
+          ],
+          "movement": "\"Wie nahte mir der Schlummer...Leise, leise, fromme Weise,\" Agathe (Scene and Aria), Act II"
+        },
+        {
+          "workTitle": "HOME, SWEET HOME ( SOLO HARP) (ARR. Aptommas)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4248*",
+          "soloists": [
+            {
+              "soloistName": "Aptommas, Thomas",
+              "soloistRoles": "S",
+              "soloistInstrument": "Harp"
+            }
+          ],
+          "composerName": "Traditional,"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {
+          "workTitle": "ECHOES FROM OSSIAN, OP. 1",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "2399*",
+          "soloists": [
+            {
+              "soloistName": "Aptommas, Thomas",
+              "soloistRoles": "A",
+              "soloistInstrument": "Harp"
+            }
+          ],
+          "composerName": "Gade,  Niels"
+        },
+        {
+          "workTitle": "NORMA",
+          "composerName": "Bellini,  Vincenzo",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "5861*1",
+          "soloists": [
+            {
+              "soloistName": "Lehmann, Caroline",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            }
+          ],
+          "movement": "\"Casta Diva... Fine al rito,\" Norma (Cavatina and Cabaletta)"
+        },
+        {
+          "workTitle": "CONCERTINO FOR CLARINET",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4237*",
+          "soloists": [
+            {
+              "soloistName": "Kiefer, Xavier",
+              "soloistRoles": "S",
+              "soloistInstrument": "Clarinet"
+            }
+          ],
+          "composerName": "Eisfeld,  Theodore"
+        },
+        {
+          "workTitle": "ABRAHAM'S SACRIFICE: OVERTURE",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4252*",
+          "soloists": [],
+          "composerName": "Lindpaintner,  Peter  Von"
+        }
+      ],
+      "id": "9b5939a4-eda0-4656-b627-2ec4452402d1"
+    },
+    {
+      "season": "1854-55",
+      "orchestra": "New York Philharmonic",
+      "concerts": [
+        {
+          "Date": "1855-01-20T05:00:00Z",
+          "eventType": "Subscription Season",
+          "Venue": "Niblo's Garden",
+          "Location": "Manhattan, NY",
+          "Time": "8:00PM"
+        }
+      ],
+      "programID": "2149",
+      "works": [
+        {
+          "workTitle": "SYMPHONY NO. 4, A MAJOR, OP. 90 (ITALIAN)",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "52577*",
+          "soloists": [],
+          "composerName": "Mendelssohn,  Felix"
+        },
+        {
+          "workTitle": "LA FAVORITA",
+          "composerName": "Donizetti,  Gaetano",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "3718*1",
+          "soloists": [
+            {
+              "soloistName": "Lehmann, Caroline",
+              "soloistRoles": "S",
+              "soloistInstrument": "Soprano"
+            }
+          ],
+          "movement": "\"O mio Fernando,\" Leonora di Gusman (aria)"
+        },
+        {
+          "workTitle": "FANTASIA ON THEMES FROM LUCREZIA BORGIA",
+          "conductorName": "Eisfeld, Theodore",
+          "ID": "4255*",
+          "soloists": [
+            {
+              "soloistName": "Urso, Camilla",
+              "soloistRoles": "S",
+              "soloistInstrument": "Violin"
+            }
+          ],
+          "composerName": "Sainton,  Prosper"
+        },
+        {
+          "interval": "Intermission",
+          "ID": "0*",
+          "soloists": []
+        },
+        {}
+      ]
+    }
+  ]
+}

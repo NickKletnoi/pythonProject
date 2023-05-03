@@ -1,0 +1,54 @@
+[{"Time":"2016-01-10",
+"ID"
+:13567,
+"Content":{
+    "Event":"UPDATE",
+    "Id":{"EventID":"ABCDEFG"},
+    "Story":[{
+        "@ContentCat":"News",
+        "Body":"Related Meeting Memo: Engagement with target firm for potential M&A.  Please be on call this weekend for news updates.",
+        "BodyTextType":"PLAIN_TEXT",
+        "DerivedId":{"Entity":[{"Id":"Amy","Score":70}, {"Id":"Jon","Score":70}]},
+        "DerivedTopics":{"Topics":[
+                            {"Id":"Meeting","Score":70},
+                            {"Id":"Performance","Score":70},
+                            {"Id":"Engagement","Score":100},
+                            {"Id":"Salary","Score":70},
+                            {"Id":"Career","Score":100}]
+                        },
+        "HotLevel":0,
+        "LanguageString":"ENGLISH",
+        "Metadata":{"ClassNum":50,
+                    "Headline":"Attn: Weekend",
+                    "WireId":2035,
+                    "WireName":"IIS"},
+        "Version":"Original"}
+                ]},
+"yyyymmdd":"20160110",
+"month":201601},
+{"Time":"2016-01-12",
+"ID":13568,
+"Content":{
+    "Event":"DEAL",
+    "Id":{"EventID":"ABCDEFG2"},
+    "Story":[{
+        "@ContentCat":"Details",
+        "Body":"Test email contents",
+        "BodyTextType":"PLAIN_TEXT",
+        "DerivedId":{"Entity":[{"Id":"Bob","Score":100}, {"Id":"Jon","Score":70}, {"Id":"Jack","Score":60}]},
+        "DerivedTopics":{"Topics":[
+                            {"Id":"Meeting","Score":70},
+                            {"Id":"Engagement","Score":100},
+                            {"Id":"Salary","Score":70},
+                            {"Id":"Career","Score":100}]
+                        },
+        "HotLevel":0,
+        "LanguageString":"ENGLISH",
+        "Metadata":{"ClassNum":70,
+                    "Headline":"Attn: Weekend",
+                    "WireId":2037,
+                    "WireName":"IIS"},
+        "Version":"Original"}
+                ]},
+"yyyymmdd":"20160112",
+"month":201602}]
