@@ -1,7 +1,12 @@
 import os
-import decouple
+import config1 as cfg
+from dotenv import load_dotenv
+load_dotenv()
 
-os.environ['HOME'] = '/new/value'
+user = os.getenv('USER')
+key = os.getenv('KEY')
+server = cfg.DATABASE_CONFIG['server']
 
-API_USERNAME = config('USER')
-API_KEY = config('KEY')
+print(user)
+print(key)
+print(server)

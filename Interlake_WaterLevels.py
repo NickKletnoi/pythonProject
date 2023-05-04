@@ -3,14 +3,15 @@ import pandas as pd
 import urllib
 from sqlalchemy import create_engine
 import datetime
-import config1 as cf
+import config1 as c
 start_time = datetime.datetime.now()
+con_str = 'conn_str2'
 
-# con_str = urllib.parse.quote_plus("DRIVER={ODBC Driver 17 for SQL Server};SERVER=interlake-bi.database.windows.net;DATABASE=ISS_DW;UID=BIAdmin;PWD=sb98D&B(*#$@")
-# engine = create_engine("mssql+pyodbc:///?odbc_connect=%s" % con_str)
+#con_str = urllib.parse.quote_plus("DRIVER={ODBC Driver 17 for SQL Server};SERVER=interlake-bi.database.windows.net;DATABASE=ISS_DW;UID=BIAdmin;PWD=sb98D&B(*#$@")
+#engine = create_engine("mssql+pyodbc:///?odbc_connect=%s" % con_str)
 
-engine = cf.con()
-print(engine.cn)
+engine = c.con()
+
 
 stations = [9063090,9044020,9044030,9044036,9044049,9034052,9014070,9014090,9014098,9075099,9076024,9076027,9076033,9076060,9076070,9099004,9075080,9087031,9087044,9087072,9087057,9099064,9099018,9063079,9063053,9063085,9063063]
 stations1 = [9063090]
@@ -41,7 +42,7 @@ def ingest_from_noaa():
 
      final_df.rename(columns={'day_hour': 'Time'}, inplace=True)
      final_df['WaterLevel'] = df['WaterLevel'].apply(lambda x: (x * 12))
-     #final_df.to_sql('STG_WaterLevelMeasurements', con=engine, index=False, if_exists='append', schema='dbo')
+     final_df.to_sql('WaterLevelMeasurements3', con=engine, index=False, if_exists='append', schema='dbo')
      end_time = datetime.datetime.now()
      execution_time = end_time - start_time
      print(f"execution time was: {execution_time}")
@@ -51,6 +52,4 @@ def ingest_from_noaa():
 
 ingest_from_noaa()
 
-engine.cn = 10
-print(engine.cn)
-del engine.cn
+

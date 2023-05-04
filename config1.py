@@ -1,10 +1,6 @@
+import pyodbc
 import urllib
 from sqlalchemy import create_engine
-import os
-from dotenv import load_dotenv
-load_dotenv()
-user = os.getenv('USER')
-key = os.getenv('KEY')
 
 DATABASE_CONFIG = {
         'server': 'tcp:myserver.database.windows.net',
@@ -17,17 +13,15 @@ DATABASE_CONFIG = {
     }
 
 #https://www.alirookie.com/post/azure-functions-with-python-first-steps-towards-clean-code
-class con:
-    CN = DATABASE_CONFIG['conn_str2']
+class con(object):
     def __init__(self):
-        self._cn = urllib.parse.quote_plus(self.CN)
-        self._engine = create_engine("mssql+pyodbc:///?odbc_connect=%s" % self.cn)
+        self.engine = create_engine("mssql+pyodbc:///?odbc_connect=%s" % urllib.parse.quote_plus(DATABASE_CONFIG['conn_str2']))
     @property
-    def cn(self): return self._cn
+    def cn(self): return self.cn
     @cn.setter
-    def cn(self, value): self._cn = value
+    def cn(self, value): self.cn = value
     @cn.deleter
-    def cn(self): self._cn = None
+    def cn(self): self.cn = None
 
 
 # engine.cn = 10

@@ -7,7 +7,6 @@ user = os.getenv('USER')
 key = os.getenv('KEY')
 server = cfg.DATABASE_CONFIG['server']
 
-
 print(user)
 print(key)
 print(server)
