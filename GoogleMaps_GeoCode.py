@@ -17,6 +17,7 @@ def formatted_addr(addr):
 df['geocoded'] = df['Address'].apply(geocode)
 
 new_df = df[['Location_ID','Address','geocoded']]
-
 print(new_df.to_string())
+
+
 
