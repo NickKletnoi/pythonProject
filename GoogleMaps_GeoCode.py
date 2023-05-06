@@ -9,7 +9,14 @@ def geocode(add):
     lng = g[0]["geometry"]["location"]["lng"]
     return (lat, lng)
 
+def formatted_addr(addr):
+    g = gmaps_key.geocode(addr)
+    formatted_addr = g[0]["formatted_address"]
+    return formatted_addr
+
 df['geocoded'] = df['Address'].apply(geocode)
 
 new_df = df[['Location_ID','Address','geocoded']]
+
 print(new_df.to_string())
+
