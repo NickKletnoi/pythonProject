@@ -1,0 +1,466 @@
+[
+  {
+    'bounds': {
+      'northeast': {
+        'lat': 28.4405687,
+        'lng': -81.4550095
+      },
+      'southwest': {
+        'lat': 28.3726688,
+        'lng': -81.5149045
+      }
+    },
+    'copyrights': 'Map data ©2023',
+    'fare': {
+      'currency': 'USD',
+      'text': '$2.00',
+      'value': 2
+    },
+    'legs': [
+      {
+        'arrival_time': {
+          'text': '7:24\u202fAM',
+          'time_zone': 'America/New_York',
+          'value': 1683372246
+        },
+        'departure_time': {
+          'text': '6:42\u202fAM',
+          'time_zone': 'America/New_York',
+          'value': 1683369726
+        },
+        'distance': {
+          'text': '8.6 mi',
+          'value': 13909
+        },
+        'duration': {
+          'text': '42 mins',
+          'value': 2520
+        },
+        'end_address': '8625 International Dr, Orlando, FL 32819, USA',
+        'end_location': {
+          'lat': 28.4403928,
+          'lng': -81.47031299999999
+        },
+        'start_address': '1750 E Buena Vista Dr, Orlando, FL 32836, USA',
+        'start_location': {
+          'lat': 28.3727225,
+          'lng': -81.5149045
+        },
+        'steps': [
+          {
+            'distance': {
+              'text': '0.2 mi',
+              'value': 344
+            },
+            'duration': {
+              'text': '5 mins',
+              'value': 329
+            },
+            'end_location': {
+              'lat': 28.3728685,
+              'lng': -81.5129554
+            },
+            'html_instructions': 'Walk to E Buena Vista Dr and E Buena Vista Dr',
+            'polyline': {
+              'points': 'opdlDb{opNBGG]@EJU]k@@A?A@??A?A?A@??A?A?A?AAA?A?AA??A?AA??AA??AA?A??AA?A?A?A?A?A@Sa@CEY_@Sc@S_@?ASa@Sa@TY@ALOHKX]@EFIB@IJHJAJ?@ADFDJ@`@H?@'
+            },
+            'start_location': {
+              'lat': 28.3727225,
+              'lng': -81.5149045
+            },
+            'steps': [
+              {
+                'distance': {
+                  'text': '118 ft',
+                  'value': 36
+                },
+                'duration': {
+                  'text': '1 min',
+                  'value': 27
+                },
+                'end_location': {
+                  'lat': 28.3726688,
+                  'lng': -81.514566
+                },
+                'html_instructions': 'Head <b>east</b> on <b>Marketplace</b>',
+                'polyline': {
+                  'points': 'opdlDb{opNBGG]@EJU'
+                },
+                'start_location': {
+                  'lat': 28.3727225,
+                  'lng': -81.5149045
+                },
+                'travel_mode': 'WALKING'
+              },
+              {
+                'distance': {
+                  'text': '89 ft',
+                  'value': 27
+                },
+                'duration': {
+                  'text': '1 min',
+                  'value': 19
+                },
+                'end_location': {
+                  'lat': 28.3728233,
+                  'lng': -81.5143532
+                },
+                'html_instructions': 'Turn <b>left</b>',
+                'maneuver': 'turn-left',
+                'polyline': {
+                  'points': 'epdlD`yopN]k@'
+                },
+                'start_location': {
+                  'lat': 28.3726688,
+                  'lng': -81.514566
+                },
+                'travel_mode': 'WALKING'
+              },
+              {
+                'distance': {
+                  'text': '0.1 mi',
+                  'value': 153
+                },
+                'duration': {
+                  'text': '2 mins',
+                  'value': 133
+                },
+                'end_location': {
+                  'lat': 28.3735568,
+                  'lng': -81.5131389
+                },
+                'html_instructions': 'Turn <b>right</b> after Earl of Sandwich (on the left)<div style="font-size:0.9em">Take the stairs</div>',
+                'maneuver': 'turn-right',
+                'polyline': {
+                  'points': 'cqdlDtwopN@A?A@??A?A?A@??A?A?A?AAA?A?AA??A?AA??AA??AA?A??AA?A?A?A?A?A@Sa@CEY_@Sc@S_@?ASa@Sa@'
+                },
+                'start_location': {
+                  'lat': 28.3728233,
+                  'lng': -81.5143532
+                },
+                'travel_mode': 'WALKING'
+              },
+              {
+                'distance': {
+                  'text': '315 ft',
+                  'value': 96
+                },
+                'duration': {
+                  'text': '2 mins',
+                  'value': 129
+                },
+                'end_location': {
+                  'lat': 28.3731447,
+                  'lng': -81.5128574
+                },
+                'html_instructions': 'Turn <b>right</b><div style="font-size:0.9em">Take the stairs</div>',
+                'maneuver': 'turn-right',
+                'polyline': {
+                  'points': 'wudlDbpopNTY@ALOHKX]@EFIB@IJHJAJ?@AD'
+                },
+                'start_location': {
+                  'lat': 28.3735568,
+                  'lng': -81.5131389
+                },
+                'travel_mode': 'WALKING'
+              },
+              {
+                'distance': {
+                  'text': '105 ft',
+                  'value': 32
+                },
+                'duration': {
+                  'text': '1 min',
+                  'value': 21
+                },
+                'end_location': {
+                  'lat': 28.3728685,
+                  'lng': -81.5129554
+                },
+                'html_instructions': 'Turn <b>left</b><div style="font-size:0.9em">Destination will be on the right</div>',
+                'maneuver': 'turn-left',
+                'polyline': {
+                  'points': 'csdlDjnopNFDJ@`@H?@'
+                },
+                'start_location': {
+                  'lat': 28.3731447,
+                  'lng': -81.5128574
+                },
+                'travel_mode': 'WALKING'
+              }
+            ],
+            'travel_mode': 'WALKING'
+          },
+          {
+            'distance': {
+              'text': '6.5 mi',
+              'value': 10426
+            },
+            'duration': {
+              'text': '21 mins',
+              'value': 1284
+            },
+            'end_location': {
+              'lat': 28.42358,
+              'lng': -81.455879
+            },
+            'html_instructions': 'Bus towards N Garland Ave and W Amelia St',
+            'polyline': {
+              'points': 'oqdlDfoopN?LC?MCOCQCQIUWOQGKCGGICIEKCIAKCKCQCOCSAQCM?CCQCMEUGWIWCGEKEIIOIMMSMQKMEGKKMQMSKQGKQ]k@sAO]EIEGCGCEQWOUMOMM[]e@e@o@i@USGGUQUSOMMKc@]QMQMIEGEKEGESIICICIEICSEKCICIAKASESAUCQ?WAU?S@S?uAFaA@M@W@{AH_@@Q?QAOAMAQCOCWIMEKEIEIEGEKEMIIIGGIIOQIKKOGIGIIOEIAEGKEO?AEKCKCMCMCOAI?CCOCUCYC_@Ce@]BgC^I@C?}@LaAJWDg@Dc@FM@E@UB_ALI@}@LWBkBPSIGCECAAEEEGGQ@o@@w@?K@U@WDq@D]@U@W@G?S@Y?[A}C@qB?s@A[?A?YAWAYCWCQ?GCUEWGWEWGUISGUM]KUKSGMKQKQQUKOGIMOCAIIKKMKUQ[W}AcAa@[][QSOO]g@]i@_@k@OSW[QQYS[UA?WQc@UYMUIQGUGWGUEUCUE_@C]?i@As@?uA@S?OAQAWCUESEUGSGICGEUISKQKQMKKIGIGEEECEGCCEGS[QWOWGOGKGSGUCKEMEWEYCWUoCCMEWEWEYEMAGGYI[YgAWo@MYS_@Sa@U_@W_@m@w@SWMOKIUQSOYSWQWQSM_@Qc@Se@QYKu@Ya@SCAq@[UOc@Wk@]YUMIYUSQOOWWUQCEqBcBUSCC{@u@[W][QQc@a@GGUQYYEGSSAAY]UYUYCGMOYc@IQOWSa@AAAA]s@GK[q@g@y@w@gAk@q@k@m@AAqAkAuBiBqAiASO_@]g@a@aF}DWSsBaBc@]QO_As@GEw@i@QO_BeA{@g@k@]w@c@oAw@_BaAg@[UQMIs@g@OMOMQOOOOOQOIISS]a@AAW]CCUYGIY_@U[TUNMLOJOLOJQJQFMHSLYFML[j@uA@CPa@HWVo@N[JWJUPc@Rm@L]Pm@DUJi@DWD[@GD[@MFo@Di@Dg@NiBBWD[\\iBNk@FUHYFWDMHWNe@Vm@z@uBPa@N[a@S[OAAOGUKgDyA{Aq@qGqCaAc@m@WsB{@a@Sa@SYMm@]SOUOWSUSQOSQUWMMOOMQQUSYIKIOOWKOCGIOKUKSKUGQGMIUGSGQGUMa@IYEUI_@G[CUESCSAUIu@I{@Gu@Gi@k@iGa@iEIW]LaATgB`@oAVQB]FC?[DOBW@Q@[@o@@m@?g@?S?S@gAA[BgD@qA?a@@qB?aB?s@?W@U@K?I@[B_@Dq@LQBODKBA?OFGBGBc@N[LULSg@GW?CCUAO?A?E?C?E?I?O@I@[BI?@Fg@RqCSpCZ}DGj@HqBAdAB_FAxC@yC?g@?_E?Qr@yCK?g@Af@@J?AxC?PM?'
+            },
+            'start_location': {
+              'lat': 28.37288,
+              'lng': -81.51300499999999
+            },
+            'transit_details': {
+              'arrival_stop': {
+                'location': {
+                  'lat': 28.42358,
+                  'lng': -81.455879
+                },
+                'name': 'Destination Pky and Tradeshow Blvd'
+              },
+              'arrival_time': {
+                'text': '7:09\u202fAM',
+                'time_zone': 'America/New_York',
+                'value': 1683371340
+              },
+              'departure_stop': {
+                'location': {
+                  'lat': 28.37288,
+                  'lng': -81.51300499999999
+                },
+                'name': 'E Buena Vista Dr and E Buena Vista Dr'
+              },
+              'departure_time': {
+                'text': '6:47\u202fAM',
+                'time_zone': 'America/New_York',
+                'value': 1683370056
+              },
+              'headsign': 'N Garland Ave and W Amelia St',
+              'line': {
+                'agencies': [
+                  {
+                    'name': 'Central Florida Regional Transit Authority',
+                    'phone': '1 (407) 841-5969',
+                    'url': 'http://www.golynx.com/'
+                  }
+                ],
+                'color': '#871461',
+                'name': 'Orlando/Dest.Pky/Disney Springs Exp',
+                'short_name': '350',
+                'text_color': '#ffffff',
+                'vehicle': {
+                  'icon': '//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png',
+                  'name': 'Bus',
+                  'type': 'BUS'
+                }
+              },
+              'num_stops': 14
+            },
+            'travel_mode': 'TRANSIT'
+          },
+          {
+            'distance': {
+              'text': '1.9 mi',
+              'value': 3062
+            },
+            'duration': {
+              'text': '8 mins',
+              'value': 488
+            },
+            'end_location': {
+              'lat': 28.44055,
+              'lng': -81.470479
+            },
+            'html_instructions': 'Bus towards N Garland Ave and W Amelia St',
+            'polyline': {
+              'points': 'knnlDfjdpNw@?A~FAp@?j@A^AZAXCXCVALEp@CTGj@Ed@A`@?DAZAZ@P@R@RBNDRFRJ\\cBrAc@ZQLED?@URSTKLA@IJMPKR]p@O\\IVELELCLEPMx@G\\Gh@APCX?V?^@j@?~C@hB?h@?f@?f@?jBGtAC\\Ef@CVG^GTOn@EPCHEPIRGRGNMVMVQZQXQVEBQV_@b@UTKHQNSLMHwAp@]LQFMBKBe@FSDc@BWBY@uBNkAL_AN[F}AXo@PMDa@Jg@N}@XIDGBiAj@uAp@[PsBz@QFSFA?MDaA\\K@_ARc@Ds@HUBw@FW@qCBO?A?[@UCYC_@AUCa@EGA_@Eq@K[IQE]I]I]KOEQG]MKCq@YYMgAm@e@UUKCCy@[SI}@[_@Kg@MBM'
+            },
+            'start_location': {
+              'lat': 28.42358,
+              'lng': -81.455879
+            },
+            'transit_details': {
+              'arrival_stop': {
+                'location': {
+                  'lat': 28.44055,
+                  'lng': -81.470479
+                },
+                'name': 'International Dr and Austrian Row'
+              },
+              'arrival_time': {
+                'text': '7:23\u202fAM',
+                'time_zone': 'America/New_York',
+                'value': 1683372188
+              },
+              'departure_stop': {
+                'location': {
+                  'lat': 28.42358,
+                  'lng': -81.455879
+                },
+                'name': 'Destination Pky and Tradeshow Blvd'
+              },
+              'departure_time': {
+                'text': '7:15\u202fAM',
+                'time_zone': 'America/New_York',
+                'value': 1683371700
+              },
+              'headsign': 'N Garland Ave and W Amelia St',
+              'line': {
+                'agencies': [
+                  {
+                    'name': 'Central Florida Regional Transit Authority',
+                    'phone': '1 (407) 841-5969',
+                    'url': 'http://www.golynx.com/'
+                  }
+                ],
+                'color': '#871461',
+                'name': 'Orlando/Universal/I-Drive Exp',
+                'short_name': '38',
+                'text_color': '#ffffff',
+                'vehicle': {
+                  'icon': '//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png',
+                  'name': 'Bus',
+                  'type': 'BUS'
+                }
+              },
+              'num_stops': 6
+            },
+            'travel_mode': 'TRANSIT'
+          },
+          {
+            'distance': {
+              'text': '253 ft',
+              'value': 77
+            },
+            'duration': {
+              'text': '1 min',
+              'value': 57
+            },
+            'end_location': {
+              'lat': 28.4403928,
+              'lng': -81.47031299999999
+            },
+            'html_instructions': 'Walk to 8625 International Dr, Orlando, FL 32819, USA',
+            'polyline': {
+              'points': 'oxqlDvegpNf@JD@VO@Ye@M'
+            },
+            'start_location': {
+              'lat': 28.440559,
+              'lng': -81.4705152
+            },
+            'steps': [
+              {
+                'distance': {
+                  'text': '72 ft',
+                  'value': 22
+                },
+                'duration': {
+                  'text': '1 min',
+                  'value': 16
+                },
+                'end_location': {
+                  'lat': 28.4403304,
+                  'lng': -81.4705881
+                },
+                'html_instructions': 'Head <b>south</b> on <b>International Dr</b>',
+                'polyline': {
+                  'points': 'oxqlDvegpNf@JD@'
+                },
+                'start_location': {
+                  'lat': 28.440559,
+                  'lng': -81.4705152
+                },
+                'travel_mode': 'WALKING'
+              },
+              {
+                'distance': {
+                  'text': '66 ft',
+                  'value': 20
+                },
+                'duration': {
+                  'text': '1 min',
+                  'value': 15
+                },
+                'end_location': {
+                  'lat': 28.4402146,
+                  'lng': -81.4705132
+                },
+                'html_instructions': 'Turn <b>left</b>',
+                'maneuver': 'turn-left',
+                'polyline': {
+                  'points': 'awqlDdfgpNVO'
+                },
+                'start_location': {
+                  'lat': 28.4403304,
+                  'lng': -81.4705881
+                },
+                'travel_mode': 'WALKING'
+              },
+              {
+                'distance': {
+                  'text': '43 ft',
+                  'value': 13
+                },
+                'duration': {
+                  'text': '1 min',
+                  'value': 10
+                },
+                'end_location': {
+                  'lat': 28.4402021,
+                  'lng': -81.47038189999999
+                },
+                'html_instructions': 'Turn <b>left</b>',
+                'maneuver': 'turn-left',
+                'polyline': {
+                  'points': 'ivqlDtegpN@Y'
+                },
+                'start_location': {
+                  'lat': 28.4402146,
+                  'lng': -81.4705132
+                },
+                'travel_mode': 'WALKING'
+              },
+              {
+                'distance': {
+                  'text': '72 ft',
+                  'value': 22
+                },
+                'duration': {
+                  'text': '1 min',
+                  'value': 16
+                },
+                'end_location': {
+                  'lat': 28.4403928,
+                  'lng': -81.47031299999999
+                },
+                'html_instructions': 'Turn <b>left</b><div style="font-size:0.9em">Destination will be on the right</div>',
+                'maneuver': 'turn-left',
+                'polyline': {
+                  'points': 'gvqlDzdgpNe@M'
+                },
+                'start_location': {
+                  'lat': 28.4402021,
+                  'lng': -81.47038189999999
+                },
+                'travel_mode': 'WALKING'
+              }
+            ],
+            'travel_mode': 'WALKING'
+          }
+        ],
+        'traffic_speed_entry': [],
+        'via_waypoint': []
+      }
+    ],
+    'overview_polyline': {
+      'points': 'opdlDb{opNBGG]L[]k@@A@A?C@C?EEIIEC?C@Wg@Y_@Sc@S_@?ASa@Sa@TYNQHKZc@FIB@IJHJALADFDl@JAHCL]Gc@Me@i@KSUi@WqBUmAYu@o@cAk@s@s@oAgAcCi@{@[]aAcAcBwAwAkAu@g@q@Yq@Sk@KoAKuA?}DL{BJc@A_AK{@[k@[k@m@e@o@Yk@Oi@Mu@KcAGeAeDb@mCZqBTeBTuAPkBPSIMGGGMYBgBHkBJsA?kLGcBMgA_@yAm@}Aq@gAe@k@y@s@yB{A_Aw@a@c@{@qAo@_Ai@m@oA{@}@c@g@QyAYu@IgAAmD?sAQ{@Yi@Uc@Ye@a@UW}@{AWu@UkAc@mESgAQu@YgAWo@a@y@i@aAgB_CoA_AcBcAyCkAmBaAwBuAuAoA{G}FsAmAu@w@iAyAaA}Au@yAc@}@_BaCwA_BsAmA{FaFsO}LiAy@{CmBsG{D_C_BaA{@_A}@{@eAmA_B~@cAl@aAl@wAhCmGd@qA^kA\\sBp@uHb@eCVaA`@wAbBiE`@}@}@c@oEoB}M_GqEqBaAm@m@c@qAmA}@eAw@mAe@}@g@iAa@qAg@qBUyA]}Ds@sHa@iEIW]LaATwDx@oAPuAHyC@_HDgI@mBBe@DqARo@LcA^q@Z[_AEk@?YF_AFe@RqCSpCZ}DGj@HqBAdAB_FAxC@aE?qEr@yCK?g@Af@@J?AxC?PM?w@?A~FA|ACz@KxAWxCE~AHhALf@J\\cBrAu@h@EFw@x@W\\i@dAe@pA_@vBIz@Cp@BtI?dFKrBI~@e@vB[bAu@zA{@lAu@x@]Xa@VuB~@_@Jq@JiBNuBNkAL{AVmCj@o@PwBr@_D|AoClAu@TmA^cBXyCV_EDeBM{BYiBc@}Ag@}@]aB{@yBaAqAe@gAYBMAFl@LVO@Ye@M'
+    },
+    'summary': '',
+    'warnings': [
+      'Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths.'
+    ],
+    'waypoint_order': []
+  }
+]
