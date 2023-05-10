@@ -19,7 +19,7 @@ def route(dep_lat,dep_lon,dest_lat,dest_lon):
     dest_val.append([dest_lon, dest_lat])
     return dep_val, dest_val
 
-o,d = route(dep_lat,dep_lon,dest_lat,dest_lon)
+departure,destination = route(dep_lat,dep_lon,dest_lat,dest_lon)
 
-print(o)
-print(d)
+print(departure)
+print(destination)

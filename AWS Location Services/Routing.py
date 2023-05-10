@@ -1,18 +1,32 @@
-import os
-import boto3
 import json
-
+import boto3
+import botocore
+location = boto3.client("location", config=botocore.config.Config(user_agent="Amazon Redshift"))
 CALCULATOR_NAME = 'MyRouteCalculator'
-#arn:aws:geo:us-east-1:564098277445:route-calculator/MyRouteCalculator
 
-location = boto3.client('location')
+def route_address(dep_lat,dep_lon,dest_lat,dest_lon):
+        dep_val = []
+        dep_val.append([dep_lon, dep_lat])
+        dest_val = []
+        dest_val.append([dest_lon, dest_lat])
+
+        response = location.calculate_route_matrix(
+                 CalculatorName=CALCULATOR_NAME,
+                 DeparturePositions=dep_val,
+                 DestinationPositions=dest_val)
+        return response
 
 def lambda_handler(event, context):
-    return {
-        'status': 200,
-        'body': json.dumps(location.calculate_route_matrix(
-                CalculatorName=CALCULATOR_NAME,
-                DeparturePositions=event['departure_positions'],
-                DestinationPositions=event['destination_positions'])['RouteMatrix'])
-    }
+
+        records = event["arguments"]
+        results = []
+
+        for record in records:
+            dep_lat,dep_lon,dest_lat,dest_lon = record
+            results.append(
+                json.dumps(route_address(dep_lat,dep_lon,dest_lat,dest_lon)
+                           ))
+        return results
+
+
 
