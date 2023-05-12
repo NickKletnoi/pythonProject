@@ -21,5 +21,12 @@ def route(dep_lat,dep_lon,dest_lat,dest_lon):
 
 departure,destination = route(dep_lat,dep_lon,dest_lat,dest_lon)
 
-print(departure)
-print(destination)
+#print(departure)
+#print(destination)
+
+
+dep_lon = '-83.028056'
+
+dep_lon_f = float(dep_lon)
+
+print(dep_lon_f)

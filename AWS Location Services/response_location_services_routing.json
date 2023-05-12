@@ -1,0 +1,44 @@
+{
+  "ResponseMetadata": {
+    "RequestId": "7665153b-ab69-4333-bf79-8708b98d3a2b",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Fri, 12 May 2023 15:56:19 GMT",
+      "content-type": "application/json",
+      "content-length": "259",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "7665153b-ab69-4333-bf79-8708b98d3a2b",
+      "access-control-allow-origin": "*",
+      "x-amz-apigw-id": "E0QxlEuKoAMFZJA=",
+      "access-control-expose-headers": "x-amzn-errortype,x-amzn-requestid,x-amzn-errormessage,x-amzn-trace-id,x-amz-apigw-id,date",
+      "x-amzn-trace-id": "Root=1-645e61a2-7ee8acbc285ca154011eb7d5"
+    },
+    "RetryAttempts": 0
+  },
+  "RouteMatrix": [
+    [
+      {
+        "Distance": 37.451,
+        "DurationSeconds": 1807
+      }
+    ]
+  ],
+  "SnappedDeparturePositions": [
+    [
+      -83.028062,
+      42.579818
+    ]
+  ],
+  "SnappedDestinationPositions": [
+    [
+      -83.045833,
+      42.33141
+    ]
+  ],
+  "Summary": {
+    "DataSource": "Esri",
+    "DistanceUnit": "Kilometers",
+    "ErrorCount": 0,
+    "RouteCount": 1
+  }
+}

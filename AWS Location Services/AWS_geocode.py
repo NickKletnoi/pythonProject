@@ -1,8 +1,6 @@
 # SPDX-License-Identifier: MIT-0
-
 import boto3
 import botocore
-import json
 import logging
 import os
 import time

@@ -148,6 +148,10 @@ def setConnRed2():
 def setConnRed():
     conStringRed = 'postgresql://reservebar-master:0$sd^e2ivN!9xP!MO4Mr@reservebar-master.cosesp8bmzst.us-west-2.redshift.amazonaws.com:5439/reservebar-master'
     return conStringRed
+def setConnRedP():
+    conStringRed = 'postgresql://admin:B1pr0gram@testredshift.564098277445.us-east-1.redshift-serverless.amazonaws.com:5439/dev'
+    return conStringRed
+'postgresql://admin:B1pr0gram@testredshift.564098277445.us-east-1.redshift-serverless.amazonaws.com:5439/dev'
 def setDir():
     local_dir = 'C:/temp/Orders/'
     return local_dir
