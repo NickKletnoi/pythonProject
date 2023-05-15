@@ -10,7 +10,7 @@ location = boto3.client("location", config=botocore.config.Config(user_agent="Am
 CALCULATOR_NAME = 'MyRouteCalculator'
 
 
-def route_address(dep_lon, dep_lat, dest_lon, dest_lat):
+def calculate_route(dep_lon, dep_lat, dest_lon, dest_lat):
     response = location.calculate_route_matrix(
         CalculatorName=CALCULATOR_NAME,
         DeparturePositions=[[dep_lon, dep_lat]],
@@ -29,34 +29,42 @@ def route_address(dep_lon, dep_lat, dest_lon, dest_lat):
 
 
 def lambda_handler(event, context):
-    response = dict()
-    records = event["arguments"]
-    results = []
+    try:
+        response = dict()
+        records = event["arguments"]
+        results = []
 
-    for record in records:
-        dep_lon_f = float(record["dep_lon"])
-        dep_lat_f = float(record["dep_lat"])
-        dest_lon_f = float(record["dest_lon"])
-        dest_lat_f = float(record["dest_lat"])
+        for record in records:
+            dep_lon_f, dep_lat_f, dest_lon_f, dest_lat_f = record
+            try:
+                results.append(json.dumps(calculate_route(dep_lon_f, dep_lat_f, dest_lon_f, dest_lat_f)))
+            except:
+                results.append(None)
 
-        results.append(json.dumps(route_address(dep_lon_f, dep_lat_f, dest_lon_f, dest_lat_f)))
+        response['success'] = True
+        response['results'] = results
+    except Exception as e:
+        response['success'] = False
+        response['error_msg'] = str(e)
 
-    return json.dumps(results)
+    return json.dumps(response)
 
-## incoming payload ##
+
+#---------------------------incoming Payload: -------------------------
 # {
+#   "user": "IAM:RootIdentity",
+#   "cluster": "arn:aws:redshift:us-east-1:564098277445:cluster:serverless-564098277445-99facde4-523d-4c19-967a-25db69d95157",
+#   "database": "dev",
+#   "external_function": "f_calculate_route_n",
+#   "query_id": 1402674,
+#   "request_id": "516ab525-36c8-4c51-83ce-6eb9aa546f33",
 #   "arguments": [
-#     {
-#       "dep_lon": "-83.028056",
-#       "dep_lat": "42.579722",
-#       "dest_lon": "-83.045833",
-#       "dest_lat": "42.331389"
-#     },
-#     {
-#       "dep_lon": "-83.078057",
-#       "dep_lat": "42.579722",
-#       "dest_lon": "-83.065834",
-#       "dest_lat": "42.331389"
-#     }
-#   ]
+#     [
+#       -83.028056,
+#       42.579722,
+#       -83.045833,
+#       42.331389
+#     ]
+#   ],
+#   "num_records": 1
 # }
