@@ -12,4 +12,11 @@ sudo apt-get install -y unzip
 %%bash
 sudo apt-get install -y unzip
 ----------------------------------
+-- for installing stuff ----------
+!pip install -Uqqq pip --progress-bar off
+!pip install -Uqqq gdown --progress-bar off
+!pip install -Uqqq torch --progress-bar off
+!pip install -Uqqq watermark --progress-bar off
+!pip install -Uqqq torchview --progress-bar off
+-------------------------------------
 
