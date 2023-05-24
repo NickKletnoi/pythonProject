@@ -19,4 +19,7 @@ sudo apt-get install -y unzip
 !pip install -Uqqq watermark --progress-bar off
 !pip install -Uqqq torchview --progress-bar off
 -------------------------------------
+--- get the versions of what is installed:
+
+%watermark --iversions
 
