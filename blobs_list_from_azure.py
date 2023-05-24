@@ -24,14 +24,14 @@ formUrl_part_2 = "?sp=r&st=2023-04-28T14:20:41Z&se=2024-03-30T22:20:41Z&spr=http
 conn_str = "DefaultEndpointsProtocol=https;AccountName=ecgsdatastore;AccountKey=MRyWERByKo6Q8FWoOxSaqwgHgQjxoiBhlODkkIQ05J/6ciDVNBqDwJLgijvRou83V3FALN67/YIBToZHAlL5SQ==;EndpointSuffix=core.windows.net"
 blob_service_client = BlobServiceClient.from_connection_string(conn_str)
 blob_list = blob_service_client.get_container_client('cograw').list_blobs()
-final_processing_list = [formUrl_part_1 +
-                      str(i.name) + formUrl_part_2 for i in blob_list]
+# for blob in blob_list:
+#     print(blob)
+########################################################################
+final_processing_list = [formUrl_part_1 + str(i.name) + formUrl_part_2 for i in blob_list]
 
 for blob in final_processing_list:
     print(blob)
 
-# for blob in blob_list:
-#     print(blob)
 
 
 
