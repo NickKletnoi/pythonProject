@@ -2,6 +2,8 @@ import json
 import boto3
 import botocore
 import logging
+#AWS Endpoint:
+# https://kpegrs7u60.execute-api.us-east-1.amazonaws.com/DEV
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
