@@ -10,23 +10,21 @@ from datetime import datetime, timedelta
 from azure.storage.blob import BlobClient, generate_blob_sas, BlobSasPermissions
 from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
 
-processing_list =[]
-
+###set constants ###########################################################
+rows = []
+processing_list = []
 included_extensions = ['pdf']
 dfcols = ["ExtractDate", "ReportName", "KeyName","ValueName"]
-rows = []
 con_str = urllib.parse.quote_plus("DRIVER={ODBC Driver 17 for SQL Server};SERVER=interlake-bi.database.windows.net;DATABASE=ISS_DW;UID=BIAdmin;PWD=sb98D&B(*#$@")
 engine = create_engine("mssql+pyodbc:///?odbc_connect=%s" % con_str)
 endpoint = "https://testpdfrecognize.cognitiveservices.azure.com/"
 key = "f251c939777240a092289a7c5d2ac60d"
 model_id = "US_Market_Scan_Extraction_Model_20"
 formUrl = "https://ecgsdatastore.blob.core.windows.net/cograw/US_20230215_EXAMPLE.pdf?sp=r&st=2023-04-28T14:20:41Z&se=2024-03-30T22:20:41Z&spr=https&sv=2021-12-02&sr=b&sig=bl%2BQh%2F2zveJCS3Xu4MQobPk0v0MPyPuS%2FmANAA1JE%2Fw%3D"
-
 account_name = 'ecgsdatastore'
 account_key = 'MRyWERByKo6Q8FWoOxSaqwgHgQjxoiBhlODkkIQ05J/6ciDVNBqDwJLgijvRou83V3FALN67/YIBToZHAlL5SQ=='
 container_name = 'cograw'
 ReportName = "US Marketscan"
-
 formUrl_part_1 = "https://ecgsdatastore.blob.core.windows.net/cograw/"
 conn_str = "DefaultEndpointsProtocol=https;AccountName=ecgsdatastore;AccountKey=MRyWERByKo6Q8FWoOxSaqwgHgQjxoiBhlODkkIQ05J/6ciDVNBqDwJLgijvRou83V3FALN67/YIBToZHAlL5SQ==;EndpointSuffix=core.windows.net"
 
@@ -38,12 +36,6 @@ def get_blob_sas(account_name,account_key, container_name, blob_name):
     permission=BlobSasPermissions(read=True),
     expiry=datetime.utcnow() + timedelta(hours=1))
     return sas_blob
-
-blob_service_client = BlobServiceClient.from_connection_string(conn_str)
-blob_list = blob_service_client.get_container_client(container_name).list_blobs()
-
-filtered_blob_list = [str(fn.name) for fn in blob_list if any(str(fn.name).endswith(ext) for ext in included_extensions)]
-final_processing_list = [formUrl_part_1 + str(filename) + '?' + get_blob_sas(account_name,account_key, container_name, filename) for filename in filtered_blob_list]
 
 def process_form(formUrl):
 
@@ -74,12 +66,12 @@ def process_form(formUrl):
         'DETR001'
     ]
 
-    #ReportName = "US Marketscan"
 
     poller = document_analysis_client.begin_analyze_document_from_url(model_id, formUrl)
     result = poller.result()
 
     for idx, document in enumerate(result.documents):
+        if idx == 0:
             for name, field in document.fields.items():
                 field_value = field.value if field.value else field.content
                 field_name = name
@@ -164,12 +156,23 @@ def process_form(formUrl):
                      rows.append({"ExtractDate": current_time, "ReportName": ReportName, "KeyName": "DETR001", "ValueName": DETR001})
 
 
+def process_all_forms():
+
+    blob_service_client = BlobServiceClient.from_connection_string(conn_str)
+    blob_list = blob_service_client.get_container_client(container_name).list_blobs()
+
+    filtered_blob_list = [str(fn.name) for fn in blob_list if any(str(fn.name).endswith(ext) for ext in included_extensions)]
+    final_processing_list = [formUrl_part_1 + str(filename) + '?' + get_blob_sas(account_name,account_key, container_name, filename) for filename in filtered_blob_list]
+
+    for item in final_processing_list:
+        print(f"processing {item}")
+        process_form(item)
+        print(f"Success")
+
     df = pd.DataFrame(rows, columns=dfcols)
-    #df['ReportDate'] = ReportDate
-    #final_df = df.astype({'ReportDate': 'string'})
+    print(df.to_string())
+    print(f"Uploading to database....")
     df.to_sql('PDFExtract', con=engine, index=False, if_exists='append', schema='dbo')
+    print(f"Done processing all documents")
 
-print(final_processing_list)
-
-process_docs = [process_form(form_url) for form_url in final_processing_list]
-
+process_all_forms()
