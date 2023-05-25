@@ -18,6 +18,7 @@ key = "f251c939777240a092289a7c5d2ac60d"
 model_id = "US_Market_Scan_Extraction_Model_20"
 formUrl = "https://ecgsdatastore.blob.core.windows.net/cograw/US_20230215_EXAMPLE.pdf?sp=r&st=2023-04-28T14:20:41Z&se=2024-03-30T22:20:41Z&spr=https&sv=2021-12-02&sr=b&sig=bl%2BQh%2F2zveJCS3Xu4MQobPk0v0MPyPuS%2FmANAA1JE%2Fw%3D"
 
+
 document_analysis_client = DocumentAnalysisClient(
     endpoint=endpoint, credential=AzureKeyCredential(key)
 )
@@ -46,9 +47,9 @@ key_list = [
 ]
 
 ReportName = "US Marketscan"
+
 poller = document_analysis_client.begin_analyze_document_from_url(model_id, formUrl)
 result = poller.result()
-
 
 for idx, document in enumerate(result.documents):
     if idx == 0:

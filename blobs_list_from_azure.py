@@ -22,8 +22,10 @@ def get_blob_sas(account_name,account_key, container_name, blob_name):
 
 blob_service_client = BlobServiceClient.from_connection_string(conn_str)
 blob_list = blob_service_client.get_container_client('cograw').list_blobs()
-final_processing_list = [formUrl_part_1 + str(i.name) + '?' + get_blob_sas(account_name,account_key, container_name, i.name) for i in blob_list]
 
-for blob in final_processing_list:
-    print(blob)
+included_extensions = ['pdf']
+file_names = [str(fn.name) for fn in blob_list if any(str(fn.name).endswith(ext) for ext in included_extensions)]
+
+print(file_names)
+
 
