@@ -4,6 +4,8 @@
 ar = [3, 5, -4, 8, 11, 1, -1, 6]
 s = 10
 
+res1 = [t for x in set(ar) if (t:=(s - x)) in set(ar) and t is not x]
+
 def twonumberSum(array, targetSum):
   storage = set(num for num in array)
 
@@ -14,5 +16,5 @@ def twonumberSum(array, targetSum):
 
 res = twonumberSum(ar,10)
 
-print(res)
+print(res1)
 #################################################################################
