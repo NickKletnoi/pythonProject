@@ -16,7 +16,6 @@ def findMin(V):
         while (V >= deno[i]):
             V -= deno[i]
             ans.append(deno[i])
-
         i -= 1
 
     # Print result
