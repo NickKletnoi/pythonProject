@@ -625,7 +625,6 @@ For a simple model we can see that our model did decently on classifying the dat
 3. [The 5 Classification Evaluation metrics every Data Scientist must know](https://towardsdatascience.com/the-5-classification-evaluation-metrics-you-must-know-aa97784ff226)
 4. [The Python Graph Gallery - Grouped Bar Plot](https://python-graph-gallery.com/11-grouped-barplot/)
 """
-
 '''
 investigage feature importance : use the built-in classifiers for this
 '''
