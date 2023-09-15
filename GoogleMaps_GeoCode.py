@@ -39,3 +39,25 @@ print(source_location)
 print(destination_location)
 print(directions_result)
 
+### plot routes ###
+
+locations = ["47236 Middle Bluff Pl., Sterling, VA 20165",
+          "45575 Dulles Eastern Plaza Ste 188, Sterling, VA 20166"]
+
+markers = ["color:blue|size:mid|label:" + chr(65+i) + "|"
+                   + r for i, r in enumerate(locations)]
+
+result_map = gmaps.static_map(
+                 center=locations[0],
+                 scale=2,
+                 zoom=12,
+                 size=[640, 640],
+                 format="jpg",
+                 maptype="roadmap",
+                 markers=markers,
+                 path="color:0x0000ff|weight:2|" + "|".join(locations))
+
+
+with open("driving_route_map.jpg", "wb") as img:
+    for chunk in result_map:
+        img.write(chunk)
