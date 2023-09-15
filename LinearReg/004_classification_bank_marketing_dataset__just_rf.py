@@ -103,6 +103,26 @@ print('Cohens Kappa Score:', rf_eval['kappa'])
 print('Area Under Curve:', rf_eval['auc'])
 print('Confusion Matrix:\n', rf_eval['cm'])
 
+# # Intitialize figure with two plots
+# fig, (ax2) = plt.subplots(1)
+# fig.suptitle('RandomForest Model', fontsize=16, fontweight='bold')
+# fig.set_figheight(7)
+# fig.set_figwidth(14)
+# fig.set_facecolor('white')
+#
+# ax2.plot(rf_eval['fpr'], rf_eval['tpr'], label='Random Forest, auc = {:0.5f}'.format(rf_eval['auc']))
+# ## Configure x and y axis
+# ax2.set_xlabel('False Positive Rate', fontweight='bold')
+# ax2.set_ylabel('True Positive Rate', fontweight='bold')
+#
+# ## Create legend & title
+# ax2.set_title('ROC Curve', fontsize=14, fontweight='bold')
+# ax2.legend(loc=4)
+#
+# plt.show()
+
+
+
 
 ### prediction ####
 
