@@ -17,7 +17,6 @@ To start we will load some basic libraries such as Pandas and NumPy and then mak
 
 # Import libraries
 ## Basic libs
-from sklearn.preprocessing import OrdinalEncoder
 import pandas as pd
 import numpy as np
 import warnings
@@ -73,8 +72,7 @@ df_bank.head()
 
 """## Class Distribution
 
-Another important thing to make sure before feeding our data into the model is the class distribution of the data. 
-In our case where the expected class are divided into two outcome, 'yes' and 'no', a class distribution of 50:50 can be considered ideal.
+Another important thing to make sure before feeding our data into the model is the class distribution of the data. In our case where the expected class are divided into two outcome, 'yes' and 'no', a class distribution of 50:50 can be considered ideal.
 """
 
 df_bank['deposit'].value_counts()
@@ -140,26 +138,22 @@ Same as the numerical data, we also need to pre-process our categorical data fro
 In this code cell we will also encode our label column by replacing 'yes' and 'no' with 1 and 0 respectively. We can do this by applying simple lambda/in-line function on the column.
 """
 
-scaler = StandardScaler()
-num_cols = ['age', 'balance', 'day', 'campaign', 'pdays', 'previous']
-df_bank_ready[num_cols] = scaler.fit_transform(df_bank_ready[num_cols])
 
-oen = OrdinalEncoder()
+encoder = OneHotEncoder(sparse=False)
 cat_cols = ['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact', 'month', 'poutcome']
-df_bank_ready[cat_cols] = oen.fit_transform(df_bank_ready[cat_cols])
 
 # Encode Categorical Data
-#df_encoded = pd.DataFrame(encoder.fit_transform(df_bank_ready[cat_cols]))
-#df_encoded.columns = encoder.get_feature_names_out(cat_cols)
+df_encoded = pd.DataFrame(encoder.fit_transform(df_bank_ready[cat_cols]))
+df_encoded.columns = encoder.get_feature_names_out(cat_cols)
 
 
 # Replace Categotical Data with Encoded Data
-#df_bank_ready = df_bank_ready.drop(cat_cols ,axis=1)
-#df_bank_ready = pd.concat([df_encoded, df_bank_ready], axis=1)
+df_bank_ready = df_bank_ready.drop(cat_cols,axis=1)
+df_bank_ready = pd.concat([df_encoded, df_bank_ready], axis=1)
 
 # Encode target value
 df_bank_ready['deposit'] = df_bank_ready['deposit'].apply(lambda x: 1 if x == 'yes' else 0)
-#largest_num = lambda a,b,c : a if a>b and a>c else b if b>a and b>c else c if c>a and c>b else a
+
 print('Shape of dataframe:', df_bank_ready.shape)
 df_bank_ready.head()
 
@@ -590,7 +584,7 @@ df_bank['deposit_prediction'] = rf.predict(feature)
 df_bank['deposit_prediction'] = df_bank['deposit_prediction'].apply(lambda x: 'yes' if x==0 else 'no')
 
 # Save new dataframe into csv file
-df_bank.to_csv('deposit_prediction.csv', index=False)
+#df_bank.to_csv('deposit_prediction.csv', index=False)
 
 df_bank.head(10)
 
@@ -599,19 +593,12 @@ df_bank.head(10)
 We can also save our model for further model reusability. This model can then be loaded on another machine to make new prediction without doing the whole training process again.
 """
 
-import pickle
 from joblib import dump, load
 
-# Saving model to joblib file
+# Saving model
 #dump(rf, 'bank_deposit_classification.joblib')
 # Loading model
 # clf = load('bank_deposit_classification.joblib')
-
-# Saving model to pickle file
-pickle.dump(rf, open("bank_deposit_classification.pkl", "wb"))
-
-# Loading model
-#model = pickle.load(open("bank_deposit_classification.pkl", "rb"))
 
 """# Conclusion
 
@@ -624,12 +611,5 @@ For a simple model we can see that our model did decently on classifying the dat
 3. [The 5 Classification Evaluation metrics every Data Scientist must know](https://towardsdatascience.com/the-5-classification-evaluation-metrics-you-must-know-aa97784ff226)
 4. [The Python Graph Gallery - Grouped Bar Plot](https://python-graph-gallery.com/11-grouped-barplot/)
 """
-'''
-investigage feature importance : use the built-in classifiers for this
-'''
-print(rf.feature_importances_)
-feat_importances = pd.Series(rf.feature_importances_, index=X_test.columns)
-feat_importances.nlargest(10).plot(kind='barh')
-plt.show()
-
-
+import pickle
+pickle.dump(rf, open("bank_deposit_classification_1.pkl", "wb"))
