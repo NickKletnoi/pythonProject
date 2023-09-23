@@ -22,5 +22,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r ./scripts/requirements.txt
 
-      - name: execute py script # run main.py
-        run: python ./scripts/main.py
+      - name: execute py script # run WeatherObservations.py
+        run: python ./scripts/WeatherObservations.py
