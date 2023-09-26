@@ -4,9 +4,11 @@ import pandas as pd
 import urllib
 from sqlalchemy import create_engine
 import datetime
+import pyodbc
 
 start_time = datetime.datetime.now()
 
+conn = pyodbc.connect('DRIVER={SQL Server};SERVER=interlake-bi.database.windows.net,1433', user='BIAdmin@interlake-bi', password='sb98D&B(*#$@', database='ISS_DW')
 con_str = urllib.parse.quote_plus("DRIVER={ODBC Driver 17 for SQL Server};SERVER=interlake-bi.database.windows.net;DATABASE=ISS_DW;UID=BIAdmin;PWD=sb98D&B(*#$@")
 engine = create_engine("mssql+pyodbc:///?odbc_connect=%s" % con_str)
 
@@ -128,17 +130,12 @@ def ingest_airpress_from_noaa():
     print("Success")
 
 def final_table_assemble():
-        dfcols = ["InsertTime", "StoredProc"]
-        procname = "sp_weatherobs_insert"
-        rows = []
-        rows.append({"InsertTime": start_time, "StoredProc": procname})
-        df = pd.DataFrame(rows, columns=dfcols)
-
-        df = df.astype({'InsertTime': 'datetime64[ns]', 'StoredProc': 'string'})
-        df.to_sql('WeatherObservations_Log', con=engine, index=False, if_exists='append', schema='dbo')
+    conn.execute("exec dbo.sp_weatherobs_insert")
+    conn.commit()
 
 ingest_wind_from_noaa()
 ingest_airtemp_from_noaa()
 ingest_watertemp_from_noaa()
 ingest_airpress_from_noaa()
 final_table_assemble()
+
