@@ -1,4 +1,4 @@
-name: get waterlevels2
+name: get waterlevels and weather observations
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   #workflow_dispatch:
 
 jobs:
-  Get_WaterLevels:
+  Get_WaterLevels_and_WeatherObservations:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
@@ -22,6 +22,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r ./scripts/requirements.txt
 
-      - name: execute py script # run main.py
+      - name: get waterlevels
         run: python ./scripts/main.py
 
+      - name: get weather observations
+        run: python ./scripts/WeatherObservations.py
