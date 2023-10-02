@@ -1,5 +1,5 @@
 
-########### WaterLevel Measurements #################
+--########### WaterLevel Measurements #################
 
 CREATE TABLE [dbo].[WaterLevelMeasurements](
 	[StationId] [int] NOT NULL,
@@ -38,7 +38,7 @@ ALTER TABLE [dbo].[WaterLevelMeasurements] ENABLE TRIGGER [trgAfterWaterLevelMea
 GO
 
 
-################## Weather Observations #################
+--################## Weather Observations #################
 
 CREATE TABLE [dbo].[WeatherObservations_AirPressure_stg](
 	[StationId] [int] NULL,
