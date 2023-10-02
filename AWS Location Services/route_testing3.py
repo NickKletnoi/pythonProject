@@ -52,7 +52,7 @@ def calculate_route(dep_list, dest_list):
   # the list comprehension below tell to return the second and third elements of the list for each element in the list
   dest_list_f = [[x[1], x[2]] for x in dest_list]
   print(dest_list_f)
-  print([dep_list[1], dep_list[2]])
+  #print([dep_list[1], dep_list[2]])
 
 
 def parse_payload():
@@ -61,7 +61,7 @@ def parse_payload():
   for record in records:
     dep_list, dest_list = record
     calculate_route(dep_list, dest_list)
-    print(dep_list)
+    #print(dep_list)
     #print(dest_list)
 
 
