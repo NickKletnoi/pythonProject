@@ -1,0 +1,18 @@
+pip freeze > requirements.txt
+
+virtualenv venv
+venv/bin/activate
+
+pip install -r requirements.txt
+---------------------------------------
+---------------------------------------
+---- alternative through poetry -------
+---------------------------------------
+*pip install poetry
+*poetry init
+*poetry shell
+*poetry add requests
+...
+pip freeze > requirements.txt
+-- get and save the requirements.txt at this point
+poetry env remove request-52eE9Wif-py3.9
