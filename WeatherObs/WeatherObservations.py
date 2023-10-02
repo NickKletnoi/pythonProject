@@ -5,7 +5,6 @@ import urllib
 from sqlalchemy import create_engine
 import datetime
 
-
 start_time = datetime.datetime.now()
 
 con_str = urllib.parse.quote_plus("DRIVER={ODBC Driver 17 for SQL Server};SERVER=interlake-bi.database.windows.net;DATABASE=ISS_DW;UID=BIAdmin;PWD=sb98D&B(*#$@")
