@@ -254,9 +254,9 @@ def ingest_airpress_from_noaa():
     print(df_ff.to_string())
     print("Success")
 
-def final_table_assemble():
-    conn.execute("exec dbo.sp_weatherobs_insert")
-    conn.commit()
+# def final_table_assemble():
+#     conn.execute("exec dbo.sp_weatherobs_insert")
+#     conn.commit()
 
 ingest_wind_from_noaa()
 ingest_airtemp_from_noaa()

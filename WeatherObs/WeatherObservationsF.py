@@ -1,15 +1,13 @@
-#!/usr/bin/python
+import datetime
+import logging
 import azure.functions as func
 import requests
 import pandas as pd
 import urllib
 from sqlalchemy import create_engine
-import datetime
-import pyodbc
 
 start_time = datetime.datetime.now()
 
-conn = pyodbc.connect('DRIVER={SQL Server};SERVER=interlake-bi.database.windows.net,1433', user='BIAdmin@interlake-bi', password='sb98D&B(*#$@', database='ISS_DW')
 con_str = urllib.parse.quote_plus("DRIVER={ODBC Driver 17 for SQL Server};SERVER=interlake-bi.database.windows.net;DATABASE=ISS_DW;UID=BIAdmin;PWD=sb98D&B(*#$@")
 engine = create_engine("mssql+pyodbc:///?odbc_connect=%s" % con_str)
 
@@ -256,19 +254,18 @@ def ingest_airpress_from_noaa():
     print(df_ff.to_string())
     print("Success")
 
-def final_table_assemble():
-    conn.execute("exec dbo.sp_weatherobs_insert")
-    conn.commit()
+
+ingest_wind_from_noaa()
+ingest_airtemp_from_noaa()
+ingest_watertemp_from_noaa()
+ingest_airpress_from_noaa()
 
 
 def main(mytimer: func.TimerRequest) -> None:
+    utc_timestamp = datetime.datetime.utcnow().replace(
+        tzinfo=datetime.timezone.utc).isoformat()
     ingest_wind_from_noaa()
     ingest_airtemp_from_noaa()
     ingest_watertemp_from_noaa()
     ingest_airpress_from_noaa()
-    # final_table_assemble()
-    return func.HttpResponse(f"Successfully executed")
-
-
-
-
+    logging.info('Function Ran Successfully at %s', utc_timestamp)
