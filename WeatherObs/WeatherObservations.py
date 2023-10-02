@@ -4,7 +4,7 @@ import pandas as pd
 import urllib
 from sqlalchemy import create_engine
 import datetime
-import pyodbc
+
 
 start_time = datetime.datetime.now()
 
