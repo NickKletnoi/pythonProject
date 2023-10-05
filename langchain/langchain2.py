@@ -1,7 +1,9 @@
 import os
 from langchain.agents import create_pandas_dataframe_agent
+from langchain.prompts.chat import ChatPromptTemplate
 from langchain.chat_models import ChatOpenAI
 from langchain.agents.agent_types import AgentType
+from langchain.schema import BaseOutputParser
 from langchain.llms import OpenAI
 import pandas as pd
 from dotenv import load_dotenv,find_dotenv
@@ -20,6 +22,13 @@ agent = create_pandas_dataframe_agent(
 df1 = df.copy()
 df1["Age"] = df1["Age"].fillna(df1["Age"].mean())
 
+
+prompt_template = """You are a helpful assistant who generates comma separated lists.
+A user will pass in a category, and you should generate 5 objects in that category in a comma separated list.
+ONLY return a comma separated list, and nothing more."""
+
+prompt_template2 ="how many rows in the age column are different?"
+
 agent = create_pandas_dataframe_agent(OpenAI(temperature=0), [df, df1], verbose=True)
-result = agent.run("how many rows in the age column are different?")
+result = agent.run(prompt_template2)
 
