@@ -1,6 +1,20 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
+  "hostRequirements": {
+    "cpus": 4
   },
-	"postCreateCommand": "pip3 install -r requirements.txt"
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "python3 -m pip install -r requirements.txt",
+  "postCreateCommand": "",
+  "customizations": {
+    "codespaces": {
+      "openFiles": []
+    },
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python"
+      ]
+    }
+  }
 }
