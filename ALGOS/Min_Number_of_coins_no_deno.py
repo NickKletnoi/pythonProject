@@ -1,3 +1,4 @@
+
 #return the min sum you cannot create given the sequence
 
 coins = [5,7,1,1,2,3,22]

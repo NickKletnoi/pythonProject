@@ -1,10 +1,10 @@
 # import the required packages
 import urllib
 import os
-from langchain1.agents import create_sql_agent
-from langchain1.agents.agent_toolkits import SQLDatabaseToolkit
-from langchain1.sql_database import SQLDatabase
-from langchain1.llms import AzureOpenAI
+from langchain.agents import create_sql_agent
+from langchain.agents.agent_toolkits import SQLDatabaseToolkit
+from langchain.sql_database import SQLDatabase
+from langchain.llms import AzureOpenAI
 
 # Connect to your database
 server = 'YOUR-SERVER-NAME'
@@ -34,10 +34,10 @@ llm = AzureOpenAI(deployment_name="text-davinci-003", model_name="text-davinci-0
 toolkit = SQLDatabaseToolkit(db=db, llm = llm)
 
 agent_executor = create_sql_agent(
-    llm= llm,
+    llm=llm,
     toolkit=toolkit,
     verbose=True,
-    top_k = 5
+    top_k=5
 )
 
 # Test

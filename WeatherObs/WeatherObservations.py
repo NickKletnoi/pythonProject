@@ -258,8 +258,8 @@ def ingest_airpress_from_noaa():
 #     conn.commit()
 
 ingest_wind_from_noaa()
-ingest_airtemp_from_noaa()
-ingest_watertemp_from_noaa()
-ingest_airpress_from_noaa()
+#ingest_airtemp_from_noaa()
+#ingest_watertemp_from_noaa()
+#ingest_airpress_from_noaa()
 #final_table_assemble()
 
