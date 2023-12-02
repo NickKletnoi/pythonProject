@@ -5,6 +5,8 @@ import pandas as pd
 from sqlalchemy import create_engine
 connStringRed = create_engine(Include.setConnRed())
 
+#'postgresql://reservebar-master:0$sd^e2ivN!9xP!MO4Mr@reservebar-master.cosesp8bmzst.us-west-2.redshift.amazonaws.com:5439/reservebar-master'
+
 conStringRed2 = Include.setConnRed2()
 url = Include.setAPIURLNew()
 conn = pyodbc.connect(conStringRed2)
