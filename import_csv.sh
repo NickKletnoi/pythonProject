@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 #   sed -i 's/\r$//' import_csv.sh
 #   Run with:  bash import_csv.sh
+#   turso auth login --headless
+#   curl -sSfL https://get.tur.so/install.sh | bash
 
 set -euo pipefail
 
