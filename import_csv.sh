@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
-#   sed -i 's/\r$//' import_csv.sh
-#   Run with:  bash import_csv.sh
-#   turso auth login --headless
-#   curl -sSfL https://get.tur.so/install.sh | bash
-
+# If you see "$'\r': command not found", run once:  sed -i 's/\r$//' import_csv.sh
+# Run with:  bash import_csv.sh
 set -euo pipefail
 
 CSV_FILE=sales_explorer_source.csv
@@ -16,11 +13,22 @@ if [[ "$FOUND" == *"$TABLE"* ]]; then
   echo "Table $TABLE already exists - nothing changed."; exit 1
 fi
 
-# build the table locally from the CSV, dump it, load the dump into Turso
+# build the table locally with the correct types, load the CSV (skipping the header row)
 rm -f temp.db
-sqlite3 temp.db ".import --csv $CSV_FILE $TABLE"
+sqlite3 temp.db <<SQL
+CREATE TABLE $TABLE (
+  date    TEXT NOT NULL,
+  region  TEXT NOT NULL,
+  revenue REAL NOT NULL
+);
+.import --csv --skip 1 $CSV_FILE $TABLE
+SQL
+
+# dump it and load the dump into Turso
 sqlite3 temp.db .dump > dump.sql
 turso db shell "$EXISTING_DB" < dump.sql
-rm -f temp.db
+rm -f temp.db dump.sql
 
+echo "Result:"
+turso db shell "$EXISTING_DB" ".schema $TABLE"
 turso db shell "$EXISTING_DB" "SELECT COUNT(*) FROM $TABLE;"
