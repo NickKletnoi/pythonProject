@@ -1,0 +1,48 @@
+billing_id,email,billing_name,plan,status,mrr,country,updated_at
+7001,pavel.cohen25@example.com,Pavel Cohen,STARTER,active,29,fr,2026-10-23 15:52:16
+7002,quinn.lee42@example.com,Quinn Lee,starter,active,29,au,2026-09-15 17:32:55
+7003,uma.patel46@example.com,Uma Patel,enterprise,past_due,499,gb,2026-09-22 20:12:23
+7004,noah.silva58@example.com,Noah Silva,starter,active,-5,gb,2026-09-27 09:31:57
+7005, xena.patel21@example.com ,Xena Patel,starter,active,29,fr,2026-10-05 18:16:08
+7006,xena.novak2@example.com,Xena Novak,Pro,Active,99,us,2026-09-26 13:34:33
+7007,pavel.wu31@example.com, Pavel Wu ,enterprise,active,499,ca,2026-09-03 18:37:42
+7008,bob.meyer41@example.com,Bob Meyer,starter,cancelled,29,us,2026-10-11 07:54:38
+7009,yusuf.patel9@example.com,Yusuf Patel,enterprise,active,499,fr,2026-10-04 07:11:20
+7010,zoe.khan60@example.com,ZOE KHAN,Starter,past_due,29,Fr,2026-09-05 12:19:13
+7011,sam.brown29@example.com,Sam Brown,enterprise,active,499,au,2026-09-17 16:19:41
+7012,yusuf.meyer27@example.com,Yusuf Meyer,pro,cancelled,99,Ca,2026-09-23 08:04:49
+7013,jamal.silva49@example.com,Jamal Silva,Pro,active,99,au,2026-09-22 12:58:57
+7014,cara.rossi17@example.com,CARA ROSSI,enterprise,cancelled,499,fr,2026-10-19 19:22:26
+7015,vik.jones50@example.com,V. Jones,pro,active,99,gb,2026-10-24 08:20:17
+7016,xena.silva16@example.com,Xena Silva,enterprise,past_due,499,AU,2026-09-18 11:36:29
+7017,ines.brown52@example.com,Ines Brown,pro,CANCELLED,99,gb,2026-10-25 17:53:42
+7018,olga.kim12@example.com,Olga Kim,starter,active,29,in,2026-10-06 18:16:08
+7019,bob.lee38@example.com,Bob Lee,pro,active,99,us,2026-10-19 10:40:07
+7020,WEN.NOVAK55@EXAMPLE.COM,W. Novak,enterprise,active,499,au,2026-09-06 15:44:12
+7021,noah.cohen53@example.com,Noah Cohen,Enterprise,ACTIVE,499,us,2026-10-16 11:05:36
+7022,olga.novak28@example.com,Olga Novak,starter,active,29,de,2026-10-17 15:14:58
+7023,noah.silva18@example.com,Noah Silva,pro,past_due,99,fr,2026-09-03 17:31:08
+7024,UMA.COHEN10@EXAMPLE.COM,Uma Cohen,enterprise,active,499,ca,2026-09-14 16:03:52
+7025,bob.silva44@example.com,Bob Silva,pro,cancelled,99,DE,2026-10-10 08:54:32
+7026,dan.smith1@example.com,Dan Smith,enterprise,cancelled,499,GB,2026-09-12 19:16:55
+7027,xena.garcia34@example.com, Xena Garcia ,starter,active,29,ca,2026-10-03 20:33:08
+7028,vik.cohen43@example.com,Vik Cohen,pro,Active,99,De,2026-10-12 13:34:39
+7029,alice.khan19@example.com,Alice Khan,Enterprise,active,499,us,2026-10-22 17:55:02
+7030,sam.jones47@example.com,Sam Jones,starter,active,29,AU,2026-09-12 18:03:48
+7031,uma.nguyen15@example.com,Uma Nguyen,Starter,active,29,gb,2026-10-27 15:05:29
+7032,zoe.nguyen32@example.com,Zoe Nguyen,Starter,Active,29,ca,2026-10-08 20:45:44
+7033,vik.khan11@example.com,Vik Khan,pro,active,99,au,2026-09-13 20:53:10
+7034,frank.meyer5@example.com,Frank Meyer,enterprise,active,499,GB,2026-10-25 12:45:13
+7035,uma.brown22@example.com,UMA BROWN,Starter,active,29,Ca,2026-09-08 19:05:22
+7036,uma.garcia20@example.com,Uma Garcia,pro,active,99,gb,2026-09-10 17:57:58
+7037,hector.brown3@example.com,Hector Brown,pro,past_due,99,US,2026-10-02 09:06:50
+7038,cara.kim6@example.com,Cara Kim,enterprise,active,499,DE,2026-09-21 19:16:43
+7039,frank.meyer54@example.com,F. Meyer,pro,active,99,au,2026-09-06 16:02:04
+7040, tara.nguyen101@example.com ,Tara Nguyen,starter,active,29,au,2026-10-28 12:08:01
+7041,cara.rossi102@example.com,Cara Rossi,starter,active,29,au,2026-10-17 20:57:21
+7042,mina.wu103@example.com,M. Wu,pro,active,99,au,2026-09-03 14:15:38
+7043,pavel.wu104@example.com,Pavel Wu,starter,active,29,de,2026-10-04 14:50:08
+7044,liam.silva105@example.com,Liam Silva,starter,active,29,fr,2026-10-04 08:36:23
+7045,xena.garcia34@example.com,Xena Garcia,starter,ACTIVE,29,Ca,2026-10-31 20:12:03
+7046,dan.smith1@example.com,Dan Smith,starter,active,29,GB,2026-10-31 20:13:45
+7047,pavel.cohen25@example.com,P. Cohen,enterprise,active,499,Fr,2026-10-31 20:29:53

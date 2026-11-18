@@ -1,0 +1,36 @@
+lead_id,email,name,lead_source,lead_status,marketing_consent,updated_at
+4001,bob.patel116@example.com,Bob Patel,organic,contacted,n,2026-10-15 08:40:02
+4002,quinn.brown117@example.com,Q. Brown,webinar,Contacted,y,2026-09-27 08:07:44
+4003,zoe.silva118@example.com,Zoe Silva,referral,contacted,Y,2026-10-10 17:17:00
+4004,yusuf.brown119@example.com,Yusuf Brown,organic,contacted,Y,2026-09-26 07:11:25
+4005,CARA.SMITH120@EXAMPLE.COM,Cara Smith,webinar,New,Y,2026-10-11 12:40:08
+4006,grace.rossi121@example.com,G. Rossi,webinar,new,n,2026-10-02 10:14:02
+4007,olga.meyer122@example.com,Olga Meyer,referral,new,Y,2026-10-28 13:45:25
+4008,alice.lee123@example.com,Alice Lee,webinar,qualified,n,2026-09-16 07:03:54
+4009,grace.rossi124@example.com,Grace Rossi,paid_ads,CONTACTED,N,2026-10-02 08:21:58
+4010,noah.nguyen125@example.com,Noah Nguyen,ORGANIC,qualified,n,2026-09-06 19:09:49
+4011,tara.meyer126@example.com,T. Meyer,Paid_Ads,QUALIFIED,N,2026-10-10 09:13:38
+4012,pavel.khan127@example.com,P. Khan,webinar,qualified,Y,2026-09-27 08:23:35
+4013,VIK.KIM128@EXAMPLE.COM,Vik Kim,paid_ads,CONTACTED,n,2026-09-17 15:57:20
+4014,noah.rossi129@example.com, Noah Rossi ,Webinar,New,N,2026-10-28 20:20:37
+4015,mina.patel130@example.com,Mina Patel,PAID_ADS,contacted,N,2026-09-26 19:09:33
+4016,wen.meyer131@example.com,WEN MEYER,paid_ads,qualified,Y,2026-09-10 07:47:18
+4017,ZOE.NOVAK132@EXAMPLE.COM,Zoe Novak,webinar,qualified,n,2026-10-15 12:02:24
+4018, alice.patel133@example.com ,ALICE PATEL,paid_ads,New,y,2026-09-30 15:03:52
+4019,xena.kim134@example.com,Xena Kim,webinar,Qualified,n,2026-10-01 15:52:51
+4020,uma.jones135@example.com,U. Jones,paid_ads,new,n,2026-10-04 12:25:03
+4021,tara.novak136@example.com,Tara Novak,REFERRAL,contacted,y,2026-09-15 09:31:18
+4022,dan.smith137@example.com,Dan Smith,ORGANIC,new,N,2026-09-28 10:56:56
+4023,yusuf.novak138@example.com,Yusuf Novak,webinar,new,n,2026-09-16 17:23:04
+4024,ROSA.SMITH139@EXAMPLE.COM,ROSA SMITH,Webinar,contacted,N,2026-09-17 10:06:24
+4025,dan.garcia140@example.com,Dan Garcia,referral,new,N,2026-09-24 18:07:05
+4026,uma.garcia20@example.com,U. Garcia,Paid_Ads,new,n,2026-10-23 10:23:51
+4027,uma.silva8@example.com,Uma Silva,webinar,NEW,y,2026-10-02 19:57:50
+4028,pavel.lee40@example.com, Pavel Lee ,paid_ads,new,n,2026-09-19 20:24:33
+4029,xena.novak2@example.com,Xena Novak,organic,qualified,n,2026-10-24 08:40:45
+4030,yusuf.cohen37@example.com,Yusuf Cohen,webinar,qualified,Y,2026-09-26 07:17:53
+4031,yusuf.patel9@example.com,Yusuf Patel,webinar,QUALIFIED,n,2026-09-22 07:18:36
+4032,uma.nguyen15@example.com,Uma Nguyen,paid_ads,qualified,n,2026-10-15 10:14:13
+4033,rosa.jones36@example.com, Rosa Jones ,referral,new,Y,2026-09-01 16:48:59
+4034,olga.novak28@example.com,OLGA NOVAK,paid_ads,new,Y,2026-09-30 09:01:20
+4035,bob.silva44@example.com,Bob Silva,organic,qualified,n,2026-09-22 13:32:37

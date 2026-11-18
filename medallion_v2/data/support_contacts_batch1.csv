@@ -1,0 +1,35 @@
+contact_id,email,name,phone,tier,updated_at
+3001,uma.patel46@example.com,UMA PATEL,617.595.2464,premium,2026-09-26 14:05:15
+3002,xena.garcia34@example.com,X. Garcia,212-760-7539,PREMIUM,2026-09-13 15:48:21
+3003,noah.wu4@example.com,N. Wu,617.211.9032,basic,2026-10-31 16:55:33
+3004,uma.garcia20@example.com,Uma Garcia,617.291.9159,basic,2026-10-02 15:07:08
+3005, cara.kim6@example.com ,Cara Kim,206-750-5786,basic,2026-10-18 17:37:01
+3006,vik.khan11@example.com,Vik Khan,(415) 250-9572,premium,2026-10-14 16:43:36
+3007,zoe.khan60@example.com,Zoe Khan,212-321-1611,premium,2026-09-30 16:06:15
+3008,frank.meyer5@example.com, Frank Meyer ,303-565-7166,basic,2026-09-05 09:00:39
+3009,alice.khan19@example.com,A. Khan,212.648.9440,standard,2026-10-31 09:24:40
+3010,uma.nguyen15@example.com,Uma Nguyen,303.475.1151,standard,2026-10-22 08:54:24
+3011,dan.smith1@example.com,D. Smith,+1 206 724 2681,standard,2026-09-29 18:39:26
+3012,liam.wu57@example.com,Liam Wu,303.944.3004,basic,2026-09-14 18:18:45
+3013,vik.cohen43@example.com,Vik Cohen,303.617.9930,basic,2026-09-15 13:08:38
+3014,frank.meyer54@example.com,Frank Meyer,206.673.7981,PREMIUM,2026-09-25 18:16:22
+3015,hector.brown3@example.com,Hector Brown,212-828-2322,premium,2026-10-23 10:19:10
+3016,zoe.lee59@example.com,ZOE LEE,+1 206 726 6528,basic,2026-10-10 11:47:02
+3017,noah.silva18@example.com,Noah Silva,+1 617 644 1550,premium,2026-10-27 20:32:18
+3018,noah.cohen53@example.com,Noah Cohen,+1 206 840 1622,basic,2026-09-01 13:33:27
+3019,bob.lee38@example.com,BOB LEE,(206) 624-2288,standard,2026-09-23 20:47:55
+3020,wen.novak55@example.com,Wen Novak,(206) 897-5121,Standard,2026-10-23 09:27:32
+3021,olga.patel39@example.com,Olga Patel,(415) 469-8600,standard,2026-09-08 14:38:22
+3022,yusuf.cohen37@example.com,Y. Cohen,206.341.3627,Basic,2026-10-27 08:48:21
+3023,cara.rossi17@example.com,Cara Rossi,303-909-8955,Basic,2026-10-26 19:35:55
+3024,frank.patel35@example.com,F. Patel,415.246.9925,STANDARD,2026-10-31 20:58:06
+3025,noah.silva58@example.com,Noah Silva,(617) 559-2614,STANDARD,2026-09-28 08:28:31
+3026,ines.brown52@example.com,Ines Brown,+1 415 211 3320,premium,2026-10-05 15:15:27
+3027,olga.kim12@example.com,Olga Kim,+1 212 791 5328,premium,2026-09-15 12:59:48
+3028,uma.silva8@example.com,Uma Silva,212.608.9166,basic,2026-10-18 20:38:33
+3029,olga.patel106@example.com,Olga Patel,+1 206 652 3670,basic,2026-10-25 20:16:13
+3030,dan.cohen107@example.com,Dan Cohen,(303) 913-6213,basic,2026-09-01 10:38:38
+3031,olga.silva108@example.com,Olga Silva,+1 617 973 8420,basic,2026-09-07 12:55:52
+3032,mina.meyer109@example.com, Mina Meyer ,(617) 677-1721,basic,2026-10-21 14:00:23
+3033,ines.brown52@example.com,Ines Brown,+1 303 325 2537,premium,2026-10-31 21:07:49
+3034,XENA.GARCIA34@EXAMPLE.COM,XENA GARCIA,(212) 760-7539,premium,2026-10-31 21:16:00

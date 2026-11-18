@@ -1,0 +1,3 @@
+customer_id,name,email,segment,country,updated_at
+901,Late Arrival One,olga.cohen901@example.com,smb,FR,2026-11-15 14:28:32
+902,Late Arrival Two,sam.wu902@example.com,retail,FR,2026-11-15 17:39:50

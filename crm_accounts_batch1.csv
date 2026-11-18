@@ -1,0 +1,61 @@
+account_id,full_name,email,phone,segment,country,owner,updated_at
+1,Dan Smith,dan.smith1@example.com,206-724-2681,smb,gb,casey,2026-10-11 09:47:06
+2,Xena Novak,xena.novak2@example.com,617.786.9975,smb,US,casey,2026-10-14 07:01:05
+3,Hector Brown,hector.brown3@example.com,(212) 828-2322,smb,US,blake,2026-09-14 18:41:44
+4,Noah Wu,noah.wu4@example.com,+1 617 211 9032,enterprise,au,avery,2026-10-05 20:00:48
+5,Frank Meyer,frank.meyer5@example.com,(303) 565-7166,enterprise,gb,casey,2026-10-22 10:48:21
+6,Cara Kim,cara.kim6@example.com,+1 206 750 5786,retail,GB,blake,2026-09-07 16:16:51
+7,Xena Nguyen,xena.nguyen7@example.com,+1 206 516 1405,smb,US,blake,2026-09-03 13:05:35
+8,Uma Silva,uma.silva8@example.com,(212) 608-9166,Enterprise,AU,blake,2026-09-19 08:02:42
+9,Yusuf Patel,yusuf.patel9@example.com,+1 206 702 7523,Retail,FR,blake,2026-09-15 08:24:17
+10,Uma Cohen,uma.cohen10@example.com,(617) 725-9486,enterprise,CA,casey,2026-09-30 10:42:17
+11,Vik Khan,vik.khan11@example.com,(415) 250-9572,retail,AU,casey,2026-10-15 15:46:15
+12,Olga Kim,olga.kim12@example.com,617-345-8898,enterprise,IN,avery,2026-09-11 10:43:20
+13,Yusuf Rossi,yusuf.rossi13@example.com,+1 617 890 8690,retail,CA,casey,2026-10-24 19:20:25
+14,Cara Wu,,303.761.9223,smb,IN,blake,2026-09-18 17:31:25
+15,Uma Nguyen,UMA.NGUYEN15@EXAMPLE.COM,(303) 475-1151,retail,GB,avery,2026-10-27 18:35:34
+16,Xena Silva,xena.silva16@example.com,206.669.9567,enterprise,AU,blake,2026-09-17 10:08:32
+17,Cara Rossi,CARA.ROSSI17@EXAMPLE.COM,303.909.8955,retail,FR,casey,2026-10-02 17:10:50
+18,Noah Silva,noah.silva18@example.com,+1 617 644 1550,retail,DE,blake,2026-10-14 14:33:16
+19,Alice Khan,alice.khan19@example.com,+1 212 648 9440,smb,US,blake,2026-10-06 15:48:17
+20,Uma Garcia,uma.garcia20@example.com,(415) 635-8850,retail,GB,casey,2026-10-20 14:00:46
+21,Xena Patel,XENA.PATEL21@EXAMPLE.COM,617-579-2583,smb,FR,casey,2026-10-27 08:55:40
+22,Uma Brown,UMA.BROWN22@EXAMPLE.COM,(415) 660-1229,smb,CA,avery,2026-09-20 19:10:34
+23,Quinn Novak,,206-285-4257,retail,AU,avery,2026-10-20 07:07:59
+24,Zoe Patel,zoe.patel24@example.com,206-474-6853,retail,us,avery,2026-09-24 16:05:05
+25,Pavel Cohen,pavel.cohen25@example.com,206-788-9060,retail,FR,casey,2026-10-17 09:08:42
+26,Rosa Lee,rosa.lee26@example.com,+1 206 334 9269,enterprise,AU,avery,2026-10-01 13:13:59
+27,Yusuf Meyer,yusuf.meyer27@example.com,415.338.6013,smb,CA,blake,2026-10-05 13:42:41
+28,Olga Novak,OLGA.NOVAK28@EXAMPLE.COM,(206) 401-7160,smb,DE,avery,2026-09-24 10:04:21
+29,Sam Brown,sam.brown29@example.com,+1 212 252 6685,Retail,AU,avery,2026-09-02 08:45:40
+30,Hector Jones,,,retail,FR,blake,2026-09-04 15:15:17
+31,Pavel Wu,pavel.wu31@example.com,(303) 660-6341,smb,CA,blake,2026-10-13 16:36:30
+32,  Zoe Nguyen ,zoe.nguyen32@example.com,206-833-3797,enterprise,CA,casey,2026-09-16 17:27:22
+33,Noah Nguyen,noah.nguyen33@example.com,617.838.6511,smb,US,casey,2026-09-28 17:06:03
+34,Xena Garcia,xena.garcia34@example.com,(212) 760-7539,Retail,CA,avery,2026-09-26 15:28:08
+35,Frank Patel,frank.patel35@example.com,(415) 246-9925,enterprise,CA,blake,2026-09-28 08:28:51
+36,Rosa Jones,rosa.jones36@example.com,415-695-1335,retail,IN,casey,2026-10-26 20:00:05
+37,Yusuf Cohen,yusuf.cohen37@example.com,206-341-3627,retail,CA,blake,2026-10-30 14:13:55
+38,Bob Lee,bob.lee38@example.com,206.624.2288,enterprise,US,blake,2026-09-26 11:59:50
+39,Olga Patel,olga.patel39@example.com,415.469.8600,enterprise,IN,blake,2026-10-21 19:35:42
+40,Pavel Lee,pavel.lee40@example.com,415.533.9508,Retail,GB,blake,2026-10-16 07:37:47
+41,  Bob Meyer ,bob.meyer41@example.com,206-480-2549,enterprise,US,avery,2026-10-05 14:32:58
+42,  Quinn Lee ,quinn.lee42@example.com,,retail,AU,avery,2026-10-25 09:04:38
+43,Vik Cohen,VIK.COHEN43@EXAMPLE.COM,303-617-9930,retail,DE,avery,2026-09-05 16:15:37
+44,Bob Silva,bob.silva44@example.com,415-560-9820,retail,DE,avery,2026-10-09 16:33:20
+45,Ines Wu,,+1 303 769 4513,smb,IN,casey,2026-10-30 11:25:08
+46,Uma Patel,uma.patel46@example.com,+1 206 335 2662,enterprise,GB,avery,2026-10-13 08:00:29
+47,Sam Jones,sam.jones47@example.com,+1 415 308 1990,Retail,AU,casey,2026-10-10 11:08:59
+48,Cara Novak,cara.novak48@example.com,+1 212 718 6137,retail,gb,casey,2026-09-23 14:53:34
+49,  Jamal Silva ,jamal.silva49@example.com,+1 303 522 3644,smb,AU,blake,2026-10-16 20:35:19
+50,Vik Jones,VIK.JONES50@EXAMPLE.COM,,retail,GB,blake,2026-10-30 08:47:35
+51,Ines Patel,ines.patel51@example.com,(303) 624-1252,smb,CA,avery,2026-09-10 10:43:40
+52,Ines Brown,ines.brown52@example.com,+1 303 325 2537,enterprise,GB,blake,2026-10-25 20:03:05
+53,  Noah Cohen ,noah.cohen53@example.com,206.840.1622,enterprise,US,blake,2026-10-11 19:08:40
+54,Frank Meyer,frank.meyer54@example.com,(206) 673-7981,enterprise,AU,casey,2026-09-17 15:00:07
+55,  Wen Novak ,wen.novak55@example.com,206.897.5121,retail,AU,blake,2026-09-05 12:37:35
+56,Noah Lee,noah.lee56@example.com,(303) 259-8155,retail,GB,blake,2026-09-10 19:55:02
+57,Liam Wu,liam.wu57@example.com,+1 303 944 3004,smb,CA,blake,2026-10-28 12:49:35
+58,Noah Silva,noah.silva58@example.com,212-755-6611,smb,CA,casey,2026-10-27 10:55:10
+59,Zoe Lee,ZOE.LEE59@EXAMPLE.COM,,enterprise,US,avery,2026-10-22 12:50:59
+60,Zoe Khan,zoe.khan60@example.com,212-321-1611,smb,fr,casey,2026-09-27 09:50:44

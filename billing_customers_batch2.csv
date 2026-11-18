@@ -1,0 +1,16 @@
+billing_id,email,billing_name,plan,status,mrr,country,updated_at
+7048,noah.rossi129@example.com,Noah Rossi,pro,active,99,fr,2026-11-08 16:10:05
+7049,vik.kim128@example.com,VIK KIM,STARTER,active,29,de,2026-11-02 15:58:37
+7050,grace.rossi124@example.com,G. Rossi,starter,Active,29,de,2026-11-10 11:47:59
+7051,olga.meyer122@example.com, Olga Meyer ,Pro,active,99,IN,2026-11-10 15:12:30
+7001,pavel.cohen25@example.com,Pavel Cohen,enterprise,active,499,fr,2026-11-07 12:53:40
+7006,xena.novak2@example.com,Xena Novak,enterprise,active,499,us,2026-11-05 12:47:48
+7038,cara.kim6@example.com,Cara Kim,starter,active,29,DE,2026-11-01 14:40:17
+7020,WEN.NOVAK55@EXAMPLE.COM,W. Novak,enterprise,active,499,au,2026-11-09 12:07:57
+7025,bob.silva44@example.com,Bob Silva,pro,active,99,DE,2026-11-09 08:00:07
+7036,uma.garcia20@example.com,Uma Garcia,starter,active,29,gb,2026-11-04 08:51:50
+7028,vik.cohen43@example.com,Vik Cohen,pro,active,99,De,2026-11-07 07:16:48
+7002,quinn.lee42@example.com,Quinn Lee,enterprise,active,499,au,2026-11-01 15:45:53
+7011,sam.brown29@example.com,Sam Brown,enterprise,cancelled,499,au,2026-11-09 18:57:04
+7037,hector.brown3@example.com,Hector Brown,pro,cancelled,99,US,2026-11-10 12:53:41
+7019,bob.lee38@example.com,Bob Lee,pro,cancelled,99,us,2026-11-10 13:04:58

@@ -1,0 +1,12 @@
+{
+  "name": "medallion-turso",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "customizations": {
+    "vscode": { "extensions": ["ms-toolsai.jupyter", "ms-python.python"] }
+  },
+  "secrets": {
+    "TURSO_DATABASE_URL": { "description": "Turso database URL, e.g. libsql://<db>-<org>.turso.io  (turso db show <db> --url)" },
+    "TURSO_AUTH_TOKEN":   { "description": "Turso auth token  (turso db tokens create <db>)" }
+  }
+}

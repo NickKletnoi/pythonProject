@@ -1,0 +1,21 @@
+product_id,product_name,category,list_price,updated_at
+1,Widget,Hardware,9.99,2026-09-07 13:55:02
+2,Gadget,hardware,24.5,2026-10-25 14:14:12
+3,Support Plan,services,100.0,2026-10-23 14:22:19
+4, Gizmo ,hardware,5.0,2026-10-23 19:55:14
+5,Cloud Seat,software,12.0,2026-09-15 07:42:12
+6,Analytics Add-on,Software,49.0,2026-09-26 12:17:55
+7,Starter Kit,accessories,19.99,2026-09-05 19:17:22
+8,Pro Kit,accessories,59.99,2026-10-12 15:25:43
+9,Cable Pack,accessories,7.5,2026-10-24 15:21:01
+10,Docking Station,hardware,129.0,2026-09-08 11:11:37
+11, Monitor Stand ,Accessories,34.0,2026-09-17 07:06:38
+12,Keyboard,hardware,45.0,2026-09-28 12:46:50
+13,Mouse,hardware,25.0,2026-09-21 13:38:32
+14,Training Day,services,450.0,2026-09-08 13:57:36
+15,Install Service,services,150.0,2026-09-13 11:02:45
+16,Backup Plan,Software,15.0,2026-09-28 07:33:59
+17,Security Suite,software,89.0,2026-10-22 15:43:46
+18, Headset ,hardware,79.0,2026-10-31 18:47:42
+19,Webcam,hardware,-1.0,2026-09-13 12:27:04
+20,Laptop Sleeve,accessories,29.0,2026-10-31 17:58:21

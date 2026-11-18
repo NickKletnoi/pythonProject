@@ -1,0 +1,11 @@
+account_id,full_name,email,phone,segment,country,owner,updated_at
+39,Olga Patel,olga.patel39@example.com,206-641-3800,retail,AU,blake,2026-11-09 14:26:36
+37,Yusuf Cohen,yusuf.cohen37@example.com,(303) 454-9155,retail,US,blake,2026-11-01 19:36:33
+12,Olga Kim,olga.kim12@example.com,(206) 711-7678,retail,CA,avery,2026-11-09 19:08:10
+3,Hector Brown,hector.brown3@example.com,(212) 705-1276,smb,FR,blake,2026-11-07 16:09:39
+47,Sam Jones,sam.jones47@example.com,206-467-6119,enterprise,AU,casey,2026-11-03 07:44:24
+17,Cara Rossi,CARA.ROSSI17@EXAMPLE.COM,415-483-5365,retail,FR,casey,2026-11-08 19:28:17
+61,Noah Rossi,noah.rossi129@example.com,(415) 843-4402,smb,FR,avery,2026-11-07 18:30:57
+62,Vik Kim,vik.kim128@example.com,206.873.7457,enterprise,DE,avery,2026-11-03 17:22:55
+63,Grace Rossi,grace.rossi124@example.com,415-676-2468,retail,DE,avery,2026-11-09 10:49:07
+64,Olga Meyer,olga.meyer122@example.com,+1 415 257 9043,smb,AU,avery,2026-11-03 12:24:20

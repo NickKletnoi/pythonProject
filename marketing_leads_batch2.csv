@@ -1,0 +1,11 @@
+lead_id,email,name,lead_source,lead_status,marketing_consent,updated_at
+4014,noah.rossi129@example.com, Noah Rossi ,Webinar,converted,N,2026-11-05 14:41:50
+4013,VIK.KIM128@EXAMPLE.COM,Vik Kim,paid_ads,converted,n,2026-11-09 13:37:10
+4009,grace.rossi124@example.com,Grace Rossi,paid_ads,converted,N,2026-11-10 12:09:39
+4007,olga.meyer122@example.com,Olga Meyer,referral,converted,Y,2026-11-07 18:16:20
+4036,bob.meyer144@example.com,B. Meyer,referral,new,Y,2026-11-07 14:34:07
+4037,frank.cohen145@example.com,F. Cohen,referral,NEW,N,2026-11-03 15:53:17
+4038,vik.garcia146@example.com,Vik Garcia,organic,new,y,2026-11-10 19:43:28
+4039,sam.silva147@example.com,Sam Silva,referral,new,n,2026-11-02 14:38:29
+4040,alice.meyer148@example.com,Alice Meyer,organic,new,n,2026-11-05 17:33:12
+4041,quinn.garcia149@example.com,Quinn Garcia,webinar,new,N,2026-11-07 09:16:49

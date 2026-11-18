@@ -1,0 +1,61 @@
+customer_id,name,email,segment,country,updated_at
+1,Dan Smith,dan.smith1@example.com,smb,gb,2026-10-11 09:47:06
+2,Xena Novak,xena.novak2@example.com,smb,US,2026-10-14 07:01:05
+3,Hector Brown,hector.brown3@example.com,smb,US,2026-09-14 18:41:44
+4,Noah Wu,noah.wu4@example.com,enterprise,au,2026-10-05 20:00:48
+5,Frank Meyer,frank.meyer5@example.com,enterprise,gb,2026-10-22 10:48:21
+6,Cara Kim,cara.kim6@example.com,retail,GB,2026-09-07 16:16:51
+7,Xena Nguyen,xena.nguyen7@example.com,smb,US,2026-09-03 13:05:35
+8,Uma Silva,uma.silva8@example.com,Enterprise,AU,2026-09-19 08:02:42
+9,Yusuf Patel,yusuf.patel9@example.com,Retail,FR,2026-09-15 08:24:17
+10,Uma Cohen,uma.cohen10@example.com,enterprise,CA,2026-09-30 10:42:17
+11,Vik Khan,vik.khan11@example.com,retail,AU,2026-10-15 15:46:15
+12,Olga Kim,olga.kim12@example.com,enterprise,IN,2026-09-11 10:43:20
+13,Yusuf Rossi,yusuf.rossi13@example.com,retail,CA,2026-10-24 19:20:25
+14,Cara Wu,,smb,IN,2026-09-18 17:31:25
+15,Uma Nguyen,UMA.NGUYEN15@EXAMPLE.COM,retail,GB,2026-10-27 18:35:34
+16,Xena Silva,xena.silva16@example.com,enterprise,AU,2026-09-17 10:08:32
+17,Cara Rossi,CARA.ROSSI17@EXAMPLE.COM,retail,FR,2026-10-02 17:10:50
+18,Noah Silva,noah.silva18@example.com,retail,DE,2026-10-14 14:33:16
+19,Alice Khan,alice.khan19@example.com,smb,US,2026-10-06 15:48:17
+20,Uma Garcia,uma.garcia20@example.com,retail,GB,2026-10-20 14:00:46
+21,Xena Patel,XENA.PATEL21@EXAMPLE.COM,smb,FR,2026-10-27 08:55:40
+22,Uma Brown,UMA.BROWN22@EXAMPLE.COM,smb,CA,2026-09-20 19:10:34
+23,Quinn Novak,,retail,AU,2026-10-20 07:07:59
+24,Zoe Patel,zoe.patel24@example.com,retail,us,2026-09-24 16:05:05
+25,Pavel Cohen,pavel.cohen25@example.com,retail,FR,2026-10-17 09:08:42
+26,Rosa Lee,rosa.lee26@example.com,enterprise,AU,2026-10-01 13:13:59
+27,Yusuf Meyer,yusuf.meyer27@example.com,smb,CA,2026-10-05 13:42:41
+28,Olga Novak,OLGA.NOVAK28@EXAMPLE.COM,smb,DE,2026-09-24 10:04:21
+29,Sam Brown,sam.brown29@example.com,Retail,AU,2026-09-02 08:45:40
+30,Hector Jones,,retail,FR,2026-09-04 15:15:17
+31,Pavel Wu,pavel.wu31@example.com,smb,CA,2026-10-13 16:36:30
+32,  Zoe Nguyen ,zoe.nguyen32@example.com,enterprise,CA,2026-09-16 17:27:22
+33,Noah Nguyen,noah.nguyen33@example.com,smb,US,2026-09-28 17:06:03
+34,Xena Garcia,xena.garcia34@example.com,Retail,CA,2026-09-26 15:28:08
+35,Frank Patel,frank.patel35@example.com,enterprise,CA,2026-09-28 08:28:51
+36,Rosa Jones,rosa.jones36@example.com,retail,IN,2026-10-26 20:00:05
+37,Yusuf Cohen,yusuf.cohen37@example.com,retail,CA,2026-10-30 14:13:55
+38,Bob Lee,bob.lee38@example.com,enterprise,US,2026-09-26 11:59:50
+39,Olga Patel,olga.patel39@example.com,enterprise,IN,2026-10-21 19:35:42
+40,Pavel Lee,pavel.lee40@example.com,Retail,GB,2026-10-16 07:37:47
+41,  Bob Meyer ,bob.meyer41@example.com,enterprise,US,2026-10-05 14:32:58
+42,  Quinn Lee ,quinn.lee42@example.com,retail,AU,2026-10-25 09:04:38
+43,Vik Cohen,VIK.COHEN43@EXAMPLE.COM,retail,DE,2026-09-05 16:15:37
+44,Bob Silva,bob.silva44@example.com,retail,DE,2026-10-09 16:33:20
+45,Ines Wu,,smb,IN,2026-10-30 11:25:08
+46,Uma Patel,uma.patel46@example.com,enterprise,GB,2026-10-13 08:00:29
+47,Sam Jones,sam.jones47@example.com,Retail,AU,2026-10-10 11:08:59
+48,Cara Novak,cara.novak48@example.com,retail,gb,2026-09-23 14:53:34
+49,  Jamal Silva ,jamal.silva49@example.com,smb,AU,2026-10-16 20:35:19
+50,Vik Jones,VIK.JONES50@EXAMPLE.COM,retail,GB,2026-10-30 08:47:35
+51,Ines Patel,ines.patel51@example.com,smb,CA,2026-09-10 10:43:40
+52,Ines Brown,ines.brown52@example.com,enterprise,GB,2026-10-25 20:03:05
+53,  Noah Cohen ,noah.cohen53@example.com,enterprise,US,2026-10-11 19:08:40
+54,Frank Meyer,frank.meyer54@example.com,enterprise,AU,2026-09-17 15:00:07
+55,  Wen Novak ,wen.novak55@example.com,retail,AU,2026-09-05 12:37:35
+56,Noah Lee,noah.lee56@example.com,retail,GB,2026-09-10 19:55:02
+57,Liam Wu,liam.wu57@example.com,smb,CA,2026-10-28 12:49:35
+58,Noah Silva,noah.silva58@example.com,smb,CA,2026-10-27 10:55:10
+59,Zoe Lee,ZOE.LEE59@EXAMPLE.COM,enterprise,US,2026-10-22 12:50:59
+60,Zoe Khan,zoe.khan60@example.com,smb,fr,2026-09-27 09:50:44
