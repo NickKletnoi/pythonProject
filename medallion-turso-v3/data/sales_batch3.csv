@@ -1,0 +1,2 @@
+order_line_id,order_id,customer_id,product_id,quantity,unit_price,order_ts,updated_at
+10236,5092,5,5,1,10.8,2026-10-09 20:38:43,2026-11-15 10:00:00

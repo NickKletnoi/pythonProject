@@ -6,9 +6,12 @@
 #               Bronze keeps everything as text; Silver applies the type and the transform.
 #               keys = business key; order_by = column that picks the latest record per key.
 # dimensions  : Gold dimensions (SCD type 1).  Surrogate key `sk`, -1 = Unknown member.
-# facts       : Gold fact tables.  Built from one Silver entity (`source`, alias s) plus optional extra joins.
-#               Column forms:   {name, type}                       -> copied from s.<name>
-#                               {name, type, expr}                 -> SQLite expression (aliases: s and any join alias)
+# facts       : Gold fact tables, built from several Silver tables.  Every table has its own alias:
+#                 from:  the DRIVING table (its rows are the fact's grain) and its alias
+#                 joins: further Silver tables, each with an alias and a join `condition`
+#               A fact row is rebuilt when ANY of these tables changed since the last load.
+#               Column forms:   {name, type}                       -> copied from <from alias>.<name>
+#                               {name, type, expr}                 -> SQL expression using the aliases above
 #                               {name, type, lookup: {dim, by}}    -> surrogate key from a dimension; `by` is the SQL
 #                                                                     expression holding the dimension's business key;
 #                                                                     unmatched rows get -1 and are re-driven later
@@ -79,33 +82,33 @@ dimensions:
 
 facts:
   fact_sales:
-    source: sales
+    from: {entity: sales, alias: sl}
     grain: [order_line_id]
     columns:
       - {name: order_line_id, type: BIGINT}
       - {name: order_id,      type: BIGINT}
-      - {name: order_date,    type: DATE, expr: "date(s.order_ts)"}
+      - {name: order_date,    type: DATE, expr: "date(sl.order_ts)"}
       - {name: order_ts,      type: TIMESTAMP}
-      - {name: customer_sk,   type: BIGINT, lookup: {dim: dim_customer, by: s.customer_id}}
-      - {name: product_sk,    type: BIGINT, lookup: {dim: dim_product,  by: s.product_id}}
+      - {name: customer_sk,   type: BIGINT, lookup: {dim: dim_customer, by: sl.customer_id}}
+      - {name: product_sk,    type: BIGINT, lookup: {dim: dim_product,  by: sl.product_id}}
       - {name: quantity,      type: INTEGER}
       - {name: unit_price,    type: "DECIMAL(12,2)"}
-      - {name: amount,        type: "DECIMAL(14,2)", expr: "round(s.quantity * s.unit_price, 2)"}
+      - {name: amount,        type: "DECIMAL(14,2)", expr: "round(sl.quantity * sl.unit_price, 2)"}
 
   fact_returns:
-    source: returns
+    from: {entity: returns, alias: r}
     grain: [return_id]
     joins:                                   # the customer and product of a return come from the sale line it refers to
-      - {entity: sales, alias: sl, condition: "sl.order_line_id = s.order_line_id"}
+      - {entity: sales, alias: sl, condition: "sl.order_line_id = r.order_line_id"}
     columns:
       - {name: return_id,         type: BIGINT}
       - {name: order_line_id,     type: BIGINT}
       - {name: order_id,          type: BIGINT, expr: "sl.order_id"}
-      - {name: return_date,       type: DATE,   expr: "date(s.return_ts)"}
+      - {name: return_date,       type: DATE,   expr: "date(r.return_ts)"}
       - {name: return_ts,         type: TIMESTAMP}
       - {name: customer_sk,       type: BIGINT, lookup: {dim: dim_customer, by: sl.customer_id}}
       - {name: product_sk,        type: BIGINT, lookup: {dim: dim_product,  by: sl.product_id}}
       - {name: reason,            type: VARCHAR}
       - {name: returned_quantity, type: INTEGER}
       - {name: refund_amount,     type: "DECIMAL(12,2)"}
-      - {name: days_to_return,    type: INTEGER, expr: "CAST(julianday(date(s.return_ts)) - julianday(date(sl.order_ts)) AS INTEGER)"}
+      - {name: days_to_return,    type: INTEGER, expr: "CAST(julianday(date(r.return_ts)) - julianday(date(sl.order_ts)) AS INTEGER)"}
