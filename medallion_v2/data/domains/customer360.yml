@@ -1,0 +1,145 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Domain: customer360   (five source systems combined into one customer, matched on email)
+#
+# entities  : one Silver table per source.  `landing` = label of the source system, stored in Bronze column _source.
+# unified   : the combined Silver table.  For each attribute, `from` lists source.column in precedence order
+#             (first non-null wins).  flags = one boolean per source ("is the person known there").
+# dimensions: Gold dimension on top of the unified table; `derived` attributes are computed in Gold.
+# Data-quality rules for these entities live in rules/dq_rules.yml.
+# ──────────────────────────────────────────────────────────────────────────────
+domain: customer360
+
+entities:
+  crm_accounts:
+    landing: crm/crm_accounts
+    keys: [account_id]
+    order_by: updated_at
+    columns:
+      - {name: account_id, type: BIGINT}
+      - {name: full_name,  type: VARCHAR}
+      - {name: email,      type: VARCHAR, transform: lower}
+      - {name: phone,      type: VARCHAR, transform: digits}      # digits = last 10 digits (SQLite expression in 00_config)
+      - {name: segment,    type: VARCHAR, transform: lower}
+      - {name: country,    type: VARCHAR, transform: upper}
+      - {name: owner,      type: VARCHAR, transform: lower}
+      - {name: updated_at, type: TIMESTAMP}
+
+  billing_customers:
+    landing: billing/billing_customers
+    keys: [billing_id]
+    order_by: updated_at
+    columns:
+      - {name: billing_id,   type: BIGINT}
+      - {name: email,        type: VARCHAR, transform: lower}
+      - {name: billing_name, type: VARCHAR}
+      - {name: plan,         type: VARCHAR, transform: lower}
+      - {name: status,       type: VARCHAR, transform: lower}
+      - {name: mrr,          type: "DECIMAL(10,2)"}
+      - {name: country,      type: VARCHAR, transform: upper}
+      - {name: updated_at,   type: TIMESTAMP}
+
+  support_contacts:
+    landing: support/support_contacts
+    keys: [contact_id]
+    order_by: updated_at
+    columns:
+      - {name: contact_id, type: BIGINT}
+      - {name: email,      type: VARCHAR, transform: lower}
+      - {name: name,       type: VARCHAR}
+      - {name: phone,      type: VARCHAR, transform: digits}
+      - {name: tier,       type: VARCHAR, transform: lower}
+      - {name: updated_at, type: TIMESTAMP}
+
+  web_visitors:
+    landing: web/web_visitors
+    keys: [visitor_id]
+    order_by: updated_at
+    columns:
+      - {name: visitor_id, type: BIGINT}
+      - {name: email,      type: VARCHAR, transform: lower}
+      - {name: first_seen, type: TIMESTAMP}
+      - {name: last_seen,  type: TIMESTAMP}
+      - {name: visits,     type: INTEGER}
+      - {name: updated_at, type: TIMESTAMP}
+
+  marketing_leads:
+    landing: marketing/marketing_leads
+    keys: [lead_id]
+    order_by: updated_at
+    columns:
+      - {name: lead_id,           type: BIGINT}
+      - {name: email,             type: VARCHAR, transform: lower}
+      - {name: name,              type: VARCHAR}
+      - {name: lead_source,       type: VARCHAR, transform: lower}
+      - {name: lead_status,       type: VARCHAR, transform: lower}
+      - {name: marketing_consent, type: VARCHAR, transform: upper}
+      - {name: updated_at,        type: TIMESTAMP}
+
+unified:
+  customer_unified:                          # silver_customer_unified
+    key: customer_key                        # = the normalised email (the match column)
+    match_on: email
+    sources:                                 # alias -> Silver entity and its key
+      crm:     {entity: crm_accounts,      key: account_id}
+      billing: {entity: billing_customers, key: billing_id}
+      support: {entity: support_contacts,  key: contact_id}
+      web:     {entity: web_visitors,      key: visitor_id}
+      mkt:     {entity: marketing_leads,   key: lead_id}
+    attributes:
+      - {name: full_name,          type: VARCHAR,         from: [crm.full_name, billing.billing_name, support.name, mkt.name]}
+      - {name: phone,              type: VARCHAR,         from: [support.phone, crm.phone]}
+      - {name: segment,            type: VARCHAR,         from: [crm.segment]}
+      - {name: country,            type: VARCHAR,         from: [crm.country, billing.country]}
+      - {name: plan,               type: VARCHAR,         from: [billing.plan]}
+      - {name: billing_status,     type: VARCHAR,         from: [billing.status]}
+      - {name: mrr,                type: "DECIMAL(10,2)", from: [billing.mrr]}
+      - {name: support_tier,       type: VARCHAR,         from: [support.tier]}
+      - {name: first_seen,         type: TIMESTAMP,       from: [web.first_seen]}
+      - {name: last_seen,          type: TIMESTAMP,       from: [web.last_seen]}
+      - {name: visits,             type: INTEGER,         from: [web.visits]}
+      - {name: lead_source,        type: VARCHAR,         from: [mkt.lead_source]}
+      - {name: lead_status,        type: VARCHAR,         from: [mkt.lead_status]}
+      - {name: marketing_consent,  type: VARCHAR,         from: [mkt.marketing_consent]}
+      - {name: crm_account_id,     type: BIGINT,          from: [crm.account_id]}
+      - {name: billing_id,         type: BIGINT,          from: [billing.billing_id]}
+      - {name: support_contact_id, type: BIGINT,          from: [support.contact_id]}
+      - {name: web_visitor_id,     type: BIGINT,          from: [web.visitor_id]}
+      - {name: marketing_lead_id,  type: BIGINT,          from: [mkt.lead_id]}
+    flags: {in_crm: crm, in_billing: billing, in_support: support, in_web: web, in_marketing: mkt}   # plus source_count
+
+dimensions:
+  dim_customer_360:
+    source: customer_unified
+    key: customer_key
+    sk: customer_sk
+    attributes:
+      - email
+      - full_name
+      - phone
+      - segment
+      - country
+      - name: lifecycle                      # derived in Gold: where the person stands with the business (first match wins)
+        type: VARCHAR
+        expr: >-
+          CASE WHEN in_billing AND billing_status IN ('active', 'past_due') THEN 'customer'
+               WHEN in_billing THEN 'former customer'
+               WHEN in_crm THEN 'prospect'
+               WHEN in_marketing THEN 'lead'
+               ELSE 'visitor or contact' END
+      - plan
+      - billing_status
+      - mrr
+      - support_tier
+      - first_seen
+      - last_seen
+      - visits
+      - lead_source
+      - lead_status
+      - marketing_consent
+      - crm_account_id
+      - in_crm
+      - in_billing
+      - in_support
+      - in_web
+      - in_marketing
+      - source_count

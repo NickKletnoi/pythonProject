@@ -1,0 +1,115 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Data-quality rule library  (Databricks Labs DQX check format)
+#
+# One list of DQX checks per entity.  Each list is exactly what DQX expects:
+#   criticality : error -> row goes to silver_quarantine (not loaded to Silver)
+#                 warn  -> row is loaded, the finding is only counted in silver_dq_results
+#   name        : optional; generated as <column>_<function> when omitted
+#   check       : function + arguments (any DQX check function) ; for_each_column repeats it per column
+#   filter      : optional SQL; the rule only applies to rows where it is true
+#
+# is_unique = de-duplication on several columns: the FIRST submitted record of a group is kept, later copies are rejected
+#             (compared within the run's new rows and against what is already in Silver).
+#
+# Rules run on the TYPED Silver columns (after trim / lower / upper / type cast).
+# DQX semantics: a NULL passes range, list and regex checks, so every column that must be
+# present also gets an explicit is_not_null rule.  A value that failed its type cast is NULL.
+# String literals in lists/limits must be quoted inside the string ("'retail'"), exactly as DQX
+# requires; an unquoted word is read as a column name.
+#
+# Add a rule  = add a few lines here (no code change).   Add a source = add a block here.
+# Validated at load time by DQEngine.validate_checks (typos in function names or argument
+# types fail fast).  Functions the SQL executor understands are listed in notebook 00_config (SUPPORTED).
+# ──────────────────────────────────────────────────────────────────────────────
+
+customers:
+  - criticality: error
+    check: {function: is_not_null, for_each_column: [customer_id, updated_at]}
+  - criticality: warn
+    name: customer_segment_known
+    check: {function: is_in_list, arguments: {column: segment, allowed: ["'retail'", "'enterprise'", "'smb'"]}}
+  - criticality: warn
+    name: customer_email_format
+    check: {function: regex_match, arguments: {column: email, regex: '^[^@\s]+@[^@\s]+\.[^@\s]+$'}}
+
+products:
+  - criticality: error
+    check: {function: is_not_null, for_each_column: [product_id, updated_at, list_price]}
+  - criticality: error
+    name: list_price_non_negative
+    check: {function: is_not_less_than, arguments: {column: list_price, limit: 0}}
+
+sales:
+  - criticality: error
+    check: {function: is_not_null, for_each_column: [order_line_id, order_id, order_ts, updated_at, quantity, unit_price]}
+  - criticality: error
+    name: quantity_positive
+    check: {function: sql_expression, arguments: {expression: "quantity > 0", msg: "quantity must be positive"}}
+  - criticality: error                          # de-duplication on SEVERAL columns: the same order line submitted twice under different ids
+    name: duplicate_order_line
+    check: {function: is_unique, arguments: {columns: [order_id, customer_id, product_id, order_ts]}}
+  - criticality: error
+    name: unit_price_non_negative
+    check: {function: is_not_less_than, arguments: {column: unit_price, limit: 0}}
+  - criticality: warn
+    name: quantity_unusually_high      # limit set low on purpose so the demo data produces warnings
+    check: {function: is_not_greater_than, arguments: {column: quantity, limit: 5}}
+
+# ── multi-source customer feeds (notebook 04) ────────────────────────────────
+crm_accounts:
+  - criticality: error
+    check: {function: is_not_null, for_each_column: [account_id, email, updated_at]}
+  - criticality: warn
+    name: crm_email_format
+    check: {function: regex_match, arguments: {column: email, regex: '^[^@\s]+@[^@\s]+\.[^@\s]+$'}}
+
+billing_customers:
+  - criticality: error
+    check: {function: is_not_null, for_each_column: [billing_id, email, updated_at, mrr]}
+  - criticality: error
+    name: mrr_non_negative
+    check: {function: is_not_less_than, arguments: {column: mrr, limit: 0}}
+  - criticality: warn
+    name: billing_plan_known
+    check: {function: is_in_list, arguments: {column: plan, allowed: ["'starter'", "'pro'", "'enterprise'"]}}
+  - criticality: warn
+    name: billing_status_known
+    check: {function: is_in_list, arguments: {column: status, allowed: ["'active'", "'past_due'", "'cancelled'"]}}
+
+support_contacts:
+  - criticality: error
+    check: {function: is_not_null, for_each_column: [contact_id, email, updated_at]}
+  - criticality: warn
+    name: support_tier_known
+    check: {function: is_in_list, arguments: {column: tier, allowed: ["'basic'", "'standard'", "'premium'"]}}
+
+web_visitors:
+  - criticality: error
+    check: {function: is_not_null, for_each_column: [visitor_id, email, updated_at, visits]}
+  - criticality: error
+    name: visits_non_negative
+    check: {function: is_not_less_than, arguments: {column: visits, limit: 0}}
+
+marketing_leads:
+  - criticality: error
+    check: {function: is_not_null, for_each_column: [lead_id, email, updated_at]}
+  - criticality: warn
+    name: marketing_consent_flag
+    check: {function: is_in_list, arguments: {column: marketing_consent, allowed: ["'Y'", "'N'"]}}
+  - criticality: warn
+    name: lead_status_known
+    check: {function: is_in_list, arguments: {column: lead_status, allowed: ["'new'", "'contacted'", "'qualified'", "'converted'"]}}
+
+# ── sales domain: returns (second fact) ──────────────────────────────────────
+returns:
+  - criticality: error
+    check: {function: is_not_null, for_each_column: [return_id, order_line_id, return_ts, updated_at, returned_quantity, refund_amount]}
+  - criticality: error
+    name: returned_quantity_positive
+    check: {function: sql_expression, arguments: {expression: "returned_quantity > 0", msg: "returned quantity must be positive"}}
+  - criticality: error
+    name: refund_non_negative
+    check: {function: is_not_less_than, arguments: {column: refund_amount, limit: 0}}
+  - criticality: warn
+    name: return_reason_known
+    check: {function: is_in_list, arguments: {column: reason, allowed: ["'damaged'", "'wrong_item'", "'not_as_described'", "'changed_mind'", "'late_delivery'"]}}

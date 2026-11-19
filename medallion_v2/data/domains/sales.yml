@@ -1,0 +1,111 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Domain: sales        (every object, column, type and key of the sales subject area)
+#
+# entities    : Silver tables built from the Turso source tables.  Column = name, logical type, optional text transform
+#               (lower | upper | digits).  Types: VARCHAR, INTEGER/BIGINT, DECIMAL(p,s), DATE, TIMESTAMP (dates are ISO text in Turso).
+#               Bronze keeps everything as text; Silver applies the type and the transform.
+#               keys = business key; order_by = column that picks the latest record per key.
+# dimensions  : Gold dimensions (SCD type 1).  Surrogate key `sk`, -1 = Unknown member.
+# facts       : Gold fact tables.  Built from one Silver entity (`source`, alias s) plus optional extra joins.
+#               Column forms:   {name, type}                       -> copied from s.<name>
+#                               {name, type, expr}                 -> SQLite expression (aliases: s and any join alias)
+#                               {name, type, lookup: {dim, by}}    -> surrogate key from a dimension; `by` is the SQL
+#                                                                     expression holding the dimension's business key;
+#                                                                     unmatched rows get -1 and are re-driven later
+#               grain = the columns that make a row unique (merge key).
+# (Avoid the YAML key `on`: YAML 1.1 reads it as the boolean true, hence `by` and `condition`.)
+# Data-quality rules for these entities live in rules/dq_rules.yml.
+# ──────────────────────────────────────────────────────────────────────────────
+domain: sales
+
+entities:
+  customers:
+    keys: [customer_id]
+    order_by: updated_at
+    columns:
+      - {name: customer_id, type: BIGINT}
+      - {name: name,        type: VARCHAR}
+      - {name: email,       type: VARCHAR, transform: lower}
+      - {name: segment,     type: VARCHAR, transform: lower}
+      - {name: country,     type: VARCHAR, transform: upper}
+      - {name: updated_at,  type: TIMESTAMP}
+
+  products:
+    keys: [product_id]
+    order_by: updated_at
+    columns:
+      - {name: product_id,   type: BIGINT}
+      - {name: product_name, type: VARCHAR}
+      - {name: category,     type: VARCHAR, transform: lower}
+      - {name: list_price,   type: "DECIMAL(12,2)"}
+      - {name: updated_at,   type: TIMESTAMP}
+
+  sales:
+    keys: [order_line_id]
+    order_by: updated_at
+    columns:
+      - {name: order_line_id, type: BIGINT}
+      - {name: order_id,      type: BIGINT}
+      - {name: customer_id,   type: BIGINT}
+      - {name: product_id,    type: BIGINT}
+      - {name: quantity,      type: INTEGER}
+      - {name: unit_price,    type: "DECIMAL(12,2)"}
+      - {name: order_ts,      type: TIMESTAMP}
+      - {name: updated_at,    type: TIMESTAMP}
+
+  returns:
+    keys: [return_id]
+    order_by: updated_at
+    columns:
+      - {name: return_id,         type: BIGINT}
+      - {name: order_line_id,     type: BIGINT}
+      - {name: return_ts,         type: TIMESTAMP}
+      - {name: reason,            type: VARCHAR, transform: lower}
+      - {name: returned_quantity, type: INTEGER}
+      - {name: refund_amount,     type: "DECIMAL(12,2)"}
+      - {name: updated_at,        type: TIMESTAMP}
+
+dimensions:
+  dim_customer:
+    source: customers
+    key: customer_id
+    sk: customer_sk
+    attributes: [name, email, segment, country]
+  dim_product:
+    source: products
+    key: product_id
+    sk: product_sk
+    attributes: [product_name, category, list_price]
+
+facts:
+  fact_sales:
+    source: sales
+    grain: [order_line_id]
+    columns:
+      - {name: order_line_id, type: BIGINT}
+      - {name: order_id,      type: BIGINT}
+      - {name: order_date,    type: DATE, expr: "date(s.order_ts)"}
+      - {name: order_ts,      type: TIMESTAMP}
+      - {name: customer_sk,   type: BIGINT, lookup: {dim: dim_customer, by: s.customer_id}}
+      - {name: product_sk,    type: BIGINT, lookup: {dim: dim_product,  by: s.product_id}}
+      - {name: quantity,      type: INTEGER}
+      - {name: unit_price,    type: "DECIMAL(12,2)"}
+      - {name: amount,        type: "DECIMAL(14,2)", expr: "round(s.quantity * s.unit_price, 2)"}
+
+  fact_returns:
+    source: returns
+    grain: [return_id]
+    joins:                                   # the customer and product of a return come from the sale line it refers to
+      - {entity: sales, alias: sl, condition: "sl.order_line_id = s.order_line_id"}
+    columns:
+      - {name: return_id,         type: BIGINT}
+      - {name: order_line_id,     type: BIGINT}
+      - {name: order_id,          type: BIGINT, expr: "sl.order_id"}
+      - {name: return_date,       type: DATE,   expr: "date(s.return_ts)"}
+      - {name: return_ts,         type: TIMESTAMP}
+      - {name: customer_sk,       type: BIGINT, lookup: {dim: dim_customer, by: sl.customer_id}}
+      - {name: product_sk,        type: BIGINT, lookup: {dim: dim_product,  by: sl.product_id}}
+      - {name: reason,            type: VARCHAR}
+      - {name: returned_quantity, type: INTEGER}
+      - {name: refund_amount,     type: "DECIMAL(12,2)"}
+      - {name: days_to_return,    type: INTEGER, expr: "CAST(julianday(date(s.return_ts)) - julianday(date(sl.order_ts)) AS INTEGER)"}
